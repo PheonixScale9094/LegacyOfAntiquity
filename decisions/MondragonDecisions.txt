@@ -1,0 +1,23 @@
+country_decisions = {
+
+	pay_mondragon_ultimatum = {
+		major = yes
+		
+		potential = {
+			has_disaster = corporate_takeover
+			has_country_flag = mondragon_ultimatum
+		}
+		
+		allow = {		
+			stability = 1
+			years_of_income = 2
+		}
+
+		effect = {
+			end_disaster = corporate_takeover
+			add_years_of_income = -2
+			add_corruption = 2.5
+			set_country_flag = mondragon_ultimatum_paid
+		}
+	}
+}

@@ -1,0 +1,154 @@
+namespace = mondragon_events
+
+# Mondragon Formation
+country_event = {
+	id = mondragon_events.1
+	title = "mondragon_events.1.t"
+	desc = "mondragon_events.1.d"
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = no
+
+	trigger = {
+		has_reform = merchant_elite_reform
+		has_faction = mr_traders
+		year = 1444
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	# Reject
+	option = {
+		name = "mondragon_events.1.a"
+		remove_faction = mr_traders
+		add_faction = br_mondragon
+		add_faction_influence = {
+			faction = br_great_houses
+			influence = 15
+		}
+		add_faction_influence = {
+			faction = br_mondragon
+			influence = 10
+		}
+	}
+
+	# Approve
+	option = {
+		name = "mondragon_events.1.b"
+		remove_faction = mr_traders
+		add_faction = br_mondragon
+		add_faction_influence = {
+			faction = br_mondragon
+			influence = 20
+		}
+	}
+}
+
+#Corporate Restructuring
+country_event = {
+	id = mondragon_events.2
+	title = "mondragon_events.2.t"
+	desc = "mondragon_events.2.d"
+	picture = HOUSE_OF_TRADE_eventPicture
+
+	is_triggered_only = no
+
+	trigger = {
+		has_reform = merchant_elite_reform
+		has_faction = br_mondragon
+		NOT = { has_country_flag = mondragon_corporation }
+		OR = {
+			num_of_ports = 1
+			num_of_total_ports = 15
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	# Ok
+	option = {
+		name = "mondragon_events.2.a"
+		set_country_flag = mondragon_corporation
+		add_faction_influence = {
+			faction = br_mondragon
+			influence = 10
+		}
+		add_country_modifier = { 
+			name = corporate_influence_mod 
+			duration = -1  
+			desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
+			hidden = no
+		}
+	}
+}
+
+##################
+#Disaster
+##################
+#Ultimatum
+country_event = {
+	id = mondragon_events.3
+	title = "mondragon_events.3.t"
+	desc = "mondragon_events.3.d"
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = mondragon_ultimatum
+		clr_country_flag = mondragon_ultimatum_paid
+	}
+
+	# Respect!
+	option = {
+		name = "mondragon_events.3.a"
+	}
+}
+
+#Outcome
+country_event = {
+	id = mondragon_events.4
+	title = "mondragon_events.4.t"
+	desc = "mondragon_events.4.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = {
+	clr_country_flag = mondragon_ultimatum
+	}
+
+	# We Must Accept
+	option = {
+		name = "mondragon_events.4.a"
+		change_tag = MDR
+		add_government_reform = corporation_reform
+		if = {
+			limit = { has_custom_ideas = no }
+			swap_free_idea_group = yes
+		}
+	}
+}
+
+#TEST ONLY
+country_event = {
+	id = mondragon_events.100
+	title = "mondragon_events.100.t"
+	desc = "mondragon_events.100.d"
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+	collapse_nation = yes
+	}
+
+	# Respect!
+	option = {
+		name = "mondragon_events.100.a"
+	}
+}

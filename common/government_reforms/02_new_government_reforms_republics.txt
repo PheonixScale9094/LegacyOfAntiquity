@@ -1,0 +1,109 @@
+#Oligarchy vs Merchant Class vs Noble Elite
+merchant_elite_reform = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = -60
+		merchants = 1
+		inflation_reduction = 0.05
+		
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	legacy_equivalent = merchant_republic
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = POR
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = merchant_elite_reform
+			}
+		}
+	}
+	boost_income = yes
+	factions = {
+		br_great_houses
+		mr_traders
+		mr_guilds
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
+		is_merchant_republic = yes
+	}
+	duration = 12
+}
+
+corporation_reform = {
+	icon = "compass"
+	allow_normal_conversion = no
+	modifiers = {
+		max_absolutism = -20
+		global_trade_power = 0.10
+		global_foreign_trade_power = 0.25
+		global_tax_modifier = -0.10
+		
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	legacy_equivalent = oligarchic_republic
+	potential = {
+		tag = MDR
+	}
+	boost_income = yes
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	duration = 6
+}
+

@@ -1,0 +1,32 @@
+spriteTypes = {
+	#Great Houses
+    spriteType = {
+        name = "GFX_faction_bg_br_great_houses"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_br_great_houses"	
+        texturefile = "gfx//interface//aristocrats_icon.dds"
+    }
+	#Traders
+    spriteType = {
+        name = "GFX_faction_bg_br_basque_traders"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_br_basque_traders"	
+        texturefile = "gfx//interface//traders_icon.dds"
+    }
+	#Mondragon
+	spriteType = {
+        name = "GFX_faction_bg_br_mondragon"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_br_mondragon"	
+        texturefile = "gfx//interface//mondragon_icon.dds"
+    }
+}

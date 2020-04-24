@@ -1,0 +1,51 @@
+########################################
+# Basque Republic Factions
+########################################
+br_great_houses =
+{
+	monarch_power = MIL
+	always = yes
+
+	modifier = 
+	{
+		land_morale = 0.05
+		global_sailors_modifier = 0.25
+		global_foreign_trade_power = -0.3
+		global_own_trade_power = 0.1
+	}
+}
+
+br_basque_traders =
+{
+	monarch_power = DIP
+	always = yes
+
+	modifier = 
+	{
+		global_trade_power = 0.10
+		naval_maintenance_modifier = -0.10
+		global_tax_modifier = -0.05
+		
+	}
+}
+
+br_mondragon =
+{
+	monarch_power = DIP
+	always = yes
+
+	triggered_faction_name = {
+        name = br_mondragon_corporation
+        trigger = {
+            has_country_flag = mondragon_corporation
+        }
+    }
+
+	modifier = 
+	{
+		global_trade_power = 0.10
+		global_foreign_trade_power = 0.20
+		naval_maintenance_modifier = -0.10
+		global_tax_modifier = -0.15	
+	}
+}

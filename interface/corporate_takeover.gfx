@@ -1,0 +1,8 @@
+spriteTypes = {
+ spriteType = {
+  name = "GFX_disaster_corporate_takeover"
+  texturefile = "gfx//interface//disasters//corporate_takeover.dds"
+  noOfFrames = 3
+  loadType = "INGAME"
+ }
+}
