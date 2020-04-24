@@ -5,7 +5,6 @@ country_decisions = {
 		
 		potential = {
 			has_disaster = corporate_takeover
-			has_country_flag = mondragon_ultimatum
 		}
 		
 		allow = {		
@@ -38,7 +37,6 @@ country_decisions = {
 			OR = {
 				has_country_modifier = corporate_influence_mod
 				has_country_modifier = corporate_influence_mod_reduced
-				has_country_modifier = corporate_influence_mod_minimal
 			}
 		}
 		
@@ -50,10 +48,6 @@ country_decisions = {
 			}
 			if = {
 				limit = { has_country_modifier = corporate_influence_mod_reduced }
-				dip_power = 75
-			}
-			if = {
-				limit = { has_country_modifier = corporate_influence_mod_minimal }
 				dip_power = 100
 			}
 		}
@@ -95,22 +89,21 @@ country_decisions = {
 	increase_mondragon_influence = {
 		
 		potential = {
-				NOT = { has_country_modifier = corporate_influence_mod }
+			OR = {
+				has_country_modifier = corporate_influence_mod_minimal
+				has_country_modifier = corporate_influence_mod_reduced
+			}
 		}
 		
 		allow = {		
 			stability = 1
 			if = {
-				limit = { has_country_modifier = corporate_influence_mod }
-				dip_power = 50
-			}
-			if = {
 				limit = { has_country_modifier = corporate_influence_mod_reduced }
-				dip_power = 75
+				dip_power = 100
 			}
 			if = {
 				limit = { has_country_modifier = corporate_influence_mod_minimal }
-				dip_power = 100
+				dip_power = 50
 			}
 		}
 
