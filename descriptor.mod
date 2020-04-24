@@ -2,5 +2,5 @@ version="1.29.*"
 tags={
 	"Alternative History"
 }
-name="Testing"
+name="Legacy Of Antiquity"
 supported_version="1.29.*"

@@ -69,16 +69,50 @@ country_event = {
 		days = 1
 	}
 
-	# Ok
+	#  Free
 	option = {
 		name = "mondragon_events.2.a"
 		set_country_flag = mondragon_corporation
 		add_faction_influence = {
 			faction = br_mondragon
-			influence = 10
+			influence = 15
 		}
 		add_country_modifier = { 
 			name = corporate_influence_mod 
+			duration = -1  
+			desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
+			hidden = no
+		}
+	}
+	
+	# Regulate
+	option = {
+		name = "mondragon_events.2.b"
+		set_country_flag = mondragon_corporation
+		add_faction_influence = {
+			faction = br_mondragon
+			influence = 10
+		}
+		add_mercantilism = 2
+		add_country_modifier = { 
+			name = corporate_influence_mod_reduced
+			duration = -1  
+			desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
+			hidden = no
+		}
+	}
+	
+	# Heavily Regulate
+	option = {
+		name = "mondragon_events.2.c"
+		set_country_flag = mondragon_corporation
+		add_faction_influence = {
+			faction = br_mondragon
+			influence = 5
+		}
+		add_mercantilism = 4
+		add_country_modifier = { 
+			name = corporate_influence_mod_minimal
 			duration = -1  
 			desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
 			hidden = no
@@ -131,6 +165,9 @@ country_event = {
 			limit = { has_custom_ideas = no }
 			swap_free_idea_group = yes
 		}
+	remove_country_modifier = corporate_influence_mod
+	remove_country_modifier = corporate_influence_mod_reduced
+	remove_country_modifier = corporate_influence_mod_minimal
 	}
 }
 

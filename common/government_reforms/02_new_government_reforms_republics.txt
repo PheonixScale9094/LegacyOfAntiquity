@@ -67,6 +67,7 @@ corporation_reform = {
 		global_trade_power = 0.10
 		global_foreign_trade_power = 0.25
 		global_tax_modifier = -0.10
+		merchants = 1
 		
 	}
 	valid_for_nation_designer = yes

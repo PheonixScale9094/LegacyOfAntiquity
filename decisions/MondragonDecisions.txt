@@ -19,5 +19,132 @@ country_decisions = {
 			add_corruption = 2.5
 			set_country_flag = mondragon_ultimatum_paid
 		}
+		
+		ai_importance = 600
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 10
+				years_of_income = 2
+			}
+		}
+	}
+	
+	reduce_mondragon_influence = {
+		
+		potential = {
+			OR = {
+				has_country_modifier = corporate_influence_mod
+				has_country_modifier = corporate_influence_mod_reduced
+				has_country_modifier = corporate_influence_mod_minimal
+			}
+		}
+		
+		allow = {		
+			stability = 1
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod }
+				dip_power = 50
+			}
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod_reduced }
+				dip_power = 75
+			}
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod_minimal }
+				dip_power = 100
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod_reduced }
+				add_dip_power = -75
+				remove_country_modifier = corporate_influence_mod_reduced
+				add_mercantilism = 2
+				add_country_modifier = { 
+					name = corporate_influence_mod_minimal
+					duration = -1 
+					desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
+					hidden = no
+				}
+			}
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod }
+				add_dip_power = -50
+				remove_country_modifier = corporate_influence_mod
+				add_mercantilism = 2
+				add_country_modifier = {
+					name = corporate_influence_mod_reduced
+					duration = -1
+					desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP 
+					hidden = no
+				}
+			}
+		}
+		
+		ai_importance = 300
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	increase_mondragon_influence = {
+		
+		potential = {
+				NOT = { has_country_modifier = corporate_influence_mod }
+		}
+		
+		allow = {		
+			stability = 1
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod }
+				dip_power = 50
+			}
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod_reduced }
+				dip_power = 75
+			}
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod_minimal }
+				dip_power = 100
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod_reduced }
+				add_dip_power = -75
+				remove_country_modifier = corporate_influence_mod_reduced
+				add_mercantilism = -2
+				add_country_modifier = { 
+					name = corporate_influence_mod
+					duration = -1 
+					desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
+					hidden = no
+				}
+			}
+			if = {
+				limit = { has_country_modifier = corporate_influence_mod_minimal }
+				add_dip_power = -100
+				remove_country_modifier = corporate_influence_mod_minimal
+				add_mercantilism = -2
+				add_country_modifier = {
+					name = corporate_influence_mod_reduced
+					duration = -1
+					desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP 
+					hidden = no
+				}
+			}
+		}
+		
+		ai_importance = 300
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 }
