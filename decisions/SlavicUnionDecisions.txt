@@ -1,0 +1,94 @@
+country_decisions = {
+
+	form_slavic_union = {
+		major = yes
+		
+		potential = {
+			religion = slavic_pagan_reformed
+			NOT = { has_global_flag = slavic_union_formed }
+		}
+		
+		allow = {		
+			#num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			#	value = 100
+			#	religion = slavic_pagan_reformed
+			#	is_city = yes
+			#}
+			OR = {
+				ai = no
+				had_country_flag = {
+					flag = slavic_union_check
+					days = 100
+				}
+			}
+		}
+
+		effect = {
+		hidden_effect = {
+			set_variable = {
+				which = numTotalSlavicProvinces
+				value = 0
+			}
+			set_variable = {
+				which = numOwnedSlavicProvinces
+				value = 0
+			}			
+			
+			every_province = {
+				limit = {
+					religion = slavic_pagan_reformed
+				}
+				ROOT = {
+					change_variable = {
+						which = numTotalSlavicProvinces
+						value = 1
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					religion = slavic_pagan_reformed
+				}
+				ROOT = {
+					change_variable = {
+						which = numOwnedSlavicProvinces
+						value = 1
+					}
+				}
+			}
+			
+			divide_variable = {            
+				which = numOwnedSlavicProvinces
+				which = numTotalSlavicProvinces
+			}
+			
+			multiply_variable = {
+				which = numOwnedSlavicProvinces
+				value = 100
+			}
+			set_country_flag = slavic_union_check
+		}
+		
+			if = {
+				limit = {
+				check_variable = {
+						which = numOwnedSlavicProvinces
+						value = 75
+					}
+				}
+				change_tag = RUS
+				set_global_flag = slavic_union_formed
+			}
+
+			country_event = { 
+				id = slavic_union_events.1
+			}
+		}
+		
+		ai_importance = 600
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

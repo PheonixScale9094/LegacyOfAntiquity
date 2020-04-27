@@ -1,0 +1,7 @@
+﻿l_english:
+ slavic_union_events.1.t:0 ""
+ slavic_union_events.1.d:0 "The followers of the Slavic Faith are not yet ready to accept us as the true successor to the Slavic Union.  We must control 75% of the [Root.numTotalSlavicProvinces.GetValue] provinces following the Slavic Faith, we currently control [Root.numOwnedSlavicProvinces.GetValue]% of such provinces."
+ slavic_union_events.1.a:0 "Our time will soon come..."
+ form_slavic_union_title: "Form the Slavic Union"
+ form_slavic_union_desc: "When all men of slavic faith unite under a single banner, the second slavic union will rise."
+ numOwnedSlavicProvinces:0 "percentage of Slavic Faith provinces owned"

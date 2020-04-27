@@ -1,0 +1,17 @@
+war_goal_slavic_unification = {
+	type = take_province
+	
+	badboy_factor = 0.5
+	prestige_factor = 1
+	peace_cost_factor = 0.5
+
+	allowed_provinces = {
+		religion = slavic_pagan_reformed
+	}
+
+	peace_options = {
+		po_demand_provinces
+	}
+	
+	war_name = SLAVIC_WAR_NAME	
+}

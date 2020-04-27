@@ -1,0 +1,6 @@
+﻿l_english:
+ cb_slavic_unification_desc:0 "A war to take provinces of the Slavic Faith"
+ cb_slavic_unification:0 "Slavic Unification"
+ slavic_unification_wargoal_desc:0 "A war to take provinces of the Slavic Faith"
+ slavic_unification_wargoal:0 "Slavic Unification"
+ SLAVIC_WAR_NAME:0 "$ORDER$$FIRST$ War of Slavic Unification"

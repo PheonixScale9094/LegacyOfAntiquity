@@ -1,0 +1,16 @@
+namespace = slavic_union_events
+
+# Mondragon Formation
+country_event = {
+	id = slavic_union_events.1
+	title = "slavic_union_events.1.t"
+	desc = "slavic_union_events.1.d"
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+	
+	# Reject
+	option = {
+		name = "slavic_union_events.1.a"
+	}
+}

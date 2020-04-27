@@ -1,0 +1,23 @@
+cb_slavic_unification = {
+	valid_for_subject = no
+
+	no_opinion_hit = yes
+
+	prerequisites = {
+		NOT = { has_global_flag = slavic_union_formed }
+		OR = {
+			has_matching_religion = slavic_pagan_reformed
+		}
+		FROM = {
+			OR = {
+				dominant_religion = slavic_pagan_reformed
+				religion = slavic_pagan_reformed
+				any_province = {
+					religion = slavic_pagan_reformed
+				}
+			}
+		}
+	}
+
+	war_goal = war_goal_slavic_unification
+}
