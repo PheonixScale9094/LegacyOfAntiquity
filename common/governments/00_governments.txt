@@ -201,6 +201,7 @@ republic = {
 				cossacks_reform
 				merchant_elite_reform
 				corporation_reform
+				branch_office
 			}
 		}
 		republican_virtues = {

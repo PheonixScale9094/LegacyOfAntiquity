@@ -13,13 +13,6 @@ merchant_elite_reform = {
 	legacy_equivalent = merchant_republic
 	potential = {
 		NOT = { map_setup = map_setup_random }
-		OR = {
-			tag = POR
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = merchant_elite_reform
-			}
-		}
 	}
 	boost_income = yes
 	factions = {
@@ -68,15 +61,64 @@ corporation_reform = {
 		global_foreign_trade_power = 0.25
 		global_tax_modifier = -0.10
 		merchants = 1
-		
+		vassal_income = 0.2
+		liberty_desire_from_subject_development = -0.15
+		liberty_desire = -15
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
 	legacy_equivalent = oligarchic_republic
 	potential = {
-		tag = MDR
+		has_reform = corporation_reform
 	}
 	boost_income = yes
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	factions = {
+		mr_traders
+		mr_guilds
+	}
+	duration = 6
+}
+
+branch_office = {
+	icon = "trading_city"
+	allow_normal_conversion = no
+	potential = {
+		is_vassal = yes
+	}
+	valid_for_nation_designer = no
+	legacy_equivalent = trading_city_legacy
+	boost_income = yes
+	lock_level_when_selected = yes
+	is_trading_city = yes
+	factions = {
+		mr_traders
+		mr_guilds
+	}
+	modifiers = {
+		max_absolutism = -20
+		global_trade_power = 0.2
+		max_absolutism = -20
+		liberty_desire_from_subject_development = -0.25
+		liberty_desire = -30
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
@@ -90,7 +132,7 @@ corporation_reform = {
 			NOT = { has_dlc = "Res Publica" }
 		}
 		can_form_trade_league = yes
-		trade_city_reform = trading_city
+		trade_city_reform = corporation_reform # For trade cities this is their fallback government if they get more than 1 provinces
 	}
 	conditional = {
 		allow = {
@@ -99,12 +141,8 @@ corporation_reform = {
 		}
 		can_use_trade_post = yes
 		can_form_trade_league = yes
-		trade_city_reform = trading_city
+		trade_city_reform = corporation_reform # For trade cities this is their fallback government if they get more than 1 provinces
 	}
-	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
-	}
-	duration = 6
+	duration = 4
 }
 

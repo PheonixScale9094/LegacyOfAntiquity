@@ -159,33 +159,107 @@ country_event = {
 	# We Must Accept
 	option = {
 		name = "mondragon_events.4.a"
+		every_country = {
+			limit = {
+				is_in_trade_league_with = ROOT
+			}
+			country_event = { 
+				id = mondragon_events.5
+				days = 1
+				random = 5
+			}
+		}
 		change_tag = MDR
 		add_government_reform = corporation_reform
 		if = {
 			limit = { has_custom_ideas = no }
 			swap_free_idea_group = yes
 		}
-	remove_country_modifier = corporate_influence_mod
-	remove_country_modifier = corporate_influence_mod_reduced
-	remove_country_modifier = corporate_influence_mod_minimal
+		remove_country_modifier = corporate_influence_mod
+		remove_country_modifier = corporate_influence_mod_reduced
+		remove_country_modifier = corporate_influence_mod_minimal
 	}
 }
 
-#TEST ONLY
+#Trade League Vassal Event
 country_event = {
-	id = mondragon_events.100
-	title = "mondragon_events.100.t"
-	desc = "mondragon_events.100.d"
-	picture = DIPLOMACY_eventPicture
+	id = mondragon_events.5
+	title = "mondragon_events.5.t"
+	desc = "mondragon_events.5.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = {
+	clr_country_flag = mondragon_ultimatum
+	}
+
+	#Join
+	option = {
+		name = "mondragon_events.5.a"
+		MDR = {
+			country_event = { 
+				id = mondragon_events.6
+				days = 0
+			}
+		}
+		
+		ai_will_do = {
+			factor = 3
+			trigger = {
+				factor = 2
+				has_reform = trading_city
+			}
+			trigger = {
+				factor = 2
+				NOT = { government_rank = 2 }
+			}
+		}
+	}
+	
+	#Leave
+	option = {
+		name = "mondragon_events.5.b"
+		ai_will_do = {
+			factor = 1
+			trigger = {
+				factor = 2
+				government_rank = 2
+			}
+		}
+	}
+}
+
+#Vassal Option
+country_event = {
+	id = mondragon_events.6
+	title = "mondragon_events.6.t"
+	desc = "mondragon_events.6.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
 
 	is_triggered_only = yes
 	
-	immediate = {
-	collapse_nation = yes
-	}
-
-	# Respect!
+	#Accept
 	option = {
-		name = "mondragon_events.100.a"
+		name = "mondragon_events.6.a"
+		vassalize = FROM
+		FROM = { 
+			set_government_rank = 1
+			change_government = republic
+			add_government_reform = corporation_reform
+			add_government_reform = branch_office
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Reject
+	option = {
+		name = "mondragon_events.6.b"
+		ai_will_do = {
+			factor = 0
+		}
 	}
 }

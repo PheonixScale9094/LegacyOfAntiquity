@@ -16,6 +16,7 @@ country_decisions = {
 			#}
 			OR = {
 				ai = no
+				NOT = { has_country_flag = slavic_union_check }
 				had_country_flag = {
 					flag = slavic_union_check
 					days = 100
@@ -56,7 +57,20 @@ country_decisions = {
 					}
 				}
 			}
+			every_subject_country = {
+				every_owned_province = {
+					limit = {
+						religion = slavic_pagan_reformed
+					}
+					ROOT = {
+						change_variable = {
+							which = numOwnedSlavicProvinces
+							value = 1
+						}
+					}
+				}
 			
+			}
 			divide_variable = {            
 				which = numOwnedSlavicProvinces
 				which = numTotalSlavicProvinces
@@ -68,16 +82,28 @@ country_decisions = {
 			}
 			set_country_flag = slavic_union_check
 		}
-		
 			if = {
 				limit = {
 				check_variable = {
 						which = numOwnedSlavicProvinces
-						value = 75
+						value = 60
 					}
 				}
-				change_tag = RUS
+				change_tag = SLU
 				set_global_flag = slavic_union_formed
+				set_government_rank = 3
+				every_province = {
+					limit = {
+						religion = slavic_pagan_reformed
+					}
+					add_claim = SLU
+				}
+				every_owned_province = {
+					limit = {
+						religion = slavic_pagan_reformed
+					}
+					add_core = SLU
+				}
 			}
 
 			country_event = { 

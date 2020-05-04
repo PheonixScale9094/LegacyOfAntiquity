@@ -1,0 +1,45 @@
+jupiter = {
+	idea_cost = 0.05
+	land_morale = 0.1
+	allow = { 
+		OR = {
+			religion = hellenic_pagan_reformed
+			religion = hellenic_pagan
+		}
+	}
+	sprite = 55
+	ai_will_do = {
+	 	factor = 1
+	 	modifier = {
+	        	factor = 2
+	        	personality = ai_militarist
+	 	}
+	 	modifier = {
+	        	factor = 0.5
+	        	personality = ai_diplomat
+	 	}
+	}
+}
+god_king = {
+	idea_cost = 0.05
+	land_morale = 0.1
+	allow = { 
+		OR = {
+			religion = hellenic_pagan_reformed
+			religion = hellenic_pagan
+		}
+		government = monarchy
+	}
+	sprite = 55
+	ai_will_do = {
+	 	factor = 1
+	 	modifier = {
+	        	factor = 2
+	        	personality = ai_militarist
+	 	}
+	 	modifier = {
+	        	factor = 0.5
+	        	personality = ai_diplomat
+	 	}
+	}
+}
