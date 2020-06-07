@@ -12,7 +12,7 @@ country_event = {
 	trigger = {
 		has_reform = merchant_elite_reform
 		has_faction = mr_traders
-		year = 1444
+		#year = 1444
 	}
 	
 	mean_time_to_happen = {
@@ -258,6 +258,75 @@ country_event = {
 	#Reject
 	option = {
 		name = "mondragon_events.6.b"
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+
+##################
+#Random Events
+##################
+#Mondragon Purchase
+province_event = {
+	id = mondragon_events.7
+	title = "mondragon_events.7.t"
+	desc = "mondragon_events.7.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	trigger = {
+		owner = 
+			has_reform = merchant_elite_reform
+			has_faction = br_mondragon
+			has_country_flag = mondragon_corporation
+		}
+		NOT = { local_autonomy = 10 }
+	}
+	
+	mean_time_to_happen = {
+		months = 450
+
+		modifier = {
+			factor = 1.5
+			faction_in_power = br_mondragon
+		}
+		modifier = {
+			factor = 1.5
+			faction_influence = {
+				faction = br_mondragon
+				influence = 60
+			}
+		}
+	}
+	
+	#Accept
+	option = {
+		name = "mondragon_events.7.a"
+		ROOT = {
+			add_province_modifier = { 
+				name = corporate_province_control
+				duration = -1
+				desc = corporate_province_control_tooltip
+			}
+			owner = {
+				add_faction_influence = {
+					faction = br_mondragon
+					influence = 10
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Reject
+	option = {
+		name = "mondragon_events.7.b"
+		owner = {
+			add_adm_power = -15
+		}
 		ai_will_do = {
 			factor = 0
 		}

@@ -1,0 +1,50 @@
+country_decisions = {
+	form_hre = {
+		major = yes
+	
+		potential = {
+			religion_group = christian
+			NOT = { has_global_flag = hre_formed }
+		}
+		allow = {		
+			religion_group = christian
+			total_development = 200
+		}
+		effect = {
+			add_prestige = 25
+			set_in_empire = yes
+			if = { limit = { government = monarchy } custom_tooltip = FORM_HRE_TOOLTIP_MONARCHY }
+			if = { limit = { NOT = { government = monarchy } } custom_tooltip = FORM_HRE_TOOLTIP_REPUBLIC }
+			hidden_effect = {
+				set_global_flag = hre_formed
+				save_event_target_as = forming_country
+				change_tag = HLR
+				change_tag = event_target:forming_country
+				every_known_country = {
+					limit = {
+						religion_group = christian
+						knows_country = ROOT
+					}
+					country_event = { 
+						id = empire_formation_events.1
+					}
+				}
+				#emperor = {
+				#	country_event = { 
+				#		id = empire_formation_events.2
+				#		days = 10
+				#	}
+				#}
+			}
+			elector = yes
+		}
+		ai_importance = 800
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				government_rank = 3
+			}
+		}
+	}
+}

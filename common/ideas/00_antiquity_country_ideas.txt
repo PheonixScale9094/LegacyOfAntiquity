@@ -44,3 +44,44 @@ MDR_ideas = {
 		trade_steering = 0.2
 	}
 }
+
+SLU_ideas = {
+	start = {
+		land_morale = 0.15
+		global_manpower_modifier = 0.33
+	}
+
+	bonus = {
+		trade_efficiency = 0.15
+		global_tax_modifier = 0.1
+	}
+	
+	trigger = {
+		tag = SLU
+	}
+	free = yes		#will be added at load.
+	
+	expansion = {
+		core_creation = -0.1
+		ae_impact = -0.10
+	}
+	holy_wars = {
+		warscore_cost_vs_other_religion = -0.25
+		tolerance_heathen = 1
+	}
+	great_conversion = {
+		global_missionary_strength = 0.1
+	}
+	construction_boom = {
+		production_efficiency = 0.1
+	}
+	development_boom = {
+		development_cost = -0.1
+	}
+	prestige_growth = {
+		prestige = 1
+	}
+	royal_power = {
+		legitimacy = 1
+	}
+}

@@ -22,3 +22,9 @@ corporate_influence_mod_minimal = {
 	br_mondragon_influence = 0.05
 	global_tax_modifier = -0.05	
 }
+
+corporate_province_control = {
+	min_local_autonomy = 10
+	province_trade_power_modifier = 0.25
+	trade_value_modifier = 0.25
+}

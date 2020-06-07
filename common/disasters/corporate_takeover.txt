@@ -7,9 +7,39 @@ corporate_takeover = {
 	
 	can_start = {
         has_any_disaster = no
-		faction_influence = {
-					faction = br_mondragon
-					influence = 80
+		OR = {
+			faction_influence = {
+						faction = br_mondragon
+						influence = 80
+			}
+			AND = {
+				num_of_loans = 1
+				faction_influence = {
+						faction = br_mondragon
+						influence = 65
+				}
+			}
+			AND = {
+				num_of_loans = 2
+				faction_influence = {
+						faction = br_mondragon
+						influence = 50
+				}
+			}
+			AND = {
+				num_of_loans = 3
+				faction_influence = {
+						faction = br_mondragon
+						influence = 35
+				}
+			}
+			AND = {
+				num_of_loans = 4
+				faction_influence = {
+						faction = br_mondragon
+						influence = 10
+				}
+			}
 		}
 		NOT = { 
 			had_country_flag = { flag = mondragon_ultimatum_paid days = 1095 } 
@@ -25,7 +55,6 @@ corporate_takeover = {
 	down_progress = {
 		factor = 1
 	}
-	
 	
 	progress = {
         modifier = {

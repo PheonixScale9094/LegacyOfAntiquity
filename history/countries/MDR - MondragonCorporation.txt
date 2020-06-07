@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = corporation_reform
+primary_culture = basque
+religion = catholic
+technology_group = western
+capital = 174 # Guiena
+add_army_professionalism = 0.05
+
+1385.1.1 = {
+	monarch = {
+		name = "João I"
+		dynasty = "de Avis"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

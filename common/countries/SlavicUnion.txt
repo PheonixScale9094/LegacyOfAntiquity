@@ -1,2 +1,2 @@
-graphical_culture = westerngfx
-color = { 36 87 48 }
+graphical_culture = easterngfx
+color = { 0 0 139 }

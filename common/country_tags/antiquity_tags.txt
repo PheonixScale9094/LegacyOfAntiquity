@@ -1,2 +1,3 @@
 MDR	= "countries/MondragonCorporation.txt"
 SLU	= "countries/SlavicUnion.txt"
+CZA = countries/Czechia.txt

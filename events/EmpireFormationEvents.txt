@@ -1,0 +1,265 @@
+namespace = empire_formation_events
+country_event = {
+	id = empire_formation_events.1
+	title = "empire_formation_events.1.t"
+	desc = "empire_formation_events.1.d"
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	# Reject
+	option = {
+		name = "empire_formation_events.1.a"
+		trigger = {
+			not = { vassal_of = FROM }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 100
+				NOT = { provinces_on_capital_continent_of = FROM }
+			}
+		}
+	}
+
+	# Approve
+	option = {
+		name = "empire_formation_events.1.b"
+		ROOT = {
+			set_in_empire = yes
+			add_opinion = {
+				who = FROM
+				modifier = created_hre
+			}
+			reverse_add_opinion = {
+				who = FRA
+				modifier = joined_hre
+			}
+		}
+		add_scaled_imperial_influence = 2
+		ai_will_do = {
+			factor = 90
+			modifier = {
+				factor = 8
+				provinces_on_capital_continent_of = FROM
+			}
+			modifier = {
+				factor = 2.5
+				NOT = { government_rank = 2 }
+			}
+			modifier = {
+				factor = 0.3
+				government_rank = 3
+			}
+			modifier = {
+				factor = 0.5
+				government_rank = 2
+			}
+			modifier = {
+				factor = 1.5
+				guaranteed_by = FROM
+			}
+			modifier = {
+				factor = 1.75
+				army_strength = {
+					who = FROM
+					value = 0.66
+				}
+			}
+			modifier = {
+				factor = 1.75
+				army_strength = {
+					who = FROM
+					value = 0.33
+				}
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = FROM
+			}
+			modifier = {
+				factor = 3
+				has_border_with_religious_enemy = yes
+			}
+			modifier = {
+				factor = 1.5
+				border_distance = {
+					who = FROM
+					NOT = { distance = 250 }
+				}
+			}
+			modifier = {
+				factor = 0.8
+				border_distance = {
+					who = FROM
+					distance = 400
+				}
+			}
+			modifier = {
+				factor = 0.5
+				border_distance = {
+					who = FROM
+					distance = 700
+				}
+			}
+			modifier = {
+				factor = 0.05
+				border_distance = {
+					who = FROM
+					distance = 900
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_matching_religion = ROOT
+			}
+			modifier = {
+				factor = 2
+				any_neighbor_country = {
+					is_part_of_hre = yes
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { num_of_provinces_in_states = 2 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { num_of_provinces_in_states = 5 }
+			}
+		}
+	}
+	
+	#Elector
+	option = {
+		name = "empire_formation_events.1.c"
+		highlight = yes
+		trigger = {
+			NOT = { num_of_electors = 7 }
+			OR = {
+				government_rank = 3
+				alliance_with = FROM
+				dip = 6
+				total_development = 100
+			}
+		}
+		ROOT = {
+			set_in_empire = yes
+			add_opinion = {
+				who = FROM
+				modifier = created_hre
+			}
+			reverse_add_opinion = {
+				who = FRA
+				modifier = joined_hre
+			}
+			elector = yes
+		}
+		add_scaled_imperial_influence = 5
+		ai_will_do = {
+			factor = 90
+			modifier = {
+				factor = 8
+				provinces_on_capital_continent_of = FROM
+			}
+			modifier = {
+				factor = 2.5
+				NOT = { government_rank = 2 }
+			}
+			modifier = {
+				factor = 0.3
+				government_rank = 3
+			}
+			modifier = {
+				factor = 1.5
+				guaranteed_by = FROM
+			}
+			modifier = {
+				factor = 1.75
+				army_strength = {
+					who = FROM
+					value = 0.66
+				}
+			}
+			modifier = {
+				factor = 1.75
+				army_strength = {
+					who = FROM
+					value = 0.33
+				}
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = FROM
+			}
+			modifier = {
+				factor = 3
+				has_border_with_religious_enemy = yes
+			}
+			modifier = {
+				factor = 1.5
+				border_distance = {
+					who = FROM
+					NOT = { distance = 250 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				border_distance = {
+					who = FROM
+					distance = 250
+				}
+			}
+			modifier = {
+				factor = 0.5
+				border_distance = {
+					who = FROM
+					distance = 500
+				}
+			}
+			modifier = {
+				factor = 0.05
+				border_distance = {
+					who = FROM
+					distance = 900
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_matching_religion = ROOT
+			}
+			modifier = {
+				factor = 2
+				any_neighbor_country = {
+					is_part_of_hre = yes
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { num_of_provinces_in_states = 2 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { num_of_provinces_in_states = 5 }
+			}
+		}
+	}
+}
+
+# Kill Emperor
+country_event = {
+	id = empire_formation_events.2
+	title = "empire_formation_events.2.t"
+	desc = "empire_formation_events.2.d"
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+		kill_ruler = yes
+	}
+}

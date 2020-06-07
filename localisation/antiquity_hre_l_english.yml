@@ -1,0 +1,11 @@
+﻿l_english:
+ form_hre_title: "Hold the Council of [Root.Capital.GetName]"
+ form_hre_desc: "Christendom is on the brink of extinction.  We must set aside our differences and consider forming a grand federation to keep them at bay."
+ FORM_HRE_TOOLTIP: "[Root.GetName] will invite all Christian nations into a holy alliance led by an elected emperor."
+ empire_formation_events.1.t:0 "A Federation For Christendom"
+ empire_formation_events.1.d:0 "[From.GetName] has proposed a holy alliance of christian states united under a single emperor as a defense against the heathen scourge."
+ empire_formation_events.1.a:0 "We will not relinquish our power, [Root.GetName] will not join this Holy Empire"
+ empire_formation_events.1.b:0 "[Root.GetName] will accept this offer of federation and protection"
+ empire_formation_events.1.c:0 "A nation as powerful as [Root.GetName] will only join if we get a vote"
+ created_hre:0 "Formed Federation"
+ joined_hre:0 "Formed Federation"

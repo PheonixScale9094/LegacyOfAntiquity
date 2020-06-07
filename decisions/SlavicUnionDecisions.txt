@@ -86,17 +86,21 @@ country_decisions = {
 				limit = {
 				check_variable = {
 						which = numOwnedSlavicProvinces
-						value = 60
+						value = 75
 					}
 				}
 				change_tag = SLU
+				if = {
+					limit = { has_custom_ideas = no }
+					country_event = { id = ideagroups.1 } #Swap Ideas
+				}
 				set_global_flag = slavic_union_formed
 				set_government_rank = 3
 				every_province = {
 					limit = {
 						religion = slavic_pagan_reformed
 					}
-					add_claim = SLU
+					add_permanent_claim = SLU
 				}
 				every_owned_province = {
 					limit = {
@@ -105,7 +109,6 @@ country_decisions = {
 					add_core = SLU
 				}
 			}
-
 			country_event = { 
 				id = slavic_union_events.1
 			}
