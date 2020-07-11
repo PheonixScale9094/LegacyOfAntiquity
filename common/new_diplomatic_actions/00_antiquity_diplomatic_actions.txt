@@ -1,0 +1,34 @@
+integrate_branch = {
+		category = influence
+
+		require_acceptance = no
+
+		is_visible = {
+			ROOT = {
+				is_trade_league_leader = yes
+				is_in_trade_league_with = FROM
+				has_reform = corporation_reform
+			}
+			FROM = {
+				has_reform = branch_office
+			}
+		}
+		
+		is_allowed = {
+			FROM = {
+				has_opinion = {
+					who = ROOT
+					value = 50
+				}
+			}
+			FROM = { is_at_war = no }
+		}
+		
+		on_accept = {
+			vassalize = FROM
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+}

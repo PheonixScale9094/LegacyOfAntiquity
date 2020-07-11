@@ -27,6 +27,7 @@ monarchy = {
 				english_monarchy
 				mandala_reform
 				revolutionary_empire_reform
+				viking_reform
 			}
 		}
 		hereditary_vs_nobility = {

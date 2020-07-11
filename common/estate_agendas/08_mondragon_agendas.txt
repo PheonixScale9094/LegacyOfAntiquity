@@ -1,0 +1,99 @@
+estate_mondragon_embargo_rivals = {
+	can_select = {
+		all_rival_country = { trade_embargoing = ROOT }
+	}
+	pre_effect = {
+
+	}	
+}
+
+#Restore republican tradition
+estate_mondragon_restore_republican_tradition = {
+	can_select = {
+		NOT = { republican_tradition = 65 }
+		republican_tradition = 20
+		OR = {
+			government = republic
+			government = dictatorship
+		}
+		NOT = { has_country_modifier = agenda_republicanism_restored }
+	}
+	selection_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			NOT = { republican_tradition = 50 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { republican_tradition = 35 }
+		}
+	}
+	fail_if = {
+		NOT = { government = republic }
+		NOT = { government = dictatorship }
+	}
+	task_requirements = {
+		republican_tradition = 85
+	}
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_mondragon
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = agenda_republicanism_restored
+			duration = 5475
+		}
+    }
+    failing_effect = {
+        add_estate_loyalty_modifier = {
+            estate = estate_mondragon
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+#Reduce Inflation
+estate_mondragon_restore_currency = {
+	can_select = {
+		inflation = 10
+		NOT = {
+			inflation = 30
+		}
+		NOT = { has_country_modifier = boom_economy }
+	}
+	selection_weight = {
+		factor = 2.5
+		modifier = {
+			factor = 2
+			inflation = 20
+		}
+	}
+	fail_if = {
+		inflation = 35
+	}
+	task_requirements = {
+		NOT = { inflation = 5 }
+	}
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_mondragon
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = boom_economy
+			duration = 5475
+		}
+    }
+    failing_effect = {
+        add_estate_loyalty_modifier = {
+            estate = estate_mondragon
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}

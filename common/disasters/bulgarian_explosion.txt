@@ -1,0 +1,59 @@
+bulgarian_explosion = {
+	potential = {
+		tag = BUL
+		has_estate = estate_nobles
+		NOT = { has_country_flag = bulgarian_explosion_happened }
+		NOT = { is_year = 1500 }
+	}
+	
+	can_start = {
+        has_any_disaster = no
+		NOT = { stability = 3 }
+	}
+	
+	can_stop = {
+        has_any_disaster = yes
+		stability = 3
+	}
+	
+	down_progress = {
+		factor = 1
+	}
+	
+	progress = {
+        modifier = {
+            factor = 1
+			NOT = { stability = 3 }
+        }
+        modifier = {
+            factor = 1
+			NOT = { stability = 2 }
+        }
+        modifier = {
+            factor = 2
+			NOT = { stability = 1 }
+        }
+		modifier = {
+            factor = 4
+			NOT = { stability = 0 }
+        }
+		modifier = {
+            factor = 4
+			NOT = { stability = -1 }
+        }
+		modifier = {
+            factor = 6
+			NOT = { stability = -2 }
+        }
+	}
+	
+	can_end = {
+		has_country_flag = bulgarian_explosion_happened
+	}
+	
+	on_start = bulgarian_events.1
+	
+	on_end = bulgarian_events.2
+	
+	on_monthly = {}
+}

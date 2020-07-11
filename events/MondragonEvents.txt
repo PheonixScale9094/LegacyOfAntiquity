@@ -11,7 +11,7 @@ country_event = {
 
 	trigger = {
 		has_reform = merchant_elite_reform
-		has_faction = mr_traders
+		NOT = { has_country_flag = mondragon_company }
 		#year = 1444
 	}
 	
@@ -19,29 +19,25 @@ country_event = {
 		days = 1
 	}
 
+	immediate = {
+		set_country_flag = mondragon_company
+	}
+
 	# Reject
 	option = {
 		name = "mondragon_events.1.a"
-		remove_faction = mr_traders
-		add_faction = br_mondragon
-		add_faction_influence = {
-			faction = br_great_houses
-			influence = 15
-		}
-		add_faction_influence = {
-			faction = br_mondragon
-			influence = 10
+		change_estate_land_share = {
+			estate = estate_mondragon
+			share = -30
 		}
 	}
 
 	# Approve
 	option = {
 		name = "mondragon_events.1.b"
-		remove_faction = mr_traders
-		add_faction = br_mondragon
-		add_faction_influence = {
-			faction = br_mondragon
-			influence = 20
+		change_estate_land_share = {
+			estate = estate_mondragon
+			share = -20
 		}
 	}
 }
@@ -57,7 +53,7 @@ country_event = {
 
 	trigger = {
 		has_reform = merchant_elite_reform
-		has_faction = br_mondragon
+		has_estate = estate_mondragon
 		NOT = { has_country_flag = mondragon_corporation }
 		OR = {
 			num_of_ports = 1
@@ -69,19 +65,17 @@ country_event = {
 		days = 1
 	}
 
+	immediate = {
+		set_estate_privilege = estate_mondragon_supremacy_over_crown
+	}
+
 	#  Free
 	option = {
 		name = "mondragon_events.2.a"
 		set_country_flag = mondragon_corporation
-		add_faction_influence = {
-			faction = br_mondragon
-			influence = 15
-		}
-		add_country_modifier = { 
-			name = corporate_influence_mod 
-			duration = -1  
-			desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
-			hidden = no
+		change_estate_land_share = {
+			estate = estate_mondragon
+			share = 15
 		}
 	}
 	
@@ -89,16 +83,10 @@ country_event = {
 	option = {
 		name = "mondragon_events.2.b"
 		set_country_flag = mondragon_corporation
-		add_faction_influence = {
-			faction = br_mondragon
-			influence = 10
-		}
 		add_mercantilism = 2
-		add_country_modifier = { 
-			name = corporate_influence_mod_reduced
-			duration = -1  
-			desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
-			hidden = no
+		change_estate_land_share = {
+			estate = estate_mondragon
+			share = 10
 		}
 	}
 	
@@ -106,16 +94,10 @@ country_event = {
 	option = {
 		name = "mondragon_events.2.c"
 		set_country_flag = mondragon_corporation
-		add_faction_influence = {
-			faction = br_mondragon
-			influence = 5
-		}
 		add_mercantilism = 4
-		add_country_modifier = { 
-			name = corporate_influence_mod_minimal
-			duration = -1  
-			desc = CORPORATE_INFLUENCE_MOD_DESC_TOOLTIP
-			hidden = no
+		change_estate_land_share = {
+			estate = estate_mondragon
+			share = 5
 		}
 	}
 }
@@ -204,7 +186,7 @@ country_event = {
 			}
 		}
 		
-		ai_will_do = {
+		ai_chance = {
 			factor = 3
 			trigger = {
 				factor = 2
@@ -220,7 +202,7 @@ country_event = {
 	#Leave
 	option = {
 		name = "mondragon_events.5.b"
-		ai_will_do = {
+		ai_chance = {
 			factor = 1
 			trigger = {
 				factor = 2
@@ -250,7 +232,7 @@ country_event = {
 			add_government_reform = branch_office
 		}
 		
-		ai_will_do = {
+		ai_chance = {
 			factor = 1
 		}
 	}
@@ -258,7 +240,7 @@ country_event = {
 	#Reject
 	option = {
 		name = "mondragon_events.6.b"
-		ai_will_do = {
+		ai_chance = {
 			factor = 0
 		}
 	}
@@ -278,7 +260,7 @@ province_event = {
 	trigger = {
 		owner = 
 			has_reform = merchant_elite_reform
-			has_faction = br_mondragon
+			has_estate = estate_mondragon
 			has_country_flag = mondragon_corporation
 		}
 		NOT = { local_autonomy = 10 }
@@ -287,17 +269,20 @@ province_event = {
 	mean_time_to_happen = {
 		months = 450
 
-		modifier = {
-			factor = 1.5
-			faction_in_power = br_mondragon
-		}
-		modifier = {
-			factor = 1.5
-			faction_influence = {
-				faction = br_mondragon
-				influence = 60
+        modifier = {
+            factor = 0.5
+			estate_territory = {
+					estate = estate_mondragon
+					territory = 20
 			}
-		}
+        }
+        modifier = {
+            factor = 0.5
+			estate_territory = {
+					estate = estate_mondragon
+					territory = 40
+			}
+        }
 	}
 	
 	#Accept
@@ -310,13 +295,13 @@ province_event = {
 				desc = corporate_province_control_tooltip
 			}
 			owner = {
-				add_faction_influence = {
-					faction = br_mondragon
-					influence = 10
+				change_estate_land_share = {
+					estate = estate_mondragon
+					share = 2
 				}
 			}
 		}
-		ai_will_do = {
+		ai_chance = {
 			factor = 1
 		}
 	}
@@ -327,7 +312,7 @@ province_event = {
 		owner = {
 			add_adm_power = -15
 		}
-		ai_will_do = {
+		ai_chance = {
 			factor = 0
 		}
 	}

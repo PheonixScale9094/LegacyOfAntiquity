@@ -1,0 +1,147 @@
+namespace = hellenic_events
+province_event = {
+	id = hellenic_events.1
+	title = "hellenic_events.1.t"
+	desc = "hellenic_events.1.d"
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	is_triggered_only = no
+	
+	trigger = {
+		has_owner_accepted_culture = yes
+		owner = {
+			religion = hellenic_pagan_reformed
+		}
+		NOT = { religion = hellenic_pagan_reformed }
+		OR = {
+			any_neighbor_province = { 
+				religion = hellenic_pagan_reformed
+			}
+			any_friendly_coast_border_province = { 
+				religion = hellenic_pagan_reformed
+			}
+		}
+
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.8
+			owner = {
+				NOT = {
+					num_of_owned_provinces_with = {
+						value = 20
+						religion = hellenic_pagan_reformed
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				NOT = {
+					num_of_owned_provinces_with = {
+						value = 40
+						religion = hellenic_pagan_reformed
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				NOT = {
+					num_of_owned_provinces_with = {
+						value = 80
+						religion = hellenic_pagan_reformed
+					}
+				}
+			}
+		}
+	}
+
+	# Reject
+	option = {
+		name = "hellenic_events.1.a"
+		change_religion = hellenic_pagan_reformed
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	# Approve
+	option = {
+		name = "hellenic_events.1.b"
+		add_years_of_income = 0.1
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				num_of_loans = 1
+			}
+			modifier = {
+				factor = 10
+				num_of_loans = 2
+			}
+			modifier = {
+				factor = 10
+				num_of_loans = 4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = hellenic_events.2
+	title = "hellenic_events.2.t"
+	desc = "hellenic_events.2.d"
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	is_triggered_only = no
+	
+	trigger = {
+		religion = hellenic_pagan_reformed
+		all_owned_province = {
+			OR = {
+				AND = {
+					culture = greek
+					religion = hellenic_pagan_reformed
+				}
+				NOT = {
+					culture = greek
+				}
+			}
+
+		}
+	}
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	# Accept
+	option = {
+		name = "hellenic_events.2.a"
+		every_owned_province = { 
+			limit = {
+				OR = {	
+					region = balkan_region
+					region = anatolia_region
+				}
+				NOT = {
+					area = slavonia_area
+					area = croatia_area
+					area = bosnia_area
+					area = east_adriatic_coast_area
+				}
+			}
+			cede_province = MRM
+			add_core = MRM
+			remove_core = ITA
+			remove_core = GRE
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+}

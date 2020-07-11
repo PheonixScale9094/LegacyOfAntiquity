@@ -34,9 +34,13 @@ country_decisions = {
 	reduce_mondragon_influence = {
 		
 		potential = {
+			always = no
 			OR = {
 				has_country_modifier = corporate_influence_mod
 				has_country_modifier = corporate_influence_mod_reduced
+			}
+			NOT = {
+				has_ruler_flag = changed_mondragon_policy_ruler
 			}
 		}
 		
@@ -77,21 +81,37 @@ country_decisions = {
 					hidden = no
 				}
 			}
+			set_country_flag = changed_mondragon_policy
+			set_ruler_flag = changed_mondragon_policy_ruler
 		}
 		
-		ai_importance = 300
+		ai_importance = 100
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					had_country_flag = {
+						flag = changed_mondragon_policy
+						days = 3650
+					}
+					has_ruler_flag = changed_mondragon_policy_ruler
+				}
+			}
 		}
 	}
 	
 	increase_mondragon_influence = {
 		
 		potential = {
+			always = no
 			OR = {
 				has_country_modifier = corporate_influence_mod_minimal
 				has_country_modifier = corporate_influence_mod_reduced
+			}
+			NOT = {
+				has_ruler_flag = changed_mondragon_policy_ruler
 			}
 		}
 		
@@ -132,12 +152,24 @@ country_decisions = {
 					hidden = no
 				}
 			}
+			set_country_flag = changed_mondragon_policy
+			set_ruler_flag = changed_mondragon_policy_ruler
 		}
 		
-		ai_importance = 300
+		ai_importance = 100
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					had_country_flag = {
+						flag = changed_mondragon_policy
+						days = 3650
+					}
+					has_ruler_flag = changed_mondragon_policy_ruler
+				}
+			}
 		}
 	}
 }

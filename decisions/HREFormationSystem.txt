@@ -13,8 +13,7 @@ country_decisions = {
 		effect = {
 			add_prestige = 25
 			set_in_empire = yes
-			if = { limit = { government = monarchy } custom_tooltip = FORM_HRE_TOOLTIP_MONARCHY }
-			if = { limit = { NOT = { government = monarchy } } custom_tooltip = FORM_HRE_TOOLTIP_REPUBLIC }
+			if = { limit = { government = monarchy } custom_tooltip = FORM_HRE_TOOLTIP }
 			hidden_effect = {
 				set_global_flag = hre_formed
 				save_event_target_as = forming_country

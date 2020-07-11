@@ -4,23 +4,24 @@
 
 corporate_influence_mod = {
 	trade_efficiency = 0.1
-	br_mondragon_influence = 0.15
 	merchants = 1
 	global_foreign_trade_power = 0.1
 	global_tax_modifier = -0.15	
+	mondragon_influence_modifier = 0.25
+	estate_mondragon_loyalty_modifier = 0.10
 }
 
 corporate_influence_mod_reduced = {
 	trade_efficiency = 0.1
-	br_mondragon_influence = 0.10
 	global_foreign_trade_power = 0.1
-	global_tax_modifier = -0.10	
+	global_tax_modifier = -0.10
+	mondragon_influence_modifier = 0.10
 }
 
 corporate_influence_mod_minimal = {
 	trade_efficiency = 0.1
-	br_mondragon_influence = 0.05
 	global_tax_modifier = -0.05	
+	estate_mondragon_loyalty_modifier = -0.10
 }
 
 corporate_province_control = {

@@ -9,17 +9,16 @@ country_decisions = {
 		}
 		
 		allow = {		
-			#num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-			#	value = 100
-			#	religion = slavic_pagan_reformed
-			#	is_city = yes
-			#}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				religion = slavic_pagan_reformed
+			}
 			OR = {
 				ai = no
 				NOT = { has_country_flag = slavic_union_check }
 				had_country_flag = {
 					flag = slavic_union_check
-					days = 100
+					days = 365
 				}
 			}
 		}
@@ -86,7 +85,7 @@ country_decisions = {
 				limit = {
 				check_variable = {
 						which = numOwnedSlavicProvinces
-						value = 75
+						value = 70
 					}
 				}
 				change_tag = SLU

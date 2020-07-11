@@ -1,0 +1,98 @@
+namespace = bulgarian_events
+
+country_event = {
+	id = bulgarian_events.1
+	title = "bulgarian_events.1.t"
+	desc = "bulgarian_events.1.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	is_triggered_only = yes
+
+	hidden = yes
+	
+	immediate = {
+		set_country_flag = bulgarian_explosion_happened
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -100
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 5
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 5
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 5
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 10
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 15
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 50
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 75
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 100
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 100
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 100
+		}
+		create_independent_estate = {
+			estate = estate_nobles
+		}
+	}
+	
+	option = {
+		name = "bulgarian_events.1.a"
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+}

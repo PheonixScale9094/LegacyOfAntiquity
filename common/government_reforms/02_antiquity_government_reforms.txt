@@ -14,11 +14,6 @@ merchant_elite_reform = {
 		NOT = { map_setup = map_setup_random }
 	}
 	boost_income = yes
-	factions = {
-		br_great_houses
-		mr_traders
-		mr_guilds
-	}
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
@@ -48,7 +43,7 @@ merchant_elite_reform = {
 		enables_aristocratic_idea_group = yes
 		is_merchant_republic = yes
 	}
-	duration = 12
+	duration = 5
 }
 
 corporation_reform = {
@@ -59,13 +54,13 @@ corporation_reform = {
 		global_trade_power = 0.10
 		global_foreign_trade_power = 0.25
 		global_tax_modifier = -0.10
-		merchants = 1
+		monarch_admin_power = 1
 		vassal_income = 0.2
 		liberty_desire_from_subject_development = -0.15
 		liberty_desire = -15
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 50
 	legacy_equivalent = oligarchic_republic
 	potential = {
 		has_reform = corporation_reform
@@ -78,46 +73,59 @@ corporation_reform = {
 		}
 		can_use_trade_post = yes
 	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = branch_office
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = branch_office
+	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
-	factions = {
-		mr_traders
-		mr_guilds
-	}
-	duration = 6
+	locked_government_type = yes
+	valid_for_new_country = yes
+	allow_normal_conversion = no
+	duration = 3
 }
 
 branch_office = {
 	icon = "trading_city"
 	allow_normal_conversion = no
 	potential = {
-		is_vassal = yes
+		OR = {
+			is_in_trade_league_with = MDR
+			vassal_of = MDR
+		}
 	}
 	valid_for_nation_designer = no
 	legacy_equivalent = trading_city_legacy
 	boost_income = yes
 	lock_level_when_selected = yes
 	is_trading_city = yes
-	factions = {
-		mr_traders
-		mr_guilds
-	}
 	modifiers = {
 		max_absolutism = -20
 		global_trade_power = 0.2
-		max_absolutism = -20
-		liberty_desire_from_subject_development = -0.25
 		liberty_desire = -30
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
-
+	locked_government_type = yes
+	allow_normal_conversion = no
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
@@ -145,3 +153,19 @@ branch_office = {
 	duration = 4
 }
 
+viking_reform = {
+	icon = "crown"
+	allow_normal_conversion = yes
+	potential = {
+		religion = norse_pagan_reformed
+		has_dlc = "Golden Century"
+	}
+	legacy_equivalent = despotic_monarchy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		unjustified_demands = -0.1
+		global_tax_modifier = -0.05
+		may_perform_slave_raid_on_same_religion = yes
+	}
+}

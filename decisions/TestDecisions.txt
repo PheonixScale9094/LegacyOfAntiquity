@@ -1,0 +1,96 @@
+country_decisions = {
+
+	free_mondragon = {
+		major = no
+		
+		potential = {
+			has_estate = estate_mondragon
+		}
+		
+		allow = {	
+			has_estate = estate_mondragon		
+		}
+
+		effect = {
+			create_independent_estate = {
+				estate = estate_mondragon
+				government = republic
+				government_reform = corporation_reform
+				save_event_target_as = mondragon_nation
+				custom_national_ideas = MDR_ideas
+				play_as = yes
+			}
+			event_target:mondragon_nation = {
+				change_tag = MDR
+			}
+		}
+		
+		ai_importance = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	free_nobility = {
+		major = no
+		
+		potential = {
+			has_estate = estate_nobles
+		}
+		
+		allow = {	
+			has_estate = estate_nobles	
+		}
+
+		effect = {
+			country_event = { 
+				id = bulgarian_events.1
+			}
+		}
+		
+		ai_importance = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	free_myrmicons = {
+		major = no
+		
+		potential = {
+			tag = ITA
+		}
+		
+		allow = {	
+			tag = ITA	
+		}
+
+		effect = {
+			every_owned_province = { 
+				limit = {
+					OR = {	
+						region = balkan_region
+						region = anatolia_region
+					}
+					NOT = {
+						area = slavonia_area
+						area = croatia_area
+						area = bosnia_area
+						area = east_adriatic_coast_area
+					}
+				}
+				cede_province = MRM
+				add_core = MRM
+				remove_core = ITA
+			}
+		}
+		
+		ai_importance = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,43 +1,44 @@
 corporate_takeover = {
 	potential = {
 		has_country_flag = mondragon_corporation
-		has_faction = br_mondragon
+		has_estate = estate_mondragon
 		NOT = { exists = MDR }
 	}
 	
 	can_start = {
         has_any_disaster = no
 		OR = {
-			faction_influence = {
-						faction = br_mondragon
-						influence = 80
+			estate_territory = {
+					estate = estate_mondragon
+					territory = 51
 			}
 			AND = {
 				num_of_loans = 1
-				faction_influence = {
-						faction = br_mondragon
-						influence = 65
+				estate_territory = {
+					estate = estate_mondragon
+					territory = 45
 				}
 			}
 			AND = {
 				num_of_loans = 2
-				faction_influence = {
-						faction = br_mondragon
-						influence = 50
+					
+				estate_territory = {
+					estate = estate_mondragon
+					territory = 40
 				}
 			}
 			AND = {
 				num_of_loans = 3
-				faction_influence = {
-						faction = br_mondragon
-						influence = 35
+				estate_territory = {
+					estate = estate_mondragon
+					territory = 35
 				}
 			}
 			AND = {
 				num_of_loans = 4
-				faction_influence = {
-						faction = br_mondragon
-						influence = 10
+				estate_territory = {
+					estate = estate_mondragon
+					territory = 30
 				}
 			}
 		}
@@ -59,30 +60,30 @@ corporate_takeover = {
 	progress = {
         modifier = {
             factor = 1
-			faction_influence = {
-				faction = br_mondragon
-				influence = 80
+			estate_territory = {
+					estate = estate_mondragon
+					territory = 30
 			}
         }
         modifier = {
             factor = 1
-			faction_influence = {
-				faction = br_mondragon
-				influence = 60
+			estate_territory = {
+					estate = estate_mondragon
+					territory = 40
 			}
         }
         modifier = {
             factor = 2
-			faction_influence = {
-				faction = br_mondragon
-				influence = 90
+			estate_territory = {
+					estate = estate_mondragon
+					territory = 50
 			}
         }
 		modifier = {
             factor = 4
-			faction_influence = {
-				faction = br_mondragon
-				influence = 100
+			estate_territory = {
+					estate = estate_mondragon
+					territory = 60
 			}
         }
 		modifier = {
@@ -99,7 +100,7 @@ corporate_takeover = {
 		OR = {
 			had_country_flag = { flag = mondragon_ultimatum days = 365 }
 			NOT = {
-				has_faction = br_mondragon
+				has_estate = estate_mondragon
 			}
 		}
 	}

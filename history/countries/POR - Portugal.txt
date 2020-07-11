@@ -9,6 +9,10 @@ capital = 227 # Lisboa
 add_army_professionalism = 0.05
 national_focus = DIP
 
+change_estate_land_share = {
+	estate = estate_mondragon
+	share = -30
+}
 
 1385.1.1 = {
 	monarch = {

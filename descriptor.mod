@@ -3,4 +3,4 @@ tags={
 	"Alternative History"
 }
 name="Legacy Of Antiquity"
-supported_version="1.29.*"
+supported_version="1.30.*"
