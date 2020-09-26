@@ -1,0 +1,102 @@
+country_decisions = {
+
+	make_kiev_capital = {
+		potential = {
+			tag = SLU
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			owns = 280
+			owns = 
+			NOT = { capital = 280}
+			NOT = { has_country_flag = relocated_capital_st_petersburg }
+		}
+		allow = {
+			is_core = 280
+			is_at_war = no
+		}
+		effect = {
+			280= {
+				change_province_name = "Slavia"
+				rename_capital = "Slavia"
+				add_base_tax = 6 
+				add_base_manpower = 3
+				change_culture = capital
+			}
+			set_country_flag = relocated_capital_st_petersburg
+			add_years_of_income = -1
+			add_prestige = 100
+			280= {
+				move_capital_effect = yes
+			}
+			if = {
+				limit = {
+					280= {	
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+				}
+				280= {
+					add_center_of_trade_level = 1
+				}
+			}							
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { years_of_income = 1.25 }
+			}
+		}
+	}
+make_moscow_capital = {
+		potential = {
+			tag = SLU
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			owns = 295
+			NOT = { capital = 295}
+			NOT = { has_country_flag = relocated_capital_st_petersburg }
+		}
+		allow = {
+			is_core 295
+			is_at_war = no
+		}
+		effect = {
+			295 = {
+				change_province_name = "New_Slavia"
+				rename_capital = "New_Slavia"
+				add_base_tax = 6 
+				add_base_manpower = 3
+				change_culture = capital
+			}
+			set_country_flag = relocated_capital_st_petersburg
+			add_years_of_income = -1
+			add_prestige = 100
+			295= {
+				move_capital_effect = yes
+			}
+			if = {
+				limit = {
+					295= {	
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+				}
+				295= {
+					add_center_of_trade_level = 1
+				}
+			}							
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { years_of_income = 1.25 }
+			}
+		}
+	}
+}
