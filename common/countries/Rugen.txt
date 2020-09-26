@@ -1,0 +1,118 @@
+graphical_culture = easterngfx
+color = { 51 59 76 }
+historical_idea_groups = {
+	maritime_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelaidis #1" = -1
+	"Alexei #2" = 10
+	"Bedrich #1" = 10
+	"Feodor #1" = 10
+	"Feodosia #0" = -1
+	"Friedrich #1" = 10
+	"Gottfried #1" = 10
+	"Gotthard #1" = 10
+	"Gundrada #1" = -1
+	"Hedwig #1" = -1
+	"Jacenty #1" = 10
+	"Lech #1" = 10
+	"Mateusz #2" = 10
+	"Radoslav #1" = 10
+	"Roland #1" = 10
+	"Rurik #1" = 10
+	"Stanislav #0" = 0
+	"Sviatoslava #0" = -1
+	"Tadeusz #1" = 10
+	"Tatyana #0" = -1
+	"Thietmar #1" = 10
+	"Urjasz #1" = 10
+	"Vsevolod #0" = 0
+	"Xenia #0" = -1
+	"Yemelyan #1" = 10
+}
+leader_names = {
+	"Beyse"
+	"Boniface"
+	"Grosch"
+	"Haufoote"
+	"Heidmann"
+	"Jürgens"
+	"Krumtum"
+	"Kurzhöfer"
+	"Kurzmann"
+	"Mandüvel"
+	"Meuseling"
+	"Michels"
+	"Miercke"
+	"Milies"
+	"Normann"
+	"Rainbek"
+	"Rähl"
+	"Scheld"
+	"Stellmacher"
+	"Stuke"
+	"Störtebeker"
+	"Wessel"
+	"Wichmann"
+	"Wygbold"
+	"von Borcke"
+	"von Cammin"
+	"von Eickstedt"
+	"von Greifswald"
+	"von Kolberg"
+	"von Pommern"
+	"von Rügen"
+	"von Schwerin"
+	"von Stettin"
+	"von Stolp"
+	"von Stralsund"
+	"von Wethemonkule"
+	"von Wolgast"
+	"von Wolgatz"
+	"von Wolin"
+}
+ship_names = {
+	"Bornholmer Drachenboot"
+	"Danziger Schmetterer"
+	"Der Drache des Nordens"
+	"Der Greif von Pommern"
+	"Der Hammer von Stettin"
+	"Der Sturm von Gottland"
+	"Der Öresundsschrecken"
+	"Die Geißel von Pommern"
+	"Die Schwarze Perle"
+	"Dänisches Feuer"
+	"Fräulein Stina"
+	"Fräulein von Rügen"
+	"Michels Augenklappe"
+	"Odins Zorn"
+	"Rückkehr der Likedeeler"
+	"Schnelltrinker"
+	"Schrecken der Hanse"
+	"Störtebekers Rache"
+	"Tochter der Vitalienbrüder"
+	"Wikingertochter"
+}

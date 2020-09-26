@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = norse
+capital = 17
+1443.12.5= {
+	monarch = {
+		name = "Alfgeir"
+		dynasty = "Hrafn"
+		adm = 5
+		dip = 1
+		mil = 4
+		birth_date = 1420.11.3
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = lawgiver_personality
+	queen = {
+		name = "Beata"
+		dynasty = "af Denkok"
+		adm = 2
+		dip = 2
+		mil = 3
+		country_of_origin = Z27
+		birth_date = 1425.4.27
+		death_date = 1485.4.27
+		female = yes
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_queen_personality = craven_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Toste"
+		monarch_name = "Toste"
+		dynasty = "Hrafn"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.11.7
+		death_date = 1508.11.7
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 48
+	add_treasury = 0
+}
+
+

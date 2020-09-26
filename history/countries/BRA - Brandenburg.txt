@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = russian_culture
+capital = 47
+1443.12.5= {
+	monarch = {
+		name = "Agafya"
+		dynasty = "Kozelid"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1423.8.21
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = russian_culture
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+}
+1443.12.5= {
+	add_prestige = -50
+	add_treasury = 56
+}
+
+

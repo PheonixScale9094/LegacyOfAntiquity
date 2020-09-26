@@ -1,0 +1,12 @@
+graphical_culture = westerngfx
+color = { 87 87 87 }
+monarch_names = {
+	"Adèla #0" = -1
+	"Centolh #0" = 0
+	"Clemència #0" = -1
+	"Dodon #0" = 0
+	"Felicia #0" = -1
+	"Guilhèm #0" = 0
+	"Kálmán #0" = 0
+	"Milo #0" = 0
+}

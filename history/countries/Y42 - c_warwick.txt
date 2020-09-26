@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = anglo_saxon
+capital = 4372
+fixed_capital = 4372
+1443.12.5= {
+	monarch = {
+		name = "Ecgberht"
+		dynasty = "Barton"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1419.6.8
+		religion = norse_pagan_reformed
+		culture = anglo_saxon
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Katarina"
+		dynasty = "af Pevensey"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = Y42
+		birth_date = 1413.6.6
+		death_date = 1473.6.6
+		female = yes
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Waltheof"
+		monarch_name = "Waltheof"
+		dynasty = "Barton"
+		adm = 0
+		dip = 1
+		mil = 1
+		birth_date = 1441.6.12
+		death_date = 1506.6.12
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = anglo_saxon
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 60
+	add_treasury = 82
+}
+
+

@@ -1,0 +1,94 @@
+graphical_culture = indiangfx
+color = { 129 161 87 }
+revolutionary_colors = { 13 5 10 }
+historical_idea_groups = {
+	quantity_ideas
+	spy_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Bacchdev #3" = 10
+	"Bhavesh #1" = 10
+	"Brahmapala #1" = 10
+	"Cakrayudha #1" = 10
+	"Danujmadhava #2" = 10
+	"Devakhadga #2" = 10
+	"Dharmapala #2" = 10
+	"Dhirsingha #1" = 10
+	"Eyrum #1" = -1
+	"Gang Dev #1" = 10
+	"Gopal #1" = 10
+	"Govindaraja #1" = 10
+	"Haridevnarayan #2" = 10
+	"Hira #1" = -1
+	"Lokhanata #1" = 10
+	"Lomapada #0" = 0
+	"Madanapala #0" = 0
+	"Madanpal #1" = 10
+	"Mahipala #1" = 10
+	"Maurayadhwaj #1" = 10
+	"Mukundanarayan #1" = 10
+	"Rajadinaj #0" = 0
+	"Rajrajendranarayan #0" = 0
+	"Rajyapala #1" = 10
+	"Rameshwar #1" = 10
+	"Shakrasingh Dev #1" = 10
+	"Shiv Singh #2" = 10
+	"Sohanpal #1" = 10
+	"Suryanarayan #1" = 10
+	"Vakapala #1" = 10
+	"Varnamana #1" = 10
+	"Vijaynarayan #0" = 0
+}
+leader_names = {
+	"Baiga"
+	"Bedia"
+	"Birjia"
+	"Chero"
+	"Gorait"
+	"Kanwar"
+	"Kharia"
+	"Kol"
+	"Santhal"
+	"Savar"
+}
+ship_names = {
+	"Betwa"
+	"Devi"
+	"Durga"
+	"Gandak"
+	"Ganga"
+	"Gayatri"
+	"Ghagra"
+	"Gomti"
+	"Jalsena"
+	"Kala Jahazi"
+	"Ken"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ramganga"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Satlaj"
+	"Sita"
+	"Yamuna"
+}

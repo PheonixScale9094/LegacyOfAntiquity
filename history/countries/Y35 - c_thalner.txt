@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = marathi
+capital = 4453
+fixed_capital = 4453
+1443.12.5= {
+	monarch = {
+		name = "Durga"
+		dynasty = "Thimmid"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1405.1.20
+		female = yes
+		religion = hinduism
+		culture = marathi
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Jatiga"
+		dynasty = "Thimmid"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = Y35
+		birth_date = 1403.11.13
+		death_date = 1463.11.13
+		religion = hinduism
+		culture = marathi
+	}
+	add_queen_personality = malevolent_personality
+	add_queen_personality = obsessive_perfectionist_personality
+	heir = {
+		name = "Jatiga"
+		monarch_name = "Jatiga"
+		dynasty = "Thimmid"
+		adm = 6
+		dip = 6
+		mil = 2
+		birth_date = 1424.5.27
+		death_date = 1489.5.27
+		claim = 89
+		religion = hinduism
+		culture = marathi
+	}
+	add_heir_personality = loose_lips_personality
+	add_heir_personality = tactical_genius_personality
+}
+1443.12.5= {
+	add_prestige = 59
+	add_treasury = 82
+}
+
+

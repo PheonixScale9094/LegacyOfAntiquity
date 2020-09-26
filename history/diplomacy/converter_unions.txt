@@ -1,0 +1,8 @@
+union=
+{
+	first="ETH"
+	second="MAK"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+

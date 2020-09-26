@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = hellenic_pagan_reformed
+primary_culture = greek
+capital = 146
+1443.12.5= {
+	monarch = {
+		name = "Wechthari II"
+		dynasty = "Adalbertingi"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1421.7.23
+		religion = hellenic_pagan_reformed
+		culture = greek
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = lawgiver_personality
+	queen = {
+		name = "Bianca"
+		dynasty = "Smith"
+		adm = 2
+		dip = 3
+		mil = 1
+		country_of_origin = ATH
+		birth_date = 1409.12.14
+		death_date = 1469.12.14
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = goths
+	}
+	add_queen_personality = craven_personality
+	add_queen_personality = fertile_personality
+}
+1443.12.5= {
+	add_prestige = 37
+	add_treasury = 64
+}
+
+

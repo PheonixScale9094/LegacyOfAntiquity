@@ -1,0 +1,19 @@
+graphical_culture = indiangfx
+color = { 36 175 85 }
+monarch_names = {
+	"Agnimitra #0" = 0
+	"Amritakala #0" = -1
+	"Amritnarayan #0" = 0
+	"Apara Gangeya #0" = 0
+	"Asima #0" = -1
+	"Jira #0" = -1
+	"Nannuka #0" = 0
+	"Nripendranarayan #0" = 0
+	"Padma Singh #0" = 0
+	"Qi #0" = 0
+	"Rajabhata #0" = 0
+	"Roopnarayan #0" = 0
+	"Sanyukta #0" = -1
+	"Sukhdev #0" = 0
+	"Vakapala #0" = 0
+}

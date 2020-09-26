@@ -1,0 +1,18 @@
+graphical_culture = westerngfx
+color = { 84 84 84 }
+monarch_names = {
+	"Anselm #0" = 0
+	"Basillike #0" = -1
+	"Eupraxia #0" = -1
+	"Friedrica #0" = -1
+	"Herbert #0" = 0
+	"Marguerite #0" = -1
+	"Mariana #0" = -1
+	"Marino #0" = 0
+	"Marsiglio #0" = 0
+	"Martina #0" = -1
+	"Micaela #0" = -1
+	"Salinguerra #0" = 0
+	"Sinucello #0" = 0
+	"Vitale #0" = 0
+}

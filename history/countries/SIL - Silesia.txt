@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = kishinyov
+capital = 4238
+1443.12.5= {
+	monarch = {
+		name = "Igor"
+		dynasty = "Zubvich"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1422.2.14
+		religion = slavic_pagan_reformed
+		culture = kishinyov
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Ulyana"
+		dynasty = "Novotorgsky"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = SIL
+		birth_date = 1422.10.11
+		death_date = 1482.10.11
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = lawgiver_personality
+	add_queen_personality = midas_touched_personality
+	heir = {
+		name = "Lev"
+		monarch_name = "Lev II"
+		dynasty = "Zubvich"
+		adm = 1
+		dip = 1
+		mil = 2
+		birth_date = 1441.11.7
+		death_date = 1506.11.7
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 21
+	add_treasury = 66
+}
+
+

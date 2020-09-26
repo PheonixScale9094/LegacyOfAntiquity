@@ -1,0 +1,57 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 3
+technology_group = nomad_group
+religion = hinduism
+primary_culture = karluk
+capital = 2125
+1443.12.5= {
+	monarch = {
+		name = "Tirig"
+		dynasty = "Aktamid"
+		adm = 4
+		dip = 2
+		mil = 5
+		birth_date = 1406.11.16
+		religion = hinduism
+		culture = karluk
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Damayanti"
+		dynasty = "Kazeruni"
+		adm = 2
+		dip = 3
+		mil = 2
+		country_of_origin = Z09
+		birth_date = 1421.2.12
+		death_date = 1481.2.12
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = careful_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Yïlqï"
+		monarch_name = "Yïlqï"
+		dynasty = "Aktamid"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1433.1.13
+		death_date = 1498.1.13
+		claim = 89
+		religion = hinduism
+		culture = karluk
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1443.12.5= {
+	add_prestige = 67
+	add_treasury = 38
+}
+
+

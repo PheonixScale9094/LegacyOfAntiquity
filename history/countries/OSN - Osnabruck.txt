@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = old_lombard
+capital = 56
+fixed_capital = 56
+1443.12.5= {
+	monarch = {
+		name = "Marozia"
+		dynasty = "Walbertingi"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 1387.2.17
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = old_lombard
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Barral"
+		dynasty = "de Pontevès"
+		adm = 3
+		dip = 2
+		mil = 3
+		country_of_origin = OSN
+		birth_date = 1387.3.16
+		death_date = 1447.3.16
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = secretive_personality
+	add_queen_personality = silver_tongue_personality
+	heir = {
+		name = "Severo"
+		monarch_name = "Severo"
+		dynasty = "de Pontevès"
+		adm = 3
+		dip = 6
+		mil = 4
+		birth_date = 1409.10.13
+		death_date = 1474.10.13
+		claim = 89
+		religion = hellenic_pagan_reformed
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = tolerant_personality
+}
+1443.12.5= {
+	add_prestige = 32
+	add_treasury = 79
+}
+
+

@@ -1,0 +1,113 @@
+graphical_culture = inuitgfx
+color = { 106 160 43 }
+revolutionary_colors = { 5 5 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Afanasiy #1" = 10
+	"Agrafena #0" = -1
+	"Boris #1" = 10
+	"Chichayka #0" = 0
+	"Dobrava #0" = -1
+	"Dobronega #0" = -1
+	"Dobroslava #1" = -1
+	"Dobrynia #2" = 10
+	"Erziya #1" = 10
+	"Feodor #1" = 10
+	"Igor #5" = 10
+	"Inzhay #0" = 0
+	"Kirill #0" = 0
+	"Lev #0" = 0
+	"Mitrofan #1" = 10
+	"Nikita #1" = 10
+	"Oleg #2" = 10
+	"Prebrana #0" = -1
+	"Radoslav #3" = 10
+	"Rodislav #1" = 10
+	"Roman #1" = 10
+	"Rostislav #0" = 0
+	"Rurik #1" = 10
+	"Sbyslava #0" = -1
+	"Shoksha #0" = 0
+	"Stanislav #1" = 10
+	"Sudislav #1" = 10
+	"Sviatoslav #3" = 10
+	"Tatyana #0" = -1
+	"Vasilko #1" = 10
+	"Vladislav #1" = 10
+	"Voislav #2" = 10
+	"Volodar #0" = 0
+	"Vseslav #1" = 10
+	"Yaropolk #2" = 10
+	"Yekaterina #0" = -1
+	"Yevstafiy #1" = 10
+}
+leader_names = {
+	"Aladyin"
+	"Beznosov"
+	"Bokeev"
+	"Borovsky"
+	"Burukhin"
+	"Dalmatov"
+	"Dursky"
+	"Galisky"
+	"Galitsky"
+	"Izyaslavsky"
+	"Kisleevsky"
+	"Korobyin"
+	"Mozhaisky"
+	"Satin"
+	"Shemyakin"
+	"Shukalovsky"
+	"Travin"
+	"Tsyplyatev"
+	"Uglisky"
+	"Vereisky"
+	"Vitebsky"
+	"Vnukov"
+	"Volotsky"
+	"Zabolotsky"
+}
+ship_names = {
+	"Bolotovo"
+	"Bryansk"
+	"Chudskoye"
+	"Izborsk"
+	"Kulikovo"
+	"Ostrov"
+	"Pechory"
+	"Polotsk"
+	"Porhov"
+	"Pskovskoye"
+	"Rakovor"
+	"Sebezh"
+	"Smolensk"
+	"Velikaya"
+	"Velikiye Luki"
+}

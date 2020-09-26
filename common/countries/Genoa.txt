@@ -1,0 +1,195 @@
+graphical_culture = westerngfx
+color = { 218 215 56 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	trade_ideas
+	plutocracy_ideas
+	administrative_ideas
+	maritime_ideas
+	innovativeness_ideas
+	defensive_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ademaro #1" = 10
+	"Ago #1" = 10
+	"Ajo #1" = 10
+	"Alcide #0" = 0
+	"Alessio #1" = 10
+	"Antonio #0" = 0
+	"Augusto #1" = 10
+	"Biagio #0" = 0
+	"Birinus #1" = 10
+	"Camillo #0" = 0
+	"Chiaffredo #1" = 10
+	"Ciro #1" = 10
+	"Ciuccio #1" = 10
+	"Desiderius #2" = 10
+	"Dioniso #0" = 0
+	"Elio #0" = 0
+	"Ermengard #0" = -1
+	"Fiorello #1" = 10
+	"Gabrino #0" = 0
+	"Godehoc #1" = 10
+	"Guido #1" = 10
+	"Hermenfred #1" = 10
+	"Hrodgaud #2" = 10
+	"Hucpert #1" = 10
+	"Ingoald #1" = 10
+	"Ioann #1" = 10
+	"Karl #1" = 10
+	"Landenulf #3" = 10
+	"Lavinia #0" = -1
+	"Leonello #0" = 0
+	"Liuvericho #0" = 0
+	"Luchino #0" = 0
+	"Lupus #2" = 10
+	"Marietta #0" = -1
+	"Michelangelo #0" = 0
+	"Nordepert #1" = 10
+	"Oberto #0" = 0
+	"Orson #1" = 10
+	"Pemmo #2" = 10
+	"Raineri #1" = 10
+	"Romuald #3" = 10
+	"Rosso #1" = 10
+	"Ruggiero #1" = 10
+	"Salinguerra #1" = 10
+	"Saxo #1" = 10
+	"Severo #0" = 0
+	"Sigibuld #1" = 10
+	"Sikard #2" = 10
+	"Sinibaldo #1" = 10
+	"Taso #2" = 10
+	"Theotpert #1" = 10
+	"Tommaso #1" = 10
+	"Torgodorio #1" = 10
+	"Ugo #1" = 10
+	"Unulf #1" = 10
+	"Ælfwine #0" = 0
+}
+leader_names = {
+	"Adorno"
+	"Arborio Mella"
+	"Balbi"
+	"Bracelli"
+	"Brignole"
+	"Buonaparte"
+	"Campi"
+	"Cattaneo"
+	"Cebá"
+	"Centurione"
+	"Chiavari"
+	"Clavarezza"
+	"Cybo"
+	"Doria di Melfi"
+	"Doria-Landi"
+	"Durazzo"
+	"Garbarino"
+	"Gattilusio"
+	"Gentile"
+	"Giustiniani"
+	"Grimaldi di Busca"
+	"Imperiale"
+	"Invrea"
+	"Lercari"
+	"Lomelli"
+	"Longo"
+	"Negrone"
+	"Odoni"
+	"Paleologi Montferrato"
+	"Pallavicini"
+	"Pico"
+	"Pignolo"
+	"Promontorio"
+	"Sale"
+	"Senarega"
+	"Serra"
+	"Spinola"
+	"Veneroso"
+	"Vivaldi"
+	"da Novi"
+	"de Ferrari"
+	"de Franchi"
+	"de Mari"
+	"del Carreto"
+	"della Rovere"
+	"della Torre"
+	"di Busca"
+	"di Campofregoso"
+	"di Fornari"
+	"di Grimaldi"
+}
+ship_names = {
+	"Baccana"
+	"Bastarda"
+	"Bechignana"
+	"Brave"
+	"Capitana"
+	"Concezione"
+	"Diana"
+	"Donzella"
+	"Doria"
+	"Ferme"
+	"Fortuna"
+	"Furia"
+	"Giano"
+	"Giustizia"
+	"Hardie"
+	"Intrepido"
+	"Ira"
+	"Levriero"
+	"Libertà"
+	"Liguria"
+	"Lomellina"
+	"Marchesa"
+	"Marchese Doria"
+	"Monagina"
+	"Monarca"
+	"Negrona"
+	"Nostra Signora del Soccorso"
+	"Nostra Signora delle Vigne"
+	"Oliva"
+	"Oltremare"
+	"Padrona"
+	"Perla"
+	"Piramide"
+	"Prima"
+	"Pynele"
+	"Raggia"
+	"San Antonio"
+	"San Bartolomeo"
+	"San Francesco de Paulo"
+	"San Giacomo"
+	"San Giorgio"
+	"San Vittorio"
+	"Santa Maria"
+	"Seconda"
+	"Temperanza"
+	"Tigre"
+	"Urania"
+	"Vendicatore"
+	"Vigilante"
+	"Virgo Potens"
+	"Vittoria"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

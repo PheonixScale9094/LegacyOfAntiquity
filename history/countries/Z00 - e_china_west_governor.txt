@@ -1,0 +1,27 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+technology_group = chinese
+religion = confucianism
+primary_culture = chihan
+capital = 708
+1443.12.5= {
+	monarch = {
+		name = "Que"
+		dynasty = "Zhuge"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1387.1.13
+		religion = confucianism
+		culture = chihan
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = midas_touched_personality
+}
+1443.12.5= {
+	add_prestige = 77
+	add_treasury = 74
+}
+
+

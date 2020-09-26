@@ -1,0 +1,27 @@
+graphical_culture = asiangfx
+color = { 149 191 184 }
+monarch_names = {
+	"Aguchu #0" = 0
+	"Bogen #1" = 10
+	"Burkhan #1" = 10
+	"Chidukhul #1" = 10
+	"Dezhen #0" = 0
+	"Harghasun #1" = 10
+	"Hoelun #0" = -1
+	"Kadan #1" = 10
+	"Khorijin #0" = -1
+	"Khorilartai #1" = 10
+	"Khugurchin #0" = -1
+	"Khutula #0" = 0
+	"Mandukhai #0" = -1
+	"Narin #1" = 10
+	"Oghul #0" = -1
+	"Qiaoyun #0" = -1
+	"Shirgugetu #1" = 10
+	"Sokhatai #0" = -1
+	"Soumaré #0" = 0
+	"Targhutai #1" = 10
+	"Temur #1" = 10
+	"Yesugun #0" = -1
+	"Yi #0" = 0
+}

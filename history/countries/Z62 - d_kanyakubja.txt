@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = rajput_kingdom
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = vindhyan
+capital = 2059
+1443.12.5= {
+	monarch = {
+		name = "Draupad II"
+		dynasty = "Saindhava"
+		adm = 4
+		dip = 2
+		mil = 3
+		birth_date = 1392.7.10
+		religion = hinduism
+		culture = vindhyan
+	}
+	add_ruler_personality = just_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Jira"
+		dynasty = "Cakrakutid"
+		adm = 4
+		dip = 1
+		mil = 3
+		country_of_origin = Z62
+		birth_date = 1376.5.3
+		death_date = 1436.5.3
+		female = yes
+		religion = hinduism
+		culture = bihari
+	}
+	add_queen_personality = loose_lips_personality
+	add_queen_personality = scholar_personality
+	heir = {
+		name = "Birpala"
+		monarch_name = "Birpala"
+		dynasty = "Saindhava"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1411.6.27
+		death_date = 1476.6.27
+		claim = 89
+		religion = hinduism
+		culture = pahari
+	}
+	add_heir_personality = conqueror_personality
+	add_heir_personality = tolerant_personality
+}
+1443.12.5= {
+	add_prestige = 66
+	add_treasury = 65
+}
+
+

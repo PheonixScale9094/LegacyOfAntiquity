@@ -1,0 +1,160 @@
+graphical_culture = westerngfx
+color = { 150 231 150 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Ailill #1" = 10
+	"Alfgeir #0" = 0
+	"Amalgaid #1" = 10
+	"Arnemetia #0" = -1
+	"Azur #1" = 10
+	"Bartolomeus #0" = 0
+	"Beornflæd #0" = -1
+	"Bragi #1" = 10
+	"Bride #1" = 10
+	"Cathal #2" = 10
+	"Cathal Cú-Cen-Máthair #1" = 10
+	"Cathussach #1" = 10
+	"Cobthach #1" = 10
+	"Coirpre Cromm #1" = 10
+	"Colgú #1" = 10
+	"Conall Corc #1" = 10
+	"Conán #1" = 10
+	"Copsige #1" = 10
+	"Cormac #1" = 10
+	"Crimthann #1" = 10
+	"Cúán #1" = 10
+	"Dan #1" = 10
+	"Dwyfan #1" = 10
+	"Dyre #0" = 0
+	"Eadberht #1" = 10
+	"Eadhburh #0" = -1
+	"Eochaid #1" = 10
+	"Eterscél #1" = 10
+	"Faílbe Fland #1" = 10
+	"Feidelmid #1" = 10
+	"Feidlimid #2" = 10
+	"Fergus Scandal #1" = 10
+	"Finguine #1" = 10
+	"Fíngen #1" = 10
+	"Garb·n #1" = 10
+	"Gofraid #1" = 10
+	"Grima #1" = -1
+	"Grimr #1" = 10
+	"Guttorm #0" = 0
+	"Halsten #0" = 0
+	"Haukr #1" = 10
+	"Hextilda #0" = -1
+	"Hrolfr #0" = 0
+	"Iliana #1" = -1
+	"Karl #1" = 10
+	"Ladron #0" = 0
+	"Liam #1" = 10
+	"Lleigy #1" = -1
+	"Lubbiko #0" = 0
+	"Lutrin #0" = 0
+	"Miljen #1" = 10
+	"Muirenn #1" = -1
+	"Máel-Dúin #1" = 10
+	"Máenach #1" = 10
+	"Nad-Froich #1" = 10
+	"Niklas #0" = 0
+	"Olafr #1" = 10
+	"Onlaf #2" = 10
+	"Otto #0" = 0
+	"Pidarnoin #1" = 10
+	"Rikulfr #1" = 10
+	"Ruaidrí #1" = 10
+	"Sigehelm #1" = 10
+	"Skuli #1" = 10
+	"Sturla #1" = 10
+	"Sverker #1" = 10
+	"Áed Bennán #1" = 10
+	"Ælflæda #1" = -1
+	"Ælfnoth #0" = 0
+	"Ælfrida #0" = -1
+	"Ælfswith #0" = -1
+	"Ælfthryth #0" = -1
+	"Óengus #1" = 10
+	"Örvar #1" = 10
+}
+leader_names = {
+	"Caomhanach"
+	"Conchobhair"
+	"Mac Amhalghaidh"
+	"Mac Cochláin"
+	"Mac Coibheanaigh"
+	"Mac Conshnámha"
+	"Mac Fhlannchaidh"
+	"Mac Fionbhair"
+	"Mac Giolla Phadraig"
+	"Mac Raghnaill"
+	"Mac Tighearnáin"
+	"Mac an tSionnaigh"
+	"Mag Eochagáin"
+	"Ó Braoin"
+	"Ó Cairbre"
+	"Ó Caoindealbháin"
+	"Ó Catharnaigh"
+	"Ó Ceallaigh"
+	"Ó Cearbhaill"
+	"Ó Ciardha"
+	"Ó Comhraidhe"
+	"Ó Congalaig"
+	"Ó Cosraigh"
+	"Ó Diubhgeannáin"
+	"Ó Doinn"
+	"Ó Donnchadha"
+	"Ó Dubhghaill"
+	"Ó Dubhuidhe"
+	"Ó Faolain"
+	"Ó Fhearghaill"
+	"Ó Finntighearn"
+	"Ó Fionnaláin"
+	"Ó Lorcáin"
+	"Ó Maolmhuaidh"
+	"Ó Ruairc"
+	"Ó Seaghdha"
+	"Ó Seanáin"
+	"Ó Tuathail"
+	"Ó hAimheirgin"
+	"Ó hAonghusa"
+}
+ship_names = {
+	"Carlow"
+	"Dublin"
+	"Kildare"
+	"Kilkenny"
+	"Laios"
+	"Longford"
+	"Louth"
+	"Meath"
+	"Offaly"
+	"Westmeath"
+	"Wexford"
+	"Wicklow"
+}

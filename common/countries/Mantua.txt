@@ -1,0 +1,113 @@
+graphical_culture = westerngfx
+color = { 191 83 101 }
+revolutionary_colors = { 5 13 5 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alisia #0" = -1
+	"Ausilia #0" = -1
+	"Borel #0" = 0
+	"Clorinda #0" = -1
+	"Cornelio #0" = 0
+	"Giulia #0" = -1
+}
+leader_names = {
+	"Alberti"
+	"Amelia"
+	"Barone"
+	"Barzagli"
+	"Belmonte"
+	"Bibiena"
+	"Boninsegna"
+	"Bosio"
+	"Casabianca"
+	"Castagnaro"
+	"Cocconi"
+	"Colombo"
+	"Conti"
+	"Fancelli"
+	"Freddi"
+	"Gatti"
+	"Germano"
+	"Gonzaga"
+	"Grazioli"
+	"Grosso"
+	"Idoni"
+	"Innocenti"
+	"Juvarra"
+	"Lori"
+	"Manfredi"
+	"Mantegna"
+	"Montanari"
+	"Neri"
+	"Oddo"
+	"Panzavecchia"
+	"Pesci"
+	"Piccoli"
+	"Pico"
+	"Poggio"
+	"Poma"
+	"Romano"
+	"Speri"
+	"Tassoni"
+	"Tazolli"
+	"Tedesco"
+	"Toselli"
+	"Zaccardo"
+	"Zappa"
+	"d'Absburgo"
+	"de Canal"
+	"de Rossi"
+	"de' Medici"
+	"del Piero"
+	"di Busca"
+}
+ship_names = {
+	"Alberto Pitentino"
+	"Andrea Mantegna"
+	"Anselmo de Lucca"
+	"Barbara di Brandeburgo"
+	"Castelletto Borgo"
+	"Corradi da Gonzaga"
+	"Donatello"
+	"Fiume Mincio"
+	"Formigosa"
+	"Ghibellini"
+	"Gianfrancesco Gonzaga"
+	"Guelphi"
+	"Luca Fancelli"
+	"Ludovico Gonzaga"
+	"Luigi Gonzaga"
+	"Matilde Canossa"
+	"Pinamonte Bonacolsi"
+	"Rinaldo Bonacolsi"
+	"San Lorenzo"
+	"San Sebastiano"
+	"Sant'Andrea"
+}
+army_names = {
+	"Armata de $PROVINCE$"
+}

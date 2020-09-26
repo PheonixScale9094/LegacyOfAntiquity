@@ -1,0 +1,56 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 3
+technology_group = nomad_group
+religion = manichean
+primary_culture = uyghur
+capital = 2193
+1443.12.5= {
+	monarch = {
+		name = "Çaça"
+		dynasty = "Çaçaid"
+		adm = 3
+		dip = 0
+		mil = 3
+		birth_date = 1386.4.23
+		religion = manichean
+		culture = uyghur
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Nayiñtay"
+		adm = 4
+		dip = 1
+		mil = 3
+		country_of_origin = Z12
+		birth_date = 1385.2.22
+		death_date = 1445.2.22
+		female = yes
+		religion = manichean
+		culture = uyghur
+	}
+	add_queen_personality = secretive_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Tadqïsh"
+		monarch_name = "Tadqïsh"
+		dynasty = "Çaçaid"
+		adm = 3
+		dip = 3
+		mil = 6
+		birth_date = 1426.7.16
+		death_date = 1491.7.16
+		claim = 89
+		religion = manichean
+		culture = uyghur
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = pious_personality
+}
+1443.12.5= {
+	add_prestige = 53
+	add_treasury = 57
+}
+
+

@@ -1,0 +1,27 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = muslim
+religion = tengri_pagan_reformed
+primary_culture = cuman
+capital = 1082
+1443.12.5= {
+	monarch = {
+		name = "Gábor III"
+		dynasty = "Ják"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1414.12.15
+		religion = tengri_pagan_reformed
+		culture = cuman
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = secretive_personality
+}
+1443.12.5= {
+	add_prestige = 39
+	add_treasury = 22
+}
+
+

@@ -1,0 +1,108 @@
+graphical_culture = westerngfx
+color = { 43 141 172 }
+revolutionary_colors = { 1 8 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	maritime_ideas
+	innovativeness_ideas
+	offensive_ideas
+	exploration_ideas
+	economic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_tercio
+	dutch_maurician
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalmode #0" = -1
+	"Adelaide #1" = -1
+	"Aldéric #1" = 10
+	"Aliberta #0" = -1
+	"Andica #2" = 10
+	"André #0" = 0
+	"Aubry #0" = 0
+	"Baudouin #2" = 10
+	"Berthefried #1" = 10
+	"Boson #3" = 10
+	"Euphrosine #1" = -1
+	"Geberga #0" = -1
+	"Guillaumette #0" = -1
+	"Gunthar #1" = 10
+	"Géraud #1" = 10
+	"Hamelin #2" = 10
+	"Henri #0" = 0
+	"Herbert #2" = 10
+	"Iberia #0" = -1
+	"Karloman #3" = 10
+	"Louis #0" = 0
+	"Léon #1" = 10
+	"Magnachar #2" = 10
+	"Mahaut #1" = -1
+	"Nicolas #0" = 0
+	"Ogier #0" = 0
+	"Plaisance #1" = -1
+	"Ragnald #1" = 10
+	"Robert #1" = 10
+	"Roding #1" = 10
+	"Rorgon #0" = 0
+	"Solène #0" = -1
+	"Stéphanie #0" = -1
+	"Valeran #0" = 0
+	"Yolande #0" = -1
+}
+leader_names = {
+	"Dampierre"
+	"Deconinck"
+	"Goethals"
+	"Nevers"
+	"Penen"
+	"Van Bellegem"
+	"Van Gulik"
+	"Van Herstal"
+	"Van Leeuwergem"
+	"Van Lichtervelde"
+	"Van Nieuwland"
+	"Van Oudenaarde"
+	"Van Petershem"
+	"Van Raveschoot"
+	"Van Renesse"
+}
+ship_names = {
+	"Antwerpen"
+	"Boudewijn I"
+	"Brugge"
+	"De Vlaamse leeuw"
+	"Gent"
+	"Guldensporenslag"
+	"Gwijde van Dampierre"
+	"Hasselt"
+	"Jacob van Artevelde"
+	"Karel de Goede"
+	"Kerel van Vlaanderen"
+	"Leuven"
+	"Manneken Pis"
+	"Mechelen"
+	"Pieter de Coninck"
+	"Schelde"
+	"Tijl Uilenspiegel"
+	"Vlaanderen"
+}
+army_names = {
+	"Leger van $PROVINCE$"
+}
+fleet_names = {
+	"Vloot van $PROVINCE$"
+}

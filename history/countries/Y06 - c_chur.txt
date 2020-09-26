@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = occitain
+capital = 1873
+fixed_capital = 1873
+1443.12.5= {
+	monarch = {
+		name = "Dodon"
+		dynasty = "de Gavarret"
+		adm = 2
+		dip = 4
+		mil = 2
+		birth_date = 1402.4.27
+		religion = hellenic_pagan_reformed
+		culture = occitain
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Felicia"
+		dynasty = "Liutfredingi"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Y06
+		birth_date = 1392.2.1
+		death_date = 1452.2.1
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = tactical_genius_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Clemència"
+		monarch_name = "Clemència"
+		dynasty = "de Gavarret"
+		adm = 4
+		dip = 6
+		mil = 4
+		birth_date = 1419.8.13
+		death_date = 1484.8.13
+		female = yes
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = aquitaine
+	}
+	add_heir_personality = lawgiver_personality
+	add_heir_personality = midas_touched_personality
+}
+1443.12.5= {
+	add_prestige = 27
+	add_treasury = 70
+}
+
+

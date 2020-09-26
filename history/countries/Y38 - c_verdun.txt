@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = cosmopolitan_french
+capital = 4766
+fixed_capital = 4766
+1443.12.5= {
+	monarch = {
+		name = "Eudes"
+		dynasty = "Gaidoaldingi"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1419.9.21
+		religion = hellenic_pagan_reformed
+		culture = cosmopolitan_french
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Irmeltrud"
+		dynasty = "Gaidoaldingi"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = Y38
+		birth_date = 1408.8.25
+		death_date = 1468.8.25
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = expansionist_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Adalbert"
+		monarch_name = "Adalbert"
+		dynasty = "Gaidoaldingi"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1441.10.15
+		death_date = 1506.10.15
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = burgundian
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 74
+	add_treasury = 71
+}
+
+

@@ -1,0 +1,67 @@
+graphical_culture = westerngfx
+color = { 82 135 124 }
+revolutionary_colors = { 8 15 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Afanasiy #0" = 0
+	"Darya #0" = -1
+	"Elek #0" = 0
+	"Ernõ #0" = 0
+	"Etel #0" = -1
+	"Ferenc #0" = 0
+	"Klára #0" = -1
+	"Rostislav #0" = 0
+	"Salamon #0" = 0
+	"Tibor #0" = 0
+	"Yefimiy #0" = 0
+	"Zsófia #0" = -1
+}
+leader_names = {
+	"Al Tolui"
+	"Altan Chinua"
+	"Arigh Qorchi"
+	"Boke Unegen"
+	"Burilginai"
+	"Koke Qadan"
+	"Mongke Bayar"
+	"Oyugungene"
+	"Qacha-jin"
+	"Qadanteni"
+	"Qara Erdene"
+	"Qutughqai"
+	"Yeke Sube"
+}
+ship_names = {
+	"Argin"
+	"Han-Kirman"
+	"Jalair"
+	"Mangit"
+	"Meshchyora"
+	"Mishar Yurt"
+	"Muroma"
+	"Oka"
+	"Qasim xanligi"
+	"Qipchaq"
+}

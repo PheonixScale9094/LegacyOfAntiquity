@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = assamese
+capital = 4440
+1443.12.5= {
+	monarch = {
+		name = "Hira"
+		dynasty = "Pala"
+		adm = 2
+		dip = 3
+		mil = 1
+		birth_date = 1427.2.1
+		female = yes
+		religion = hinduism
+		culture = assamese
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = righteous_personality
+}
+1443.12.5= {
+	add_prestige = 71
+	add_treasury = 53
+}
+
+

@@ -1,0 +1,117 @@
+graphical_culture = westerngfx
+color = { 193 237 85 }
+revolutionary_colors = { 0 1 13 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Arnbjörn #0" = 0
+	"Asbjörn #0" = 0
+	"Bersi #0" = 0
+	"Björg #0" = -1
+	"Bothildr #0" = -1
+	"Cathmug #2" = 10
+	"Donn Cothaid #1" = 10
+	"Emund #4" = 10
+	"Feirgil #1" = 10
+	"Folki #1" = 10
+	"Gorm #1" = 10
+	"Holmger #0" = 0
+	"Hrafn #1" = 10
+	"Ingibjörg #0" = -1
+	"Ingólfr #1" = 10
+	"Kettil #0" = 0
+	"Knut #1" = 10
+	"Kolbjörn #2" = 10
+	"Leofwynn #0" = -1
+	"Linda #0" = -1
+	"Magni #1" = 10
+	"Olafr #3" = 10
+	"Rikulfr #1" = 10
+	"Sara #0" = -1
+	"Sigtrygg #1" = 10
+	"Starkaðr #0" = 0
+	"Trenchad #1" = 10
+	"Tyke #1" = 10
+	"Valdemar #0" = 0
+	"Vigdis #0" = -1
+	"Örvar #0" = 0
+}
+leader_names = {
+	"Mac Branain"
+	"Mac Conraoi"
+	"Mac Cuille"
+	"Mac Diarmada"
+	"Mac Donnchadha"
+	"Mac Eochaidh"
+	"Mac Maghnais"
+	"Ó Birn"
+	"Ó Breislein"
+	"Ó Cadhla"
+	"Ó Caithniadh"
+	"Ó Cathail"
+	"Ó Cearbhaill"
+	"Ó Cléirigh"
+	"Ó Coigligh"
+	"Ó Concheannain"
+	"Ó Conghailaigh"
+	"Ó Cuana"
+	"Ó Céirín"
+	"Ó Diubháin"
+	"Ó Doibhilin"
+	"Ó Domhnalláin"
+	"Ó Dorchaidhe"
+	"Ó Dúnadhaigh"
+	"Ó Fionn"
+	"Ó Fionnachta"
+	"Ó Fionnagáin"
+	"Ó Fionnáin"
+	"Ó Flaithbheartach"
+	"Ó Gadhra"
+	"Ó Leannain"
+	"Ó Manachain"
+	"Ó Maoldúin"
+	"Ó Mughráin"
+	"Ó Reachtagáin"
+	"Ó Seachnasaigh"
+	"Ó Tarpaigh"
+	"Ó Tighearnaigh"
+	"Ó hAllmhuráin"
+	"Ó hEaghra"
+	"Ó hUigín"
+}
+ship_names = {
+	"Athlone"
+	"Ballina"
+	"Ballinrobe"
+	"Ballyhaunis"
+	"Boyle"
+	"Castlebar"
+	"Connemara"
+	"Galway"
+	"Mayo"
+	"Roscommon"
+}

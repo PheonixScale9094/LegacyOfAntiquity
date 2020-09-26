@@ -1,0 +1,153 @@
+graphical_culture = westerngfx
+color = { 15 128 253 }
+revolutionary_colors = { 14 6 14 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Aileann #1" = -1
+	"Albrikt #1" = 10
+	"Andregoto #0" = -1
+	"Antoine #1" = 10
+	"Anundr #1" = 10
+	"Ardgar #1" = 10
+	"Asbjörn #1" = 10
+	"Astrid #0" = -1
+	"Bo #1" = 10
+	"Brage #1" = 10
+	"Bróen #1" = 10
+	"Burgheard #0" = 0
+	"Cenn-Fáelad #1" = 10
+	"Constance #0" = -1
+	"Cynehild #1" = -1
+	"Cynfarch #1" = 10
+	"Diarmait #1" = 10
+	"Eadfrith #1" = 10
+	"Eilif #0" = 0
+	"Flann #1" = 10
+	"Foulques #1" = 10
+	"Froði #1" = 10
+	"Gandalfr #1" = 10
+	"Gargamel #1" = 10
+	"Guðmundr #1" = 10
+	"Gwriad #1" = 10
+	"Géraud #1" = 10
+	"Helena #0" = -1
+	"Helvis #0" = -1
+	"Hereweard #1" = 10
+	"Holmger #1" = 10
+	"Hrafn #1" = 10
+	"Hugo #0" = 0
+	"Hæsteinn #0" = 0
+	"Ingemar #1" = 10
+	"Ivar #0" = 0
+	"Karl #1" = 10
+	"Linda #0" = -1
+	"Maelmurie #1" = -1
+	"Maginulf #0" = 0
+	"Malmfrið #0" = -1
+	"Mathieu #1" = 10
+	"Morand #1" = 10
+	"Onlaf #0" = 0
+	"Ormr #1" = 10
+	"Ranald #0" = 0
+	"Refil #1" = 10
+	"Rhodri #1" = 10
+	"Rikulfr #1" = 10
+	"Ruaidrí #1" = 10
+	"Rögnvaldr #1" = 10
+	"Saga #0" = -1
+	"Sara #0" = -1
+	"Sigehelm #1" = 10
+	"Sigrid #1" = -1
+	"Sæbert #0" = 0
+	"Taliesin #1" = 10
+	"Toke #1" = 10
+	"Toste #1" = 10
+	"Totil #1" = 10
+	"Tryggve #0" = 0
+	"Ulfr #1" = 10
+	"Ylva #0" = -1
+	"Ælflæda #1" = -1
+	"Ælle #1" = 10
+}
+leader_names = {
+	"Mac Anna"
+	"Mac Artian"
+	"Mac Cearbhaill"
+	"Mac Dhomhnaill"
+	"Mac Lochlainn"
+	"Mac Mathghamha"
+	"Mac Suibhne"
+	"Mac Árdghail"
+	"Mag Aonghusa"
+	"Mag Uidhir"
+	"Ó Banain"
+	"Ó Baoghill"
+	"Ó Caiside"
+	"Ó Canannain"
+	"Ó Caoinnigh"
+	"Ó Ceallaigh"
+	"Ó Cleireigh"
+	"Ó Corcráin"
+	"Ó Cuileannáin"
+	"Ó Cuinn"
+	"Ó Daimhín"
+	"Ó Dochartaigh"
+	"Ó Doibhilin"
+	"Ó Duacháin"
+	"Ó Duibheamhna"
+	"Ó Faracháin"
+	"Ó Flaithre"
+	"Ó Flannagáin"
+	"Ó Longáin"
+	"Ó Lorcáin"
+	"Ó Maolagáin"
+	"Ó Maoldúin"
+	"Ó Neill"
+	"Ó Raithbheartiagh"
+	"Ó fLaithbheartaigh"
+	"Ó hAnluain"
+	"Ó hAodhagáin"
+	"Ó hInneirghe"
+	"Ó hÉignigh"
+	"Ó hÍr"
+}
+ship_names = {
+	"Aedh"
+	"Baedan"
+	"Colman"
+	"Cookstown"
+	"Donal"
+	"Eocha"
+	"Eogan"
+	"Fergal"
+	"Fergus"
+	"Niall"
+	"Omagh"
+	"Strabane"
+	"Suibne"
+}

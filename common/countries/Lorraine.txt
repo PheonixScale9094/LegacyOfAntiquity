@@ -1,0 +1,102 @@
+graphical_culture = westerngfx
+color = { 115 142 205 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abrahil #1" = 10
+	"Albrada #1" = -1
+	"Aldebert #0" = 0
+	"Angilbert #1" = 10
+	"Anselm #1" = 10
+	"Archambaut #2" = 10
+	"Atenulf #1" = 10
+	"Athela #1" = -1
+	"Carla #0" = -1
+	"Chilperic #2" = 10
+	"Doumenge #0" = 0
+	"Ermenegilda #0" = -1
+	"Ermengau #0" = 0
+	"Esclarmonda #1" = -1
+	"Eudes #1" = 10
+	"Fulcari #1" = 10
+	"Gaucelm #2" = 10
+	"Gausbert #1" = 10
+	"Gerbert #1" = 10
+	"Gerold #1" = 10
+	"Gilbert #0" = 0
+	"Gotberga #1" = -1
+	"Guichard #1" = 10
+	"Guido #1" = 10
+	"Guy #0" = 0
+	"Heregyth #1" = -1
+	"Indulf #1" = 10
+	"Karl #1" = 10
+	"Margherita #1" = -1
+	"Martina #0" = -1
+	"Peranudet #1" = 10
+	"Perinne #0" = -1
+	"Rogier #1" = 10
+	"Rothard #1" = 10
+	"Roubaud #1" = 10
+	"Sigibuld #2" = 10
+	"Stéphanie #1" = -1
+	"Sunno #2" = 10
+	"Welf #1" = 10
+	"Æthelwulf #1" = 10
+}
+leader_names = {
+	"Bickling"
+	"Braun"
+	"Detemple"
+	"Fent"
+	"Feyerabend"
+	"Forthober"
+	"Freymuth"
+	"Kathrein"
+	"Krogloth"
+	"Limburg"
+	"Neubert"
+	"Oberlothringen"
+	"Wolferseder"
+	"von Elsass"
+}
+ship_names = {
+	"Toul"
+	"l'Empereur Lothaire"
+	"le Barrois"
+	"le Bera"
+	"le Lorraine"
+	"le Metz"
+	"le René II de Lorraine"
+	"le Scoc"
+	"le Sekjan"
+	"le Skirmjan"
+	"le Verdun"
+	"le Warding"
+}

@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = norse
+capital = 1860
+1443.12.5= {
+	monarch = {
+		name = "Ormr"
+		dynasty = "Gautske"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1409.6.16
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_ruler_personality = just_personality
+	add_ruler_personality = lawgiver_personality
+	queen = {
+		name = "Rögnhildr"
+		adm = 3
+		dip = 2
+		mil = 2
+		country_of_origin = Z33
+		birth_date = 1401.3.16
+		death_date = 1461.3.16
+		female = yes
+		religion = fraticelli
+		culture = norse
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Gunnarr"
+		monarch_name = "Gunnarr III"
+		dynasty = "Gautske"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1433.8.26
+		death_date = 1498.8.26
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_heir_personality = kind_hearted_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1443.12.5= {
+	add_prestige = 79
+	add_treasury = 76
+}
+
+

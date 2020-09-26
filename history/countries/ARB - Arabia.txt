@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = bedouin_arabic
+capital = 2327
+1443.12.5= {
+	monarch = {
+		name = "Abdullah"
+		dynasty = "Banu Kalb"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1401.5.25
+		religion = sunni
+		culture = bedouin_arabic
+	}
+	add_ruler_personality = martial_educator_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Shameem"
+		dynasty = "Jamalid"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = ARB
+		birth_date = 1411.2.13
+		death_date = 1471.2.13
+		female = yes
+		religion = sunni
+		culture = tuareg
+	}
+	add_queen_personality = bold_fighter_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Sheeva"
+		monarch_name = "Sheeva"
+		dynasty = "Banu Kalb"
+		adm = 4
+		dip = 5
+		mil = 5
+		birth_date = 1425.11.24
+		death_date = 1490.11.24
+		female = yes
+		claim = 89
+		religion = sunni
+		culture = tuareg
+	}
+	add_heir_personality = silver_tongue_personality
+	add_heir_personality = well_connected_personality
+}
+1443.12.5= {
+	add_prestige = 51
+	add_treasury = 48
+}
+
+

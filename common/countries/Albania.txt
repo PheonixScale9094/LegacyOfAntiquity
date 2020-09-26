@@ -1,0 +1,137 @@
+graphical_culture = easterngfx
+color = { 181 0 20 }
+revolutionary_colors = { 4 1 4 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adriana #1" = -1
+	"Albino #1" = 10
+	"Almodis #0" = -1
+	"Aloisia #0" = -1
+	"Antonios #1" = 10
+	"Arrigo #1" = 10
+	"Athanasios #1" = 10
+	"Aïna #0" = -1
+	"Caterina #0" = -1
+	"Christophoros #1" = 10
+	"Clara #0" = -1
+	"Cothilda #0" = -1
+	"Ermenegilda #0" = -1
+	"Eskhakh #1" = 10
+	"Eudoxios #1" = 10
+	"Fausta #0" = -1
+	"Georgios #1" = 10
+	"Gregoria #0" = -1
+	"Hari #1" = 10
+	"Helias #1" = 10
+	"Iani #1" = 10
+	"Ioseph #1" = 10
+	"Irkhan #3" = 10
+	"Karan #1" = 10
+	"Khudbard #1" = 10
+	"Lamberto #0" = 0
+	"Lazaros #1" = 10
+	"Leon #1" = 10
+	"Letizia #0" = -1
+	"Manthos #1" = 10
+	"Manuel #1" = 10
+	"Maurikios #1" = 10
+	"Maximos #1" = 10
+	"Michael #1" = 10
+	"Nestore #0" = 0
+	"Nikarete #1" = -1
+	"Okors #1" = 10
+	"Peranudet #1" = 10
+	"Shilki #1" = 10
+	"Sinucello #0" = 0
+	"Sondoke #1" = 10
+	"Stephanos #2" = 10
+	"Theophylaktos #1" = 10
+	"Traianos #1" = 10
+	"Vakrim #1" = 10
+	"Vinekh #1" = 10
+	"Vittore #0" = 0
+}
+leader_names = {
+	"Alia"
+	"Arianit"
+	"Badera"
+	"Balsha"
+	"Bua"
+	"Cervota"
+	"Chani"
+	"Comneniates"
+	"Corbajram"
+	"Dosti"
+	"Duka"
+	"Dukagjini"
+	"Elezi"
+	"Fakaj"
+	"Faqemiri"
+	"Gecaj"
+	"Gjika"
+	"Gjokaj"
+	"Gojcin"
+	"Golemi"
+	"Hajdaraga"
+	"Halili"
+	"Hamza"
+	"Hoxha"
+	"Kastrioti"
+	"Losha"
+	"Musaki"
+	"Sguros"
+	"Shehu"
+	"Shpata"
+	"Spani"
+	"Thopia"
+	"Toptani"
+	"Useni"
+	"Vata"
+	"Veseli"
+	"Vishanj"
+	"Xhaferi"
+	"Xhumba"
+	"Ymeri"
+	"Zenevisi"
+	"Ziberi"
+	"Zogu"
+	"Çarçani"
+}
+ship_names = {
+	"Bishti i Palles"
+	"Gjiri i Drinit"
+	"Gjiri i Rondonit"
+	"Jube"
+	"Kalaja e Turres"
+	"Kepi i Rodonit"
+	"Kyrekuq"
+	"Shengjin"
+	"Shetaj"
+	"Velipoje"
+}

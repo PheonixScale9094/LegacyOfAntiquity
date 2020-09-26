@@ -1,0 +1,17 @@
+graphical_culture = westerngfx
+color = { 83 36 238 }
+monarch_names = {
+	"Elisabeth #0" = -1
+	"Eufemia #0" = -1
+	"Frirek #0" = 0
+	"Gospatric #0" = 0
+	"Leofwine #0" = 0
+	"Mali #0" = -1
+	"Oscytel #0" = 0
+	"Sælræd #0" = 0
+	"Sæweald #0" = 0
+	"Uhtræd #0" = 0
+	"Wulfwaru #0" = -1
+	"Yvonne #0" = -1
+	"Ælfmær #0" = 0
+}

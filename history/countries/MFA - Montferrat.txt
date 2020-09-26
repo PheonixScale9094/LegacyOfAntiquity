@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = old_lombard
+capital = 2981
+fixed_capital = 2981
+1443.12.5= {
+	monarch = {
+		name = "Arichis"
+		dynasty = "de Überlingen"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1401.2.5
+		religion = hellenic_pagan_reformed
+		culture = old_lombard
+	}
+	add_ruler_personality = calm_personality
+	add_ruler_personality = industrious_personality
+	queen = {
+		name = "Athanasia"
+		dynasty = "Adalbertingi"
+		adm = 3
+		dip = 2
+		mil = 3
+		country_of_origin = MFA
+		birth_date = 1419.10.15
+		death_date = 1479.10.15
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = goths
+	}
+	add_queen_personality = cruel_personality
+	add_queen_personality = free_thinker_personality
+}
+1443.12.5= {
+	add_prestige = 17
+	add_treasury = 80
+}
+
+

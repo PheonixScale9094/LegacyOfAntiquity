@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = novgorodian
+capital = 310
+1443.12.5= {
+	monarch = {
+		name = "Yefimiy"
+		dynasty = "Potyomkin"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1396.12.28
+		religion = slavic_pagan_reformed
+		culture = novgorodian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Premyslava"
+		dynasty = "Bakunin"
+		adm = 3
+		dip = 2
+		mil = 4
+		country_of_origin = NOV
+		birth_date = 1392.4.20
+		death_date = 1452.4.20
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = scholar_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Briachislav"
+		monarch_name = "Briachislav"
+		dynasty = "Potyomkin"
+		adm = 4
+		dip = 6
+		mil = 6
+		birth_date = 1414.3.22
+		death_date = 1479.3.22
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+	add_heir_personality = tolerant_personality
+}
+1443.12.5= {
+	add_prestige = 84
+	add_treasury = 39
+}
+
+

@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = grand_duchy_reform
+government_rank = 1
+technology_group = eastern
+religion = baltic_pagan
+primary_culture = old_prussian
+capital = 1859
+fixed_capital = 1859
+1443.12.5= {
+	monarch = {
+		name = "Ulinniks"
+		dynasty = "iš Tonbridge"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 1405.4.1
+		religion = baltic_pagan
+		culture = old_prussian
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Kugis"
+		monarch_name = "Kugis"
+		dynasty = "iš Tonbridge"
+		adm = 1
+		dip = 0
+		mil = 0
+		birth_date = 1441.10.28
+		death_date = 1506.10.28
+		claim = 89
+		religion = baltic_pagan
+		culture = old_prussian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 36
+	add_treasury = 56
+}
+
+

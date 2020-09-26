@@ -1,0 +1,23 @@
+graphical_culture = westerngfx
+color = { 85 80 85 }
+monarch_names = {
+	"Béatrice #0" = -1
+	"Emich #0" = 0
+	"Erich #0" = 0
+	"Ernst #0" = 0
+	"Fausta #0" = -1
+	"Gudrun #0" = -1
+	"Guillaumette #0" = -1
+	"Hartmann #0" = 0
+	"Ioulia #0" = -1
+	"Lambert #0" = 0
+	"Marquisa #0" = -1
+	"Massimo #0" = 0
+	"Peironèla #0" = -1
+	"Richenza #0" = -1
+	"Rutger #0" = 0
+	"Serhilda #0" = -1
+	"Sigismund #0" = 0
+	"Thietmar #0" = 0
+	"Wilhelm #0" = 0
+}

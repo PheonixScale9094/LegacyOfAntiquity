@@ -1,0 +1,22 @@
+graphical_culture = westerngfx
+color = { 165 180 65 }
+monarch_names = {
+	"Boldizsár #1" = 10
+	"Boleslava #0" = -1
+	"Borisz #1" = 10
+	"Csongor #1" = 10
+	"Darya #0" = -1
+	"Dénes #1" = 10
+	"Gazsi #1" = 10
+	"Kornél #1" = 10
+	"Oszkár #0" = 0
+	"Salamon #2" = 10
+	"Soma #0" = 0
+	"Sudislav #0" = 0
+	"Tivadar #1" = 10
+	"Vencel #1" = 10
+	"Vladimir #1" = 10
+	"Ábel #2" = 10
+	"Ágoston #2" = 10
+	"Álmos #1" = 10
+}

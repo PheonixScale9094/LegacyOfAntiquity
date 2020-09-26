@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = celestial_empire
+government_rank = 3
+technology_group = chinese
+religion = confucianism
+primary_culture = chihan
+capital = 1821
+add_harmonized_religion = mahayana
+1443.12.5= {
+	monarch = {
+		name = "Zhangzong"
+		dynasty = "Lu"
+		adm = 6
+		dip = 4
+		mil = 6
+		birth_date = 1419.6.4
+		religion = confucianism
+		culture = chihan
+	}
+}
+
+

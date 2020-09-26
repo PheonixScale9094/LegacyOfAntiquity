@@ -1,0 +1,39 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+technology_group = western
+religion = sunni
+primary_culture = tuscan
+capital = 2980
+fixed_capital = 2980
+mercantilism = 25
+1443.12.5= {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 1
+		dip = 1
+		mil = 1
+		birth_date155.1.1
+		regent = yes
+		religion = sunni
+		culture = tuscan
+	}
+	heir = {
+		name = "Biagio"
+		dynasty = "Smith"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1437.7.8
+		death_date = 1502.7.8
+		claim = 89
+		religion = sunni
+		culture = tuscan
+	}
+}
+1443.12.5= {
+	add_prestige = -50
+	add_treasury = 61
+}
+
+

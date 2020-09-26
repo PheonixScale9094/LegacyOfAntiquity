@@ -1,0 +1,110 @@
+graphical_culture = indiangfx
+color = { 63 115 37 }
+revolutionary_colors = { 0 6 9 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	expansion_ideas
+	spy_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Balavarman #2" = 10
+	"Bhaskaravarman #1" = 10
+	"Bhaskarvarman #1" = 10
+	"Bhattamahabahu #2" = 10
+	"Bhavashankari #1" = -1
+	"Bhutivarman #3" = 10
+	"Chandramukhavarman #1" = 10
+	"Ganapativarman #3" = 10
+	"Ghosha #1" = 10
+	"Gopala #5" = 10
+	"Harshadeva #1" = 10
+	"Hira #1" = -1
+	"Indrapala #1" = 10
+	"Jayamala #2" = 10
+	"Kalyanavarman #1" = 10
+	"Kumarapala #1" = 10
+	"Kumarastambha #1" = 10
+	"Kyidé #0" = 0
+	"Laxminath Singh Dev #1" = 10
+	"Mahendravarman #1" = 10
+	"Narayanavarman #3" = 10
+	"Pal #0" = 0
+	"Palakastambha #1" = 10
+	"Phurbulcam #0" = -1
+	"Purandelapala #3" = 10
+	"Pushyavarman #1" = 10
+	"Ratnapala #0" = 0
+	"Salambha #1" = 10
+	"Salasthamba #1" = 10
+	"Samudravarman #1" = 10
+	"Shivanarayan #0" = 0
+	"Sthitavarman #1" = 10
+	"Supratisthitavarman #1" = 10
+	"Susthitavarman #1" = 10
+	"Thrisong #0" = -1
+	"Timgyadeva #1" = 10
+	"Ummoka #1" = 10
+	"Vajradeva #1" = 10
+	"Vanamalavarmadeva #1" = 10
+	"Vijayasthamba #1" = 10
+}
+leader_names = {
+	"Chandra"
+	"Chaukkapha"
+	"Das"
+	"Deka"
+	"Kalita"
+	"Mahanta"
+	"Narayan"
+	"Nitipal"
+	"Prithu"
+	"Roy"
+}
+ship_names = {
+	"Brahmaputra"
+	"Chingri Mach"
+	"Darrang"
+	"Devi"
+	"Dibang"
+	"Durga Ma"
+	"Ganga"
+	"Hilsa Mach"
+	"Ilish Mach"
+	"Kali Ma"
+	"Kali Meghana"
+	"Kali Nauk"
+	"Kamrup"
+	"Lakimpur"
+	"Lal Nauk"
+	"Loki Devi"
+	"Luhit"
+	"Machli"
+	"Manasa Devi"
+	"Manjuli"
+	"Meghna"
+	"Nil Nauk"
+	"Nil Sagor"
+	"Parvati Devi"
+	"Rui Mach"
+	"Sagorer Bahini"
+	"Saraswoti"
+	"Shakti"
+	"Shaktir Nauk"
+	"Shasti Ma"
+	"Sibsagar"
+	"Trishool"
+	"Uma Devi"
+}

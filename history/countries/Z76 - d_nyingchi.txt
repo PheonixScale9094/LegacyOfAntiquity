@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = bengali
+capital = 566
+1443.12.5= {
+	monarch = {
+		name = "Virajdendranarayan"
+		dynasty = "Timgyadeva"
+		adm = 5
+		dip = 3
+		mil = 3
+		birth_date = 1413.5.9
+		religion = hinduism
+		culture = bengali
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Nattadevi"
+		dynasty = "Yadava"
+		adm = 2
+		dip = 3
+		mil = 2
+		country_of_origin = Z76
+		birth_date = 1416.7.25
+		death_date = 1476.7.25
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Srimanta"
+		monarch_name = "Srimanta II"
+		dynasty = "Timgyadeva"
+		adm = 1
+		dip = 2
+		mil = 1
+		birth_date = 1437.6.9
+		death_date = 1502.6.9
+		claim = 89
+		religion = hinduism
+		culture = bihari
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 55
+	add_treasury = 0
+}
+
+

@@ -1,0 +1,59 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+technology_group = muslim
+religion = shiite
+primary_culture = al_suryah_arabic
+capital = 2214
+fixed_capital = 2214
+1443.12.5= {
+	monarch = {
+		name = "Musa"
+		dynasty = "Sulamid"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1399.8.10
+		religion = shiite
+		culture = al_suryah_arabic
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = lawgiver_personality
+	queen = {
+		name = "Zahra"
+		dynasty = "Ali"
+		adm = 2
+		dip = 2
+		mil = 1
+		country_of_origin = Y13
+		birth_date = 1399.11.12
+		death_date = 1459.11.12
+		female = yes
+		religion = shiite
+		culture = tuareg
+	}
+	add_queen_personality = industrious_personality
+	add_queen_personality = kind_hearted_personality
+	heir = {
+		name = "Salma"
+		monarch_name = "Salma"
+		dynasty = "Sulamid"
+		adm = 4
+		dip = 5
+		mil = 6
+		birth_date = 1430.9.22
+		death_date = 1495.9.22
+		female = yes
+		claim = 89
+		religion = shiite
+		culture = tuareg
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = pious_personality
+}
+1443.12.5= {
+	add_prestige = 45
+	add_treasury = 61
+}
+
+

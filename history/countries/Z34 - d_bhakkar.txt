@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = panjabi
+capital = 2072
+1443.12.5= {
+	monarch = {
+		name = "Tej Bhan"
+		dynasty = "Yadava"
+		adm = 4
+		dip = 3
+		mil = 2
+		birth_date = 1412.6.14
+		religion = hinduism
+		culture = panjabi
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Damayanti"
+		dynasty = "Yadava"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Z34
+		birth_date = 1426.10.19
+		death_date = 1486.10.19
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Amar"
+		monarch_name = "Amar"
+		dynasty = "Yadava"
+		adm = 0
+		dip = 1
+		mil = 0
+		birth_date = 1441.2.7
+		death_date = 1506.2.7
+		claim = 89
+		religion = hinduism
+		culture = kashmiri
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 58
+	add_treasury = 70
+}
+
+

@@ -1,0 +1,104 @@
+graphical_culture = easterngfx
+color = { 34 131 193 }
+revolutionary_colors = { 0 15 16 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	germanized_pike
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	slavic_stradioti
+}
+monarch_names = {
+	"Bayan #2" = 10
+	"Boris #0" = 0
+	"Bystrik #1" = 10
+	"Chrabroš #1" = 10
+	"Cyneswith #1" = -1
+	"Drahoslav #1" = 10
+	"Feodosia #0" = -1
+	"Heralt #1" = 10
+	"Ingvar #1" = 10
+	"Krasomil #1" = 10
+	"Krovat #1" = 10
+	"Ladomír #1" = 10
+	"Ludovít #1" = 10
+	"Malfrida #0" = -1
+	"Nitrabor #1" = 10
+	"Olga #0" = -1
+	"Onegavon #1" = 10
+	"Praskovya #0" = -1
+	"Praxida #1" = -1
+	"Pribislava #0" = -1
+	"Putiata #0" = 0
+	"Rostislav #0" = 0
+	"Sbyslava #1" = -1
+	"Sokol #2" = 10
+	"Svetluša #1" = -1
+	"Svetozar #0" = 0
+	"Telerig #1" = 10
+	"Vladimir #1" = 10
+	"Vladimír #3" = 10
+	"Vladislav #2" = 10
+	"Vlastislav #1" = 10
+	"Voislav #1" = 10
+	"Wulfstan #1" = 10
+	"Yekaterina #0" = -1
+	"Zabergan #1" = 10
+	"Zubrivoj #2" = 10
+	"Zvonimír #1" = 10
+	"Çat'n #1" = 10
+}
+leader_names = {
+	"Balaša"
+	"Beckovský"
+	"Bel"
+	"Benyovszky"
+	"Bosniak"
+	"Elefánthy"
+	"Hatnanský"
+	"Jesenský"
+	"Kollar"
+	"Podmanický"
+	"Pongrac"
+	"Pongrácz"
+	"Stibor"
+	"Veseléni"
+	"Wesselényi"
+}
+ship_names = {
+	"Bebrava"
+	"Belá"
+	"Blava"
+	"Bodrog"
+	"Bodva"
+	"Cierna voda"
+	"Dunajec"
+	"Hornád"
+	"Ipel"
+	"Latorica"
+	"Morava"
+	"Ondava"
+	"Poprad"
+	"Rimava"
+	"Slaná"
+	"Torysa"
+	"Žitava"
+}

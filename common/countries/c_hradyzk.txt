@@ -1,0 +1,11 @@
+graphical_culture = westerngfx
+color = { 225 195 105 }
+monarch_names = {
+	"Domoszló #0" = 0
+	"Illona #0" = -1
+	"Ilme #0" = -1
+	"Imre #0" = 0
+	"Liubava #0" = -1
+	"Mstislav #0" = 0
+	"Nenyts #0" = 0
+}

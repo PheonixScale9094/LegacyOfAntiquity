@@ -1,0 +1,37 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 3
+technology_group = nomad_group
+religion = manichean
+primary_culture = uyghur
+capital = 4682
+1443.12.5= {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 2
+		dip = 2
+		mil = 1
+		birth_date155.1.1
+		regent = yes
+		religion = manichean
+		culture = uyghur
+	}
+	heir = {
+		name = "Aghulïq"
+		dynasty = "Özmi"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1435.6.19
+		death_date = 1500.6.19
+		claim = 89
+		religion = manichean
+		culture = uyghur
+	}
+}
+1443.12.5= {
+	add_prestige = -50
+	add_treasury = 32
+}
+
+

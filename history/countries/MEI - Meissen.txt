@@ -1,0 +1,38 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = russian_culture
+capital = 60
+1443.12.5= {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date155.1.1
+		regent = yes
+		religion = slavic_pagan_reformed
+		culture = russian_culture
+	}
+	heir = {
+		name = "Darya"
+		dynasty = "Slovensky"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1429.1.16
+		death_date = 1494.1.16
+		female = yes
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = russian_culture
+	}
+}
+1443.12.5= {
+	add_prestige = 51
+	add_treasury = 63
+}
+
+

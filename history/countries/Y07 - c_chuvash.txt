@@ -1,0 +1,28 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = eastern
+religion = finnish_pagan
+primary_culture = mordvin
+capital = 2422
+fixed_capital = 2422
+1443.12.5= {
+	monarch = {
+		name = "Pokshayka"
+		dynasty = "Uzharid"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1423.12.20
+		religion = finnish_pagan
+		culture = mordvin
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = just_personality
+}
+1443.12.5= {
+	add_prestige = -64
+	add_treasury = 80
+}
+
+

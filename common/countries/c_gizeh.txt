@@ -1,0 +1,22 @@
+graphical_culture = muslimgfx
+color = { 110 229 144 }
+monarch_names = {
+	"Aaron #0" = 0
+	"Aisha #0" = -1
+	"Aziz #0" = 0
+	"Bashar #0" = 0
+	"Faisal #0" = 0
+	"Fayiz #0" = 0
+	"Hashmaddin #0" = 0
+	"Ismat #0" = 0
+	"Kamran #0" = 0
+	"Mahwash #0" = -1
+	"Minoo #0" = -1
+	"Muhsin #0" = 0
+	"Musa #0" = 0
+	"Muzhdah #0" = -1
+	"Niki #0" = -1
+	"Nuraddin #0" = 0
+	"Taimur #0" = 0
+	"Tawadros #0" = 0
+}

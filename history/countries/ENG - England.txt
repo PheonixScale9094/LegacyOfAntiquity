@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = norse
+capital = 236
+1443.12.5= {
+	monarch = {
+		name = "Sofia"
+		dynasty = "af Vendel"
+		adm = 4
+		dip = 2
+		mil = 5
+		birth_date = 1402.7.16
+		female = yes
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Sæxræd"
+		dynasty = "Skáld"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = ENG
+		birth_date = 1423.2.3
+		death_date = 1483.2.3
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = tolerant_personality
+}
+1443.12.5= {
+	add_prestige = 78
+	add_treasury = 50
+}
+
+

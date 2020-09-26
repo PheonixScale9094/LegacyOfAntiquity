@@ -1,0 +1,7 @@
+
+
+************ -= The Paradox Converters Team =- ********************
+* Converter version 1.0 "Este-prerelease"
+* Compatible with CK2 3.3 and EU4 1.30
+* Built on Sun Sep 20 22:42:33 2020
+********************** + CK2 To EU4 + *****************************

@@ -1,0 +1,14 @@
+graphical_culture = indiangfx
+color = { 150 130 5 }
+monarch_names = {
+	"Deepabai #0" = -1
+	"Hammiravarman #0" = 0
+	"Jhetpal #0" = 0
+	"Kanchuka #0" = -1
+	"Lakshman #0" = -1
+	"Pulindaka #0" = 0
+	"Rampal #0" = 0
+	"Sohanpal #0" = 0
+	"Taihua #0" = -1
+	"Upendranayaran #0" = 0
+}

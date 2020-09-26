@@ -1,0 +1,58 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = eastern
+religion = finnish_pagan
+primary_culture = mordvin
+capital = 1083
+fixed_capital = 1083
+1443.12.5= {
+	monarch = {
+		name = "Viryay"
+		dynasty = "Calli"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1411.12.12
+		religion = finnish_pagan
+		culture = mordvin
+	}
+	add_ruler_personality = martial_educator_personality
+	add_ruler_personality = midas_touched_personality
+	queen = {
+		name = "Kanyuva"
+		dynasty = "Nishkepazid"
+		adm = 3
+		dip = 1
+		mil = 4
+		country_of_origin = Y12
+		birth_date = 1417.11.7
+		death_date = 1477.11.7
+		female = yes
+		religion = finnish_pagan
+		culture = mordvin
+	}
+	add_queen_personality = just_personality
+	add_queen_personality = kind_hearted_personality
+	heir = {
+		name = "Tyushtya"
+		monarch_name = "Tyushtya"
+		dynasty = "Calli"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1436.10.18
+		death_date = 1501.10.18
+		claim = 89
+		religion = finnish_pagan
+		culture = mordvin
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 49
+	add_treasury = 80
+}
+
+

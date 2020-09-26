@@ -1,0 +1,14 @@
+owner = YAN
+controller = YAN
+capital = "Fengyang"
+is_city = yes
+culture = zhongyuan
+religion = confucianism
+trade_goods = silk
+base_tax = 2
+base_production = 1
+base_manpower = 1
+add_core = MNG
+add_core = YAN
+discovered_by = chinese
+discovered_by = nomad_group

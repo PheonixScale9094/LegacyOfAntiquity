@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = austrian
+capital = 128
+1443.12.5= {
+	monarch = {
+		name = "Anthimos"
+		dynasty = "of Famagusta"
+		adm = 2
+		dip = 5
+		mil = 3
+		birth_date = 1406.4.23
+		religion = hellenic_pagan_reformed
+		culture = austrian
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Cecilie"
+		dynasty = "Gaidoaldingi"
+		adm = 2
+		dip = 5
+		mil = 3
+		country_of_origin = Z36
+		birth_date = 1405.3.3
+		death_date = 1465.3.3
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = austrian
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Margherita"
+		monarch_name = "Margherita"
+		dynasty = "of Famagusta"
+		adm = 4
+		dip = 6
+		mil = 3
+		birth_date = 1428.11.27
+		death_date = 1493.11.27
+		female = yes
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = austrian
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = strict_personality
+}
+1443.12.5= {
+	add_prestige = 69
+	add_treasury = 57
+}
+
+

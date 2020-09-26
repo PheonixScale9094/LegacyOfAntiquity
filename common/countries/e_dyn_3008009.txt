@@ -1,0 +1,19 @@
+graphical_culture = muslimgfx
+color = { 139 197 255 }
+monarch_names = {
+	"Aghulïq #1" = 10
+	"Apït #0" = 0
+	"Beslik #0" = -1
+	"Burtam #0" = -1
+	"Gershom #0" = 0
+	"Körtile #0" = 0
+	"Küni #0" = 0
+	"Marjan #0" = -1
+	"Sarïgha #0" = -1
+	"Shöñüz #0" = 0
+	"Tersin #0" = 0
+	"Teñriken #0" = -1
+	"Tograk #0" = -1
+	"Yïlqï #0" = -1
+	"Özmish #1" = 10
+}

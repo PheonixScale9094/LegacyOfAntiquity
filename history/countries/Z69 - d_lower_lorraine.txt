@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = frankish
+capital = 1742
+1443.12.5= {
+	monarch = {
+		name = "Raimbold"
+		dynasty = "Welenti"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1406.11.12
+		religion = hellenic_pagan_reformed
+		culture = frankish
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = fierce_negotiator_personality
+	queen = {
+		name = "Berenice"
+		dynasty = "Liutfredingi"
+		adm = 3
+		dip = 4
+		mil = 2
+		country_of_origin = Z69
+		birth_date = 1415.8.8
+		death_date = 1475.8.8
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = silver_tongue_personality
+	add_queen_personality = well_connected_personality
+	heir = {
+		name = "Magneric"
+		monarch_name = "Magneric"
+		dynasty = "Welenti"
+		adm = 5
+		dip = 6
+		mil = 4
+		birth_date = 1423.11.20
+		death_date = 1488.11.20
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = frankish
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = tolerant_personality
+}
+1443.12.5= {
+	add_prestige = 70
+	add_treasury = 0
+}
+
+

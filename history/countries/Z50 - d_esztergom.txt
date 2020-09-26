@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = russian_culture
+capital = 1772
+1443.12.5= {
+	add_prestige = 29
+	add_treasury = 75
+}
+
+

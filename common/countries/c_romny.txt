@@ -1,0 +1,20 @@
+graphical_culture = inuitgfx
+color = { 128 143 83 }
+monarch_names = {
+	"Boleslava #0" = -1
+	"Gremislava #0" = -1
+	"Hasaba #0" = 0
+	"Kujku #0" = -1
+	"Nenyts #0" = 0
+	"Nga #0" = 0
+	"Num #0" = 0
+	"Nyal'ka #0" = -1
+	"Nyayka #0" = -1
+	"Predslava #0" = -1
+	"Pudak #0" = 0
+	"Rostislav #0" = 0
+	"Salinder #0" = 0
+	"Sarak #0" = 0
+	"Senda #0" = -1
+	"Yavlad #0" = 0
+}

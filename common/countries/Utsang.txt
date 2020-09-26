@@ -1,0 +1,140 @@
+graphical_culture = asiangfx
+color = { 38 101 255 }
+revolutionary_colors = { 16 8 13 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Akash #1" = 10
+	"Amrapali #0" = -1
+	"Anantadevi #0" = -1
+	"Bonchung #2" = 10
+	"Chatri #3" = 10
+	"Cogrobza #0" = -1
+	"Degyal #2" = 10
+	"Degyel Po #1" = 10
+	"Denöl #1" = 10
+	"Desho Lek #1" = 10
+	"Detrin Tsen #1" = 10
+	"Detrul Namshungtsen #1" = 10
+	"Dokchen #1" = 10
+	"Drigum #0" = 0
+	"Dringma #1" = -1
+	"Drongnyen Deu #1" = 10
+	"Dzamling #0" = 0
+	"Esho Lek #1" = 10
+	"Gongru #0" = 0
+	"Gungsrong Gungtsen #1" = 10
+	"Guru Lek #1" = 10
+	"Gyalwa #0" = 0
+	"Gyerme #1" = 10
+	"Isho Lek #1" = 10
+	"Lha Thothori Nyantsen #1" = 10
+	"Lumo #0" = -1
+	"Nam #0" = 0
+	"Namri Songtsen #1" = 10
+	"Neuchung #1" = -1
+	"Nyigön #2" = 10
+	"Orgyen #0" = 0
+	"Pelgyimo #0" = -1
+	"Pelmo #1" = -1
+	"Senöl Nam #1" = 10
+	"Senöl Namdé #1" = 10
+	"Senöl Po #1" = 10
+	"Senöl Podé #1" = 10
+	"Shuyi #0" = -1
+	"Songtsen Gampo #1" = 10
+	"Sotri #0" = 0
+	"Tagbu Nyasig #1" = 10
+	"Tisho Lek #1" = 10
+	"Tori Longtsen #1" = 10
+	"Tridra Pungtsen #1" = 10
+	"Tridé #1" = 10
+	"Trinle #0" = -1
+	"Trinyen Zungtsen #1" = 10
+	"Tritog Jetsen #1" = 10
+	"Tritsen Nam #1" = 10
+	"Trongzhi #0" = 0
+	"Trongzhi Lek #1" = 10
+	"Tsangma #0" = 0
+	"Udumtsen #0" = 0
+	"Zanam Zindé #1" = 10
+	"Zhangtsun #1" = 10
+}
+leader_names = {
+	"Bal"
+	"Bri"
+	"Bro"
+	"Chespong"
+	"Cogro"
+	"Dbas"
+	"Dbra"
+	"Dru"
+	"Gnon"
+	"Gnyags"
+	"Khjungpo"
+	"Khu"
+	"Khun"
+	"Lang"
+	"Ldong"
+	"Lig"
+	"Mchims"
+	"Mgar"
+	"Mgus"
+	"Mjang"
+	"Mkar"
+	"Mnyammed"
+	"Mong"
+	"Nganlam"
+	"Nyang"
+	"Phjongsrgjas"
+	"Rinspungs"
+	"Rlangs"
+	"Rma"
+	"Rmu"
+	"Sba"
+	"Sbas"
+	"Se"
+	"Sgro"
+	"Shudpu"
+	"Snang"
+	"Snyiba"
+	"Stong"
+	"Thonmi"
+	"Zhang"
+	"Zhingshag"
+}
+ship_names = {
+	"Barkam"
+	"Dartsendo"
+	"Gartse"
+	"Gyantse"
+	"Lhasa"
+	"Lhotse"
+	"Makalu"
+	"Nagqu"
+	"Nedong"
+	"Nyingchi"
+	"Pelbar"
+	"Qamdo"
+	"Sakya"
+	"Shigatse"
+	"Tinggri"
+}

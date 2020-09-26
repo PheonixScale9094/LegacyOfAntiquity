@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = hellenic_pagan_reformed
+primary_culture = greek
+capital = 144
+1443.12.5= {
+	monarch = {
+		name = "Cataldo"
+		dynasty = "Gaidoaldingi"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1419.12.6
+		religion = hellenic_pagan_reformed
+		culture = greek
+	}
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = pious_personality
+	queen = {
+		name = "Ioustina"
+		dynasty = "Doukas Laskaris"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = EPI
+		birth_date = 1407.11.14
+		death_date = 1467.11.14
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = goths
+	}
+	add_queen_personality = bold_fighter_personality
+	add_queen_personality = righteous_personality
+}
+1443.12.5= {
+	add_prestige = 61
+	add_treasury = 71
+}
+
+

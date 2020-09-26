@@ -1,0 +1,59 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = lombard
+capital = 104
+fixed_capital = 104
+mercantilism = 25
+1443.12.5= {
+	monarch = {
+		name = "Alvise"
+		dynasty = "Smith"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1390.8.16
+		religion = hellenic_pagan_reformed
+		culture = lombard
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = entrepreneur_personality
+	queen = {
+		name = "Ausilia"
+		dynasty = "Liutprandingi"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Y19
+		birth_date = 1407.1.6
+		death_date = 1467.1.6
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = lombard
+	}
+	add_queen_personality = lawgiver_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Eugenio"
+		monarch_name = "Eugenio"
+		dynasty = "Smith"
+		adm = 5
+		dip = 4
+		mil = 4
+		birth_date = 1425.5.20
+		death_date = 1490.5.20
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = lombard
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = strict_personality
+}
+1443.12.5= {
+	add_prestige = 55
+	add_treasury = 64
+}
+
+

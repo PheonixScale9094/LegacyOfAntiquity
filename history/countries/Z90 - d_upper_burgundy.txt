@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = swiss
+capital = 165
+1443.12.5= {
+	monarch = {
+		name = "Eugenio"
+		dynasty = "Gaidoaldingi"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1388.2.14
+		religion = hellenic_pagan_reformed
+		culture = swiss
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Adelaide"
+		dynasty = "de Trier"
+		adm = 4
+		dip = 2
+		mil = 3
+		country_of_origin = Z90
+		birth_date = 1380.6.15
+		death_date = 1440.6.15
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = swiss
+	}
+	add_queen_personality = martial_educator_personality
+	add_queen_personality = tactical_genius_personality
+}
+1443.12.5= {
+	add_prestige = 92
+	add_treasury = 66
+}
+
+

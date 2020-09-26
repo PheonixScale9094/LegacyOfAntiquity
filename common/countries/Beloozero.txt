@@ -1,0 +1,104 @@
+graphical_culture = easterngfx
+color = { 66 32 81 }
+revolutionary_colors = { 0 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Aimo #1" = 10
+	"Ashava #1" = -1
+	"Chumbulat #1" = 10
+	"Darya #0" = -1
+	"Feodor #0" = 0
+	"Feodosia #0" = -1
+	"Gorislava #0" = -1
+	"Gun #0" = 0
+	"Igor #0" = 0
+	"Kezhedey #1" = 10
+	"Malyy #3" = 10
+	"Meltsayka #1" = 10
+	"Nikita #1" = 10
+	"Nuyanza #1" = 10
+	"Oleg #1" = 10
+	"Paksyay #1" = 10
+	"Pokshayka #1" = 10
+	"Prebrana #0" = -1
+	"Puresh #3" = 10
+	"Putiata #1" = 10
+	"Putyayka #1" = 10
+	"Radoslav #2" = 10
+	"Rostislav #1" = 10
+	"Rurik #0" = 0
+	"Stanislav #1" = 10
+	"Sviatoslav #1" = 10
+	"Tetyava #1" = -1
+	"Tundava #0" = -1
+	"Tylze #1" = 10
+	"Ulyana #0" = -1
+	"Varmanpaz #1" = 10
+	"Vasilko #0" = 0
+	"Vysheslav #1" = 10
+	"Yaropolk #1" = 10
+	"Yaroslav #1" = 10
+	"Yaroslava #0" = -1
+	"Zbignev #2" = 10
+}
+leader_names = {
+	"Andomsky"
+	"Beloselsky"
+	"Chernyatinsky"
+	"Dorogobushsky"
+	"Dyabrinsky"
+	"Kargolomsky"
+	"Kashinsky"
+	"Kemsky"
+	"Kholmsky"
+	"Mikulinsky"
+	"Sheleshpansky"
+	"Sugorsky"
+	"Telyatevsky"
+	"Ukhtomsky"
+	"Vadbolsky"
+}
+ship_names = {
+	"Brosno"
+	"Dmitry"
+	"Kashin"
+	"Kholmsky"
+	"Mikhail"
+	"Rzev"
+	"Startsa"
+	"Toropets"
+	"Torzhok"
+	"Tvertsa"
+	"Valdai"
+	"Volga"
+	"Vyshniy Voloche"
+	"Yaroslavich"
+	"Zubtsov"
+}

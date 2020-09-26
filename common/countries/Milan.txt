@@ -1,0 +1,174 @@
+graphical_culture = westerngfx
+color = { 166 108 146 }
+revolutionary_colors = { 9 0 5 }
+historical_idea_groups = {
+	innovativeness_ideas
+	defensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	quality_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalgisa #0" = -1
+	"Adelchis #1" = 10
+	"Adelperga #2" = -1
+	"Adil #0" = 0
+	"Adriana #1" = -1
+	"Agalina #0" = -1
+	"Ajo #1" = 10
+	"Alboin #1" = 10
+	"Alboino #0" = 0
+	"Altpert #1" = 10
+	"Aripert #1" = 10
+	"Arnolfo #1" = 10
+	"Aton #0" = 0
+	"Atto #1" = 10
+	"Bertrand #0" = 0
+	"Camila #0" = -1
+	"Clara #0" = -1
+	"Desiderius #1" = 10
+	"Erlembald #1" = 10
+	"Eugenio #0" = 0
+	"Friedenando #0" = 0
+	"Gaidoald #1" = 10
+	"Gerberge #0" = -1
+	"Gilbèrt #0" = 0
+	"Gualtiero #1" = 10
+	"Guido #1" = 10
+	"Joan #0" = 0
+	"Mikica #0" = 0
+	"Napoleone #0" = 0
+	"Natroi #0" = 0
+	"Odoaker #1" = 10
+	"Ognen #0" = 0
+	"Oreste #2" = 10
+	"Ottone #0" = 0
+	"Peranudet #1" = 10
+	"Pietro #1" = 10
+	"Poppo #0" = 0
+	"Sante #0" = 0
+	"Saxo #0" = 0
+	"Tothrencher #1" = 10
+	"Traianos #2" = 10
+	"Unigild #1" = 10
+}
+leader_names = {
+	"Adelasio"
+	"Aldini"
+	"Alessandri"
+	"Arborio Mella"
+	"Barbiano Belgioioso"
+	"Bargnani"
+	"Bigliori di Lava"
+	"Birago"
+	"Borromeo"
+	"Brunetti"
+	"Caetani"
+	"Capitaneo"
+	"Caracciolo"
+	"Carafa"
+	"Containi"
+	"Franchi"
+	"Ghislieri"
+	"Gonzaga"
+	"Grimaldi di Busca"
+	"Lamberti"
+	"Luosi"
+	"Luserna Bigliori"
+	"Luserna della Torre"
+	"Mancini"
+	"Medici di Marignano"
+	"Melzi"
+	"Moscati"
+	"Novati"
+	"Odescalchi"
+	"Paleologi Montferrato"
+	"Paradisi"
+	"Pico"
+	"Ruga"
+	"Sabbati"
+	"Savoldi"
+	"Serbelloni"
+	"Sfondrati"
+	"Sforza"
+	"Sommariva"
+	"Sopransi"
+	"Spinola"
+	"Testi"
+	"Tizzone"
+	"Visconti"
+	"de Guzman"
+	"de Leiva"
+	"del Carreto"
+	"del Monte"
+	"della Scalla"
+	"di Campofregoso"
+	"di Cardé"
+	"di Saluzzo"
+}
+ship_names = {
+	"Alliata"
+	"Ansperto"
+	"Ariberto d'Intimiano"
+	"Azzone Visconti"
+	"Celentano"
+	"Como"
+	"Conte Angilberto"
+	"Corrado II"
+	"Cremona"
+	"Filippo Maria"
+	"Fiume Seveso"
+	"Fiumi Lambro"
+	"Fiumi l'Olona"
+	"Francesco Sforza"
+	"Gian Galeazzo Visconti"
+	"Lecco"
+	"Lodi"
+	"Lombardia"
+	"Pavia"
+	"Re Alboino"
+	"San Babila"
+	"San Bernardino alle Ossa"
+	"San Cristoforo sul Naviglio"
+	"San Giovanni in Conca"
+	"San Gottardo"
+	"San Lorenzo"
+	"San Marco"
+	"San Nazaro Maggiore"
+	"San Satiro"
+	"San Simpliciano"
+	"Sant'Agostino"
+	"Sant'Ambrogio"
+	"Sant'Eustorgio"
+	"Santa Maria dei Miracoli"
+	"Santo Stefano"
+	"Sondrio"
+	"Teodolinda"
+	"Terragni"
+	"Torriani"
+	"Valperto"
+	"Varese"
+	"Virgilio"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

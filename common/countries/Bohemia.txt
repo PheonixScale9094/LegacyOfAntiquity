@@ -1,0 +1,146 @@
+graphical_culture = easterngfx
+color = { 161 139 40 }
+revolutionary_colors = { 0 4 15 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+	quantity_ideas
+	administrative_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agrafena #0" = -1
+	"Albert #1" = 10
+	"Alexei #0" = 0
+	"Bertók #0" = 0
+	"Briachislav #0" = 0
+	"Castolov #1" = 10
+	"Clotaire #1" = 10
+	"Ctirad #1" = 10
+	"Dobrynia #0" = 0
+	"Euphrosine #1" = -1
+	"Fedot #0" = 0
+	"Feodosia #0" = -1
+	"François #1" = 10
+	"Igor #0" = 0
+	"Iliya #0" = 0
+	"Ingvar #1" = 10
+	"Koz'ma #0" = 0
+	"Leelo #0" = -1
+	"Manegold #1" = 10
+	"Marion #0" = -1
+	"Mitrofan #0" = 0
+	"Mstislav #1" = 10
+	"Nezamysl #1" = 10
+	"Nikita #0" = 0
+	"Premysl #1" = 10
+	"Pribislava #0" = -1
+	"Põim #0" = -1
+	"Radoslav #3" = 10
+	"Raynaud #1" = 10
+	"Renaud #4" = 10
+	"Robin #0" = 0
+	"Strachkvas #1" = 10
+	"Svetozar #0" = 0
+	"Sviatoslav #1" = 10
+	"Sviatoslava #0" = -1
+	"Terentiy #0" = 0
+	"Ulita #0" = -1
+	"Vanek #1" = 10
+	"Viacheslav #0" = 0
+	"Viktorín #1" = 10
+	"Vilemína #1" = -1
+	"Vladimir #1" = 10
+	"Vojtech #1" = 10
+	"Vyshata #1" = 10
+	"Yaropolk #0" = 0
+	"Yekta #0" = -1
+	"Yelisey #0" = 0
+	"Yelizaveta #0" = -1
+	"Yeremey #0" = 0
+}
+leader_names = {
+	"Berka"
+	"Capek"
+	"Harant"
+	"Jiskra"
+	"Kaspar"
+	"Kolowrat"
+	"Mansfeld"
+	"Purkyne"
+	"Píka"
+	"Reiner"
+	"Schwarzenberg"
+	"Sokol"
+	"Syrový"
+	"Thurn"
+	"Velen"
+	"Veliký"
+	"Zajíc"
+	"Zelezný"
+	"z Brandýsa"
+	"z Falkensteina"
+	"z Husi"
+	"z Mitrovic"
+	"z Otradovic"
+	"z Pardubic"
+	"z Polzic"
+	"z Rozmberka"
+	"z Rozmitálu"
+	"z Vartemberka"
+	"z Veleslavína"
+	"ze Lvovic"
+	"ze Svamberka"
+	"ze Zerotína"
+}
+ship_names = {
+	"Bystrý"
+	"Cechy"
+	"Ctirad"
+	"Hvezda"
+	"Jan Hus"
+	"Jan Zizka"
+	"Kníze Bretislav"
+	"Král Boleslav"
+	"Král Karel"
+	"Král Premysl"
+	"Libuse"
+	"Morava"
+	"Nejsvetejsí Trojice"
+	"Neporazitelný"
+	"Odvázný"
+	"Orel"
+	"Panna Maria Vitezná"
+	"Premysl Orac"
+	"Prokop Holý"
+	"Rychlý"
+	"Sipka"
+	"Slezsko"
+	"Sokol"
+	"Svatá Anezká"
+	"Svatá Ludmila"
+	"Svatý Jan Nepomucký"
+	"Svatý Jirí"
+	"Svatý Mikulás"
+	"Svatý Vaclav"
+}
+preferred_religion = protestant

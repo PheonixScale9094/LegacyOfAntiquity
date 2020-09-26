@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = chinese
+religion = vajrayana
+primary_culture = tocharian
+capital = 2123
+fixed_capital = 2123
+1443.12.5= {
+	monarch = {
+		name = "Ñirot"
+		dynasty = "Tamchennenntid"
+		adm = 3
+		dip = 2
+		mil = 3
+		birth_date = 1400.5.8
+		religion = vajrayana
+		culture = tocharian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = lawgiver_personality
+	queen = {
+		name = "Vina"
+		dynasty = "Lu"
+		adm = 5
+		dip = 2
+		mil = 5
+		country_of_origin = Y46
+		birth_date = 1418.10.7
+		death_date = 1478.10.7
+		female = yes
+		religion = hinduism
+		culture = bihari
+	}
+	add_queen_personality = craven_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Anktsas"
+		monarch_name = "Anktsas"
+		dynasty = "Tamchennenntid"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1433.6.17
+		death_date = 1498.6.17
+		claim = 89
+		religion = vajrayana
+		culture = tocharian
+	}
+	add_heir_personality = calm_personality
+	add_heir_personality = cruel_personality
+}
+1443.12.5= {
+	add_prestige = 34
+	add_treasury = 62
+}
+
+

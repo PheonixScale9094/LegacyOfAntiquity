@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = muslim
+religion = shiite
+primary_culture = al_suryah_arabic
+capital = 4341
+mercantilism = 15
+1443.12.5= {
+	monarch = {
+		name = "Muzaffar"
+		dynasty = "Saudid"
+		adm = 3
+		dip = 3
+		mil = 5
+		birth_date = 1421.10.11
+		religion = shiite
+		culture = al_suryah_arabic
+	}
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Muzhdah"
+		dynasty = "Karbalid"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = TAB
+		birth_date = 1422.6.26
+		death_date = 1482.6.26
+		female = yes
+		religion = shiite
+		culture = tuareg
+	}
+	add_queen_personality = scholar_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Sa'ud"
+		monarch_name = "Sa'ud"
+		dynasty = "Saudid"
+		adm = 1
+		dip = 1
+		mil = 1
+		birth_date = 1440.6.2
+		death_date = 1505.6.2
+		claim = 89
+		religion = shiite
+		culture = tuareg
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 25
+	add_treasury = 49
+}
+
+

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = kishinyov
+capital = 261
+1443.12.5= {
+	monarch = {
+		name = "Koz'ma"
+		dynasty = "Glinsky"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1424.11.14
+		religion = slavic_pagan_reformed
+		culture = kishinyov
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Khatyako"
+		dynasty = "Ngayid"
+		adm = 4
+		dip = 2
+		mil = 5
+		country_of_origin = Z53
+		birth_date = 1424.1.15
+		death_date = 1484.1.15
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = samoyed
+	}
+	add_queen_personality = kind_hearted_personality
+	add_queen_personality = pious_personality
+	heir = {
+		name = "Mitrofan"
+		monarch_name = "Mitrofan"
+		dynasty = "Glinsky"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.6.8
+		death_date = 1508.6.8
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 23
+	add_treasury = 59
+}
+
+

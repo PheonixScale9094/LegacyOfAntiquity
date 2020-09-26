@@ -1,0 +1,108 @@
+graphical_culture = indiangfx
+color = { 137 183 124 }
+revolutionary_colors = { 5 13 5 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	indian_shock_cavalry
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	reformed_mughal_musketeer
+}
+monarch_names = {
+	"Achalraj #0" = 0
+	"Amro #0" = -1
+	"Baladeva #2" = 10
+	"Birsha #0" = -1
+	"Bishal #4" = 10
+	"Bishwas Devi #0" = -1
+	"Damayanti #0" = -1
+	"Dhir Singh #0" = 0
+	"Dhireshwar #1" = 10
+	"Dhruvasvamini #0" = -1
+	"Finjo #3" = 10
+	"Ishtpala #1" = 10
+	"Karnpal #0" = 0
+	"Kusum #0" = -1
+	"Maharshi #0" = 0
+	"Malkit #3" = 10
+	"Narendranarayan #0" = 0
+	"Nattadevi #0" = -1
+	"Ngodup #1" = 10
+	"Nihalray #0" = 0
+	"Nikkon #1" = 10
+	"Prabhavatigupta #0" = -1
+	"Prajun #2" = 10
+	"Pritampala #0" = 0
+	"Ramachandra #0" = 0
+	"Sahib #0" = -1
+	"Sahil #2" = 10
+	"Samyukta #1" = -1
+	"Shurapala #0" = 0
+	"Tasneem #0" = -1
+	"Udgam #0" = 0
+	"Varshapala #0" = 0
+	"Vidurathpala #0" = 0
+}
+leader_names = {
+	"Bahadur"
+	"Bikram"
+	"Chand"
+	"Chhettri"
+	"Dev"
+	"Gurung"
+	"Koirala"
+	"Limbu"
+	"Madhesi"
+	"Magar"
+	"Malla"
+	"Rai"
+	"Rana"
+	"Thapa"
+	"Yadav"
+}
+ship_names = {
+	"Arun"
+	"Behri"
+	"Bhote Kosi"
+	"Devi"
+	"Dudh Kosi"
+	"Durga"
+	"Gayatri"
+	"Jalsena"
+	"Kala Jahazi"
+	"Kali Gandaki"
+	"Karnali"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Narayani"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rapti"
+	"Ratri"
+	"Sagar"
+	"Sapt Kosi"
+	"Sarasvati"
+	"Seti"
+	"Sita"
+	"Sun Kosi"
+	"Trishuli"
+}

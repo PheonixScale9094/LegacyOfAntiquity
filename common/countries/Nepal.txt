@@ -1,0 +1,143 @@
+graphical_culture = indiangfx
+color = { 215 12 64 }
+revolutionary_colors = { 13 16 0 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	indian_shock_cavalry
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	reformed_mughal_musketeer
+}
+monarch_names = {
+	"Amaradeva #1" = 10
+	"Amrapali #0" = -1
+	"Amshuvarman #1" = 10
+	"Anangpal #0" = 0
+	"Anup #0" = -1
+	"Baladeva #1" = 10
+	"Baliraja #3" = 10
+	"Bauladevi #0" = -1
+	"Bhavashankari #1" = -1
+	"Bhikhari #1" = 10
+	"Bhimarjunadeva #1" = 10
+	"Bhogishwar #0" = 0
+	"Birnayaran #1" = 10
+	"Bishal #1" = 10
+	"Damayanti #0" = -1
+	"Dattaji #0" = 0
+	"Dev Singh #0" = 0
+	"Dhangadeva #2" = 10
+	"Dharendranarayan #2" = 10
+	"Dharmadeva #1" = 10
+	"Dhruvadeva #1" = 10
+	"Draupada #1" = 10
+	"Farid #0" = 0
+	"Finjo #2" = 10
+	"Ganadeva #1" = 10
+	"Gangadeva #1" = 10
+	"Gujri #0" = -1
+	"Gunakamadeva #1" = 10
+	"Hari #0" = 0
+	"Harshapala #0" = 0
+	"Hemant Sen #1" = 10
+	"Jayadeva #1" = 10
+	"Kalyanachandra #1" = 10
+	"Kanchuka #0" = -1
+	"Lakshmansen #0" = 0
+	"Lokpala #0" = 0
+	"Madhavrao #0" = 0
+	"Mahendrasingha #1" = 10
+	"Mahideva #1" = 10
+	"Mahidevi #0" = -1
+	"Mahipala #2" = 10
+	"Mahlakadeva #0" = 0
+	"Malavyadevi #0" = -1
+	"Malkit #1" = 10
+	"Manadeva #3" = 10
+	"Manudeva #1" = 10
+	"Narendradeva #1" = 10
+	"Ngodup #1" = 10
+	"Prabhavatigupta #0" = -1
+	"Prajun #2" = 10
+	"Prasadhanadevi #0" = -1
+	"Puppadevi #0" = -1
+	"Pushkaranadhipa #0" = 0
+	"Rajyapala #0" = 0
+	"Ramadeva #1" = 10
+	"Sahib #0" = -1
+	"Sahil #2" = 10
+	"Sankaradeva #2" = 10
+	"Shanwei #0" = -1
+	"Shashanka #0" = 0
+	"Shivadeva #2" = 10
+	"Shouji #0" = -1
+	"Shrimitradevi #0" = -1
+	"Sunil #1" = 10
+	"Tejasimha #0" = 0
+	"Udayadeva #1" = 10
+	"Vamanadeva #1" = 10
+	"Vasantadeva #1" = 10
+}
+leader_names = {
+	"Bahadur"
+	"Bikram"
+	"Chand"
+	"Chhettri"
+	"Dev"
+	"Gurung"
+	"Koirala"
+	"Limbu"
+	"Madhesi"
+	"Magar"
+	"Malla"
+	"Rai"
+	"Rana"
+	"Thapa"
+	"Yadav"
+}
+ship_names = {
+	"Arun"
+	"Behri"
+	"Bhote Kosi"
+	"Devi"
+	"Dudh Kosi"
+	"Durga"
+	"Gayatri"
+	"Jalsena"
+	"Kala Jahazi"
+	"Kali Gandaki"
+	"Karnali"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Narayani"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rapti"
+	"Ratri"
+	"Sagar"
+	"Sapt Kosi"
+	"Sarasvati"
+	"Seti"
+	"Sita"
+	"Sun Kosi"
+	"Trishuli"
+}

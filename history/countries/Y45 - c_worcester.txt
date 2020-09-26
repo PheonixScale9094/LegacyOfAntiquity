@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = norse
+capital = 240
+fixed_capital = 240
+1443.12.5= {
+	monarch = {
+		name = "Hjalmar"
+		dynasty = "af Germano"
+		adm = 6
+		dip = 4
+		mil = 3
+		birth_date = 1403.6.24
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+	queen = {
+		name = "Cyneswith"
+		dynasty = "Aelfricson"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Y45
+		birth_date = 1405.5.15
+		death_date = 1465.5.15
+		female = yes
+		religion = norse_pagan_reformed
+		culture = anglo_saxon
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+	heir = {
+		name = "Anundr"
+		monarch_name = "Anundr"
+		dynasty = "af Germano"
+		adm = 4
+		dip = 6
+		mil = 2
+		birth_date = 1427.9.10
+		death_date = 1492.9.10
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_heir_personality = calm_personality
+	add_heir_personality = careful_personality
+}
+1443.12.5= {
+	add_prestige = 75
+	add_treasury = 66
+}
+
+

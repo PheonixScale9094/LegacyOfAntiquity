@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = bengali
+capital = 563
+mercantilism = 15
+1443.12.5= {
+	monarch = {
+		name = "Shiv Singh"
+		dynasty = "Pala"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 1388.5.14
+		religion = hinduism
+		culture = bengali
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = secretive_personality
+	heir = {
+		name = "Dev Singh"
+		monarch_name = "Dev Singh"
+		dynasty = "Pala"
+		adm = 4
+		dip = 2
+		mil = 5
+		birth_date = 1426.4.11
+		death_date = 1491.4.11
+		claim = 89
+		religion = hinduism
+		culture = pahari
+	}
+	add_heir_personality = infertile_personality
+	add_heir_personality = lawgiver_personality
+}
+1443.12.5= {
+	add_prestige = 86
+	add_treasury = 58
+}
+
+

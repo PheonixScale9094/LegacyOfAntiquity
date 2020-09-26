@@ -1,0 +1,59 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = croatian
+capital = 1767
+fixed_capital = 1767
+mercantilism = 25
+1443.12.5= {
+	monarch = {
+		name = "Salvestro"
+		dynasty = "Smith"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1401.11.14
+		religion = hellenic_pagan_reformed
+		culture = croatian
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Cornelia"
+		dynasty = "Smith"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = Y41
+		birth_date = 1393.11.7
+		death_date = 1453.11.7
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = croatian
+	}
+	add_queen_personality = scholar_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Alessio"
+		monarch_name = "Alessio"
+		dynasty = "Smith"
+		adm = 4
+		dip = 4
+		mil = 6
+		birth_date = 1427.9.13
+		death_date = 1492.9.13
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = croatian
+	}
+	add_heir_personality = secretive_personality
+	add_heir_personality = silver_tongue_personality
+}
+1443.12.5= {
+	add_prestige = 62
+	add_treasury = 51
+}
+
+

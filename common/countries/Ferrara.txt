@@ -1,0 +1,195 @@
+graphical_culture = westerngfx
+color = { 21 128 21 }
+revolutionary_colors = { 1 0 9 }
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_tercio
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adriana #2" = -1
+	"Aimeric #0" = 0
+	"Alberico #3" = 10
+	"Alexander #1" = 10
+	"Amedeo #1" = 10
+	"Anselperga #0" = -1
+	"Antonio #0" = 0
+	"Armando #1" = 10
+	"Augusto #0" = 0
+	"Battista #0" = 0
+	"Beltrano #0" = 0
+	"Benoît #1" = 10
+	"Bernabò #1" = 10
+	"Bruno #0" = 0
+	"Candida #0" = -1
+	"Carla #0" = -1
+	"Desiderius #1" = 10
+	"Durante #1" = 10
+	"Elisabetta #0" = -1
+	"Ennio #0" = 0
+	"Eugenius #1" = 10
+	"Federigo #1" = 10
+	"Gambara #0" = -1
+	"Gerardo #2" = 10
+	"Giberto #1" = 10
+	"Guaifer #0" = 0
+	"Gundeperga #0" = -1
+	"Hadrianus #1" = 10
+	"Hilderic #0" = 0
+	"Indulf #1" = 10
+	"Landari #1" = 10
+	"Lattanzio #0" = 0
+	"Lavinia #0" = -1
+	"Lucinetta #1" = -1
+	"Lucius #1" = 10
+	"Maddalena #0" = -1
+	"Peranudet #1" = 10
+	"Sichelgaita #0" = -1
+	"Siconulf #1" = 10
+	"Sigeric #1" = 10
+	"Sofia #0" = -1
+	"Tancred #1" = 10
+	"Theodo #1" = 10
+	"Theodota #1" = -1
+	"Tiziano #1" = 10
+	"Traianos #1" = 10
+	"Ursus #1" = 10
+	"Zoe #0" = -1
+	"Érrard #1" = 10
+}
+leader_names = {
+	"Allegri"
+	"Araldini"
+	"Ariosto"
+	"Avanzini"
+	"Bacciochi"
+	"Barberini"
+	"Battisti"
+	"Boiardo"
+	"Boncompagni"
+	"Boncompagni-Ludovisi"
+	"Calcagnini"
+	"Catena"
+	"Colonna"
+	"Farini"
+	"Giardini"
+	"Grandi"
+	"Graziosi"
+	"Gualandelli"
+	"Gucciardini"
+	"Loschi"
+	"Malmussi"
+	"Marescalchi"
+	"Menotti"
+	"Mitelli"
+	"Montecuccoli"
+	"Montefeltro"
+	"Nardi"
+	"Nobili"
+	"Ordelaffi"
+	"Pavironica"
+	"Peretti"
+	"Pico"
+	"Pio"
+	"Rangoni"
+	"Rossetti"
+	"Santarosa"
+	"Tassoni"
+	"Tura"
+	"Viridis"
+	"Zini"
+	"d'Appiani d'Aragona"
+	"d'Este"
+	"de Roberti"
+	"de Tolomei"
+	"del Cossa"
+	"della Torre"
+	"di Ardizzone"
+	"di Farnese"
+	"di Ferrari"
+	"di Sauli"
+}
+ship_names = {
+	"Aguscello"
+	"Albarea"
+	"Azzo VI d'Este"
+	"Baura"
+	"Boara"
+	"Borgo Scoline"
+	"Borso"
+	"Bova"
+	"Casaglia"
+	"Cassana"
+	"Castel Trivellino"
+	"Chiesuol del Fosso"
+	"Cocomaro di Cona"
+	"Cocomaro di Focomorto"
+	"Codrea"
+	"Cona"
+	"Contrapò"
+	"Corlo"
+	"Correggio"
+	"Denore"
+	"Ezzelino"
+	"Focomorto"
+	"Francolino"
+	"Gaibana"
+	"Gaibanella Sant'Egidio"
+	"Guglielmo Adelardi"
+	"Malborghetto di Boara"
+	"Malborghetto di Correggio"
+	"Marrara"
+	"Mezzavia"
+	"Monestirolo"
+	"Montalbano"
+	"Niccoló III"
+	"Obizzo II"
+	"Parasacco"
+	"Pescara"
+	"Ponte Travagli"
+	"Pontegradella"
+	"Pontelagoscuro"
+	"Porotto"
+	"Porporana"
+	"Quartesana"
+	"Ravalle"
+	"S.Caterina"
+	"S.Paolo"
+	"Sabbioni"
+	"San Bartolomeo in Bosco"
+	"San Giorgio"
+	"San Martino"
+	"San Mercuriale di Forlì"
+	"San Michele"
+	"Sant'Egidio"
+	"Spinazzino"
+	"Tedaldo"
+	"Torre della Fossa"
+	"Uccellino"
+	"Viconovo"
+	"Villanova"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

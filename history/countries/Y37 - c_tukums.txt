@@ -1,0 +1,38 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = byelorussian
+capital = 39
+fixed_capital = 39
+1443.12.5= {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 0
+		dip = 1
+		mil = 0
+		birth_date155.1.1
+		regent = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	heir = {
+		name = "Oleg"
+		dynasty = "Kobilyn"
+		adm = 2
+		dip = 3
+		mil = 2
+		birth_date = 1437.9.14
+		death_date = 1502.9.14
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+}
+1443.12.5= {
+	add_prestige = -23
+	add_treasury = 0
+}
+
+

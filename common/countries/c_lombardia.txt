@@ -1,0 +1,16 @@
+graphical_culture = westerngfx
+color = { 251 237 226 }
+monarch_names = {
+	"Abbondio #0" = 0
+	"Alvise #0" = 0
+	"Argentina #0" = -1
+	"Baldovino #0" = 0
+	"Battista #0" = 0
+	"Dioniso #0" = 0
+	"Eleonora #0" = -1
+	"Ermenegildo #0" = 0
+	"Eugenio #0" = 0
+	"Landolfo #0" = 0
+	"Manfredo #0" = 0
+	"Virginia #0" = -1
+}

@@ -1,0 +1,348 @@
+graphical_culture = easterngfx
+color = { 220 200 140 }
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Aleksii #0" = 0
+	"Alptigin #1" = 10
+	"Ambrus #1" = 10
+	"Attila #1" = 10
+	"Bashtwa #1" = 10
+	"Bernardin #0" = 0
+	"Bogoris #0" = 0
+	"Boldizs�r #1" = 10
+	"Bonuslo #1" = 10
+	"Bonyak #1" = 10
+	"Boril #0" = 0
+	"Cs�k #1" = 10
+	"Elek #1" = 10
+	"Esin #0" = -1
+	"Frigyes #1" = 10
+	"Gell�rt #1" = 10
+	"G�bor #3" = 10
+	"G�briel #1" = 10
+	"G�za #1" = 10
+	"Ilgazi #1" = 10
+	"Ipek #0" = -1
+	"Kaikaus #0" = 0
+	"Kopti #0" = 0
+	"Korn�l #0" = 0
+	"Koza #0" = 0
+	"K�lm�n #1" = 10
+	"K�roly #1" = 10
+	"Lahna #1" = 10
+	"Ljutomisl #0" = 0
+	"M�rta #0" = -1
+	"N�ndor #1" = 10
+	"Orb�n #0" = 0
+	"Prijezda #0" = 0
+	"Samur #0" = -1
+	"Sarica #0" = -1
+	"Sati #0" = -1
+	"Sirma #0" = -1
+	"Soslan #1" = 10
+	"Stracimir #0" = 0
+	"Szilveszter #0" = 0
+	"Thakur #1" = 10
+	"Tibor #1" = 10
+	"Tim�re� #1" = 10
+	"Tivadar #1" = 10
+	"Tugor #0" = 0
+	"Uzluk #0" = 0
+	"Vazul #1" = 10
+	"Vilmos #1" = 10
+	"Viseslav #0" = 0
+	"Vladislav #0" = 0
+	"Vojnomir #0" = 0
+	"Yasar #0" = -1
+	"Zabergan #1" = 10
+	"�d�rn #1" = 10
+	"�lmos #1" = 10
+	"�a� #1" = 10
+	"�ilen #0" = -1
+}
+leader_names = {
+	"Aba"
+	"Aepak"
+	"Almish"
+	"Alp"
+	"Alzek"
+	"Anzi"
+	"Apskhih"
+	"Araslan"
+	"Arslan"
+	"Asalup"
+	"Asep"
+	"Asparukh"
+	"Atrak"
+	"Aydar"
+	"Bachman"
+	"Bagha"
+	"Baghatur"
+	"Baitzas"
+	"Balambar"
+	"Balgor"
+	"Barjik"
+	"Bars"
+	"Barsbek"
+	"Bashtwa"
+	"Bastu"
+	"Batan"
+	"Batas"
+	"Bataul"
+	"Batbayan"
+	"Batir"
+	"Bator"
+	"Batoya"
+	"Batulia"
+	"Bayan"
+	"Bayça"
+	"Begluk"
+	"Belet"
+	"Belkermak"
+	"Bezmer"
+	"Bihor"
+	"Bizel"
+	"Biçkili"
+	"Blush"
+	"Bonyak"
+	"Boru"
+	"Borç"
+	"Boyan"
+	"Bugha"
+	"Bula"
+	"Bulan"
+	"Bulger"
+	"Bulçan"
+	"Busir"
+	"Buzan"
+	"Buzer"
+	"Bälgiçi"
+	"Bönek"
+	"Böri"
+	"Chepa"
+	"Chinialush"
+	"Dengizikh"
+	"Dizeng"
+	"Dometa"
+	"Dristar"
+	"Drong"
+	"Dukum"
+	"Eldeçyuk"
+	"Elemag"
+	"Ellak"
+	"Ernakh"
+	"Eskhakh"
+	"Etrek"
+	"Ezra"
+	"Giazis"
+	"Girgen"
+	"Goleda"
+	"Gostun"
+	"Guar"
+	"Gzi"
+	"Hanukkah"
+	"Hezekiah"
+	"Hudbad"
+	"Iani"
+	"Ildey"
+	"Ilik"
+	"Iltäbär"
+	"Ipa"
+	"Ipaos"
+	"Irkhan"
+	"Irnek"
+	"Isaac"
+	"Isbul"
+	"Islivan"
+	"Isperikh"
+	"Ispor"
+	"Itakh"
+	"Itlar"
+	"Ituk"
+	"Kabuksin"
+	"Kamaj"
+	"Kano"
+	"Karaca"
+	"Karadakh"
+	"Karan"
+	"Karaton"
+	"Kardam"
+	"Kaydum"
+	"Kayghalagh"
+	"Kegen"
+	"Kharaton"
+	"Khatir"
+	"Khinialon"
+	"Khudbard"
+	"Khuterkin"
+	"Kibar"
+	"Kisa"
+	"Kobyak"
+	"Konel"
+	"Kopti"
+	"Kordil"
+	"Korkutan"
+	"Kormesiy"
+	"Kormisosh"
+	"Kortan"
+	"Kostas"
+	"Kotrag"
+	"Kotyan"
+	"Kourkoutai"
+	"Koza"
+	"Kozel"
+	"Krovat"
+	"Krum"
+	"Kubasar"
+	"Kuber"
+	"Kubrat"
+	"Kuerçi"
+	"Kugel"
+	"Kundaç"
+	"Kundaçiq"
+	"Kuntuvdi"
+	"Kure"
+	"Kurt"
+	"Kutan"
+	"Kutrigur"
+	"Kuvrat"
+	"Kälaç"
+	"Könçek"
+	"Labertam"
+	"Magotin"
+	"Malamir"
+	"Manasseh"
+	"Mugel"
+	"Mänär"
+	"Mänäs"
+	"Mënümarót"
+	"Nisi"
+	"Odolgan"
+	"Okhsi"
+	"Okhsun"
+	"Okors"
+	"Omurtag"
+	"Onegavon"
+	"Organ"
+	"Organa"
+	"Ornag"
+	"Oshi"
+	"Ostro"
+	"Pagan"
+	"Pakhtiyar"
+	"Papaçyz"
+	"Paväl"
+	"Praksa"
+	"Pulad"
+	"Rassate"
+	"Rugila"
+	"Sabin"
+	"Samsam"
+	"Sandil"
+	"Sandilkh"
+	"Sarkhan"
+	"Sartäç"
+	"Saru"
+	"Savin"
+	"Sevar"
+	"Sevenç"
+	"Shilki"
+	"Simsam"
+	"Sirçan"
+	"Sokal"
+	"Sol"
+	"Sondoke"
+	"Sotan"
+	"Sugr"
+	"Suru"
+	"Tabghaç"
+	"Tarasiy"
+	"Taridin"
+	"Tarkhan"
+	"Tarmaç"
+	"Tatra"
+	"Tatus"
+	"Teber"
+	"Telec"
+	"Telerig"
+	"Tervel"
+	"Timur"
+	"Timër"
+	"Timëreç"
+	"Timërpälat"
+	"Tingiz"
+	"Tiradin"
+	"Togli"
+	"Tokhtaman"
+	"Toktu"
+	"Tolun"
+	"Tsog"
+	"Tsul"
+	"Tugor"
+	"Tuk"
+	"Tukiy"
+	"Tuzniq"
+	"Tyrach"
+	"Täbär"
+	"Tähtaman"
+	"Törtogul"
+	"Umor"
+	"Uturgur"
+	"Uzluk"
+	"Uzur"
+	"Vakrim"
+	"Venda"
+	"Vetam"
+	"Vinekh"
+	"Yabghu"
+	"Yani"
+	"Yavantey"
+	"Yavdi"
+	"Yazi"
+	"Yeke"
+	"Yençepi"
+	"Yerneslu"
+	"Yeçtirek"
+	"Yilig"
+	"Zabergan"
+	"Zebulun"
+	"Zenti"
+	"Çat"
+	"Çat'n"
+	"Çelgil"
+	"Çilbu"
+	"Çorpan"
+	"Ötemis"
+}
+ship_names = {
+	"Altan Khan"
+	"Amdo"
+	"Bargut"
+	"Buzav"
+	"Dorbot"
+	"Dzungar"
+	"Dörvn Öörd"
+	"Güshi"
+	"Kerait"
+	"Khoshot"
+	"Khoshut"
+	"Naiman"
+	"Olo"
+	"Olöts"
+	"Torgut"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 3
+technology_group = eastern
+religion = yazidi
+primary_culture = georgian
+capital = 423
+1443.12.5= {
+	monarch = {
+		name = "Jarji"
+		dynasty = "Mikeladze"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1390.9.10
+		religion = yazidi
+		culture = georgian
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = righteous_personality
+	queen = {
+		name = "Augusta"
+		dynasty = "Smith"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = GEO
+		birth_date = 1389.2.27
+		death_date = 1449.2.27
+		female = yes
+		religion = sunni
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = intricate_web_weaver_personality
+	heir = {
+		name = "Chito"
+		monarch_name = "Chito"
+		dynasty = "Mikeladze"
+		adm = 4
+		dip = 6
+		mil = 4
+		birth_date = 1416.4.17
+		death_date = 1481.4.17
+		female = yes
+		claim = 89
+		religion = sunni
+		culture = circassian
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = tolerant_personality
+}
+1443.12.5= {
+	add_prestige = 71
+	add_treasury = 89
+}
+
+

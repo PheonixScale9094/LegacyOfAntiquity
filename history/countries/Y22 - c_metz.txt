@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = occitain
+capital = 188
+fixed_capital = 188
+1443.12.5= {
+	monarch = {
+		name = "Peranudet"
+		dynasty = "Gaidoaldingi"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1406.10.14
+		religion = hellenic_pagan_reformed
+		culture = occitain
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Adalgisa"
+		dynasty = "Gaidoaldingi"
+		adm = 2
+		dip = 3
+		mil = 4
+		country_of_origin = Y22
+		birth_date = 1417.12.5
+		death_date = 1477.12.5
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Eugenio"
+		monarch_name = "Eugenio"
+		dynasty = "Gaidoaldingi"
+		adm = 1
+		dip = 3
+		mil = 2
+		birth_date = 1436.6.26
+		death_date = 1501.6.26
+		claim = 89
+		religion = hellenic_pagan_reformed
+	}
+	add_heir_personality = naive_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 103
+	add_treasury = 0
+}
+
+

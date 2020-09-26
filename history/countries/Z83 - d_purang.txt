@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = chinese
+religion = hinduism
+primary_culture = zhangzhung
+capital = 4515
+1443.12.5= {
+	monarch = {
+		name = "Liknyikya IV"
+		dynasty = "Gos"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1404.10.23
+		religion = hinduism
+		culture = zhangzhung
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Bhogavati"
+		dynasty = "Pala"
+		adm = 4
+		dip = 5
+		mil = 3
+		country_of_origin = Z83
+		birth_date = 1409.9.9
+		death_date = 1469.9.9
+		female = yes
+		religion = hinduism
+		culture = bihari
+	}
+	add_queen_personality = benevolent_personality
+	add_queen_personality = kind_hearted_personality
+	heir = {
+		name = "Senggetram"
+		monarch_name = "Senggetram"
+		dynasty = "Gos"
+		adm = 6
+		dip = 6
+		mil = 4
+		birth_date = 1426.8.7
+		death_date = 1491.8.7
+		claim = 89
+		religion = hinduism
+		culture = zhangzhung
+	}
+	add_heir_personality = conqueror_personality
+	add_heir_personality = expansionist_personality
+}
+1443.12.5= {
+	add_prestige = 55
+	add_treasury = 45
+}
+
+

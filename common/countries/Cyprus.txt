@@ -1,0 +1,87 @@
+graphical_culture = easterngfx
+color = { 245 200 30 }
+revolutionary_colors = { 8 0 16 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adriana #1" = -1
+	"Agnese #0" = -1
+	"Alessandra #0" = -1
+	"Ambrogio #0" = 0
+	"Anthimos #1" = 10
+	"Assalhida #0" = -1
+	"Bardas #0" = 0
+	"Castore #1" = 10
+	"Cesare #0" = 0
+	"Chrysogone #0" = -1
+	"Constanza #0" = -1
+	"Eglantine #0" = -1
+	"Eugenio #1" = 10
+	"Euphemios #0" = 0
+	"Guido #1" = 10
+	"Hypatia #0" = -1
+	"Isnardo #0" = 0
+	"Konstas #0" = 0
+	"Lazaros #0" = 0
+	"Martina #0" = -1
+	"Michelangelo #0" = 0
+	"Philotheos #0" = 0
+	"Phokas #0" = 0
+	"Ruggiero #0" = 0
+	"Sciarra #0" = 0
+	"Stephania #0" = -1
+	"Symmachos #0" = 0
+	"Traianos #2" = 10
+	"Trutgaud #0" = 0
+	"Valentino #2" = 10
+}
+leader_names = {
+	"Bragadin"
+	"Crispo"
+	"Doria"
+	"Fadrigue"
+	"Lusignans"
+	"Melissinos"
+	"Plethon"
+	"Rendis"
+	"Saraceno"
+	"Tocco"
+}
+ship_names = {
+	"Agios Georgios"
+	"Kato Yialla"
+	"Lachi"
+	"Leivadi"
+	"Lempa"
+	"Maa"
+	"Maurvoll"
+	"Pakhyammos"
+	"Pomos"
+	"Symvoulos"
+}

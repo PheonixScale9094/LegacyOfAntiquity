@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = mordvin
+capital = 293
+1443.12.5= {
+	monarch = {
+		name = "Erziya"
+		dynasty = "Vogak"
+		adm = 3
+		dip = 4
+		mil = 1
+		birth_date = 1419.6.11
+		religion = slavic_pagan_reformed
+		culture = mordvin
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Prebrana"
+		dynasty = "Novotorgsky"
+		adm = 1
+		dip = 4
+		mil = 2
+		country_of_origin = SMO
+		birth_date = 1406.5.14
+		death_date = 1466.5.14
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = pious_personality
+}
+1443.12.5= {
+	add_prestige = -50
+	add_treasury = 56
+}
+
+

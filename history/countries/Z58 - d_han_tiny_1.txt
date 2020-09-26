@@ -1,0 +1,26 @@
+government = republic
+add_government_reform = noble_elite_reform
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = chihan
+capital = 4407
+1443.12.5= {
+	monarch = {
+		name = "Huaiyuan"
+		adm = 0
+		dip = 2
+		mil = 1
+		birth_date = 1406.11.27
+		religion = confucianism
+		culture = chihan
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = strict_personality
+}
+1443.12.5= {
+	add_prestige = -50
+	add_treasury = 104
+}
+
+
