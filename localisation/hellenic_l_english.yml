@@ -3,3 +3,5 @@
  hellenic_events.1.d:0 "A neighboring province of [Root.GetName] is attempting to convert [Root.GetName] to Hellenism"
  hellenic_events.1.a:0 "Send in the magistrates to convert them!"
  hellenic_events.1.b:0 "They can continue worshipping false gods if they fund our endevors."
+ join_hellenic_hre_title: "Join the Lombard Federation"
+ join_hellenic_hre_desc: "Join the great lombard alliance"

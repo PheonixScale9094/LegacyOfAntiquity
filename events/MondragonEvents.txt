@@ -12,11 +12,11 @@ country_event = {
 	trigger = {
 		has_reform = merchant_elite_reform
 		NOT = { has_country_flag = mondragon_company }
-		#year = 1444
+		year = 1490
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		days = 3650
 	}
 
 	immediate = {
@@ -28,7 +28,7 @@ country_event = {
 		name = "mondragon_events.1.a"
 		change_estate_land_share = {
 			estate = estate_mondragon
-			share = -30
+			share = -35
 		}
 	}
 
@@ -37,7 +37,7 @@ country_event = {
 		name = "mondragon_events.1.b"
 		change_estate_land_share = {
 			estate = estate_mondragon
-			share = -20
+			share = -30
 		}
 	}
 }
@@ -56,8 +56,8 @@ country_event = {
 		has_estate = estate_mondragon
 		NOT = { has_country_flag = mondragon_corporation }
 		OR = {
-			num_of_ports = 1
-			num_of_total_ports = 15
+			num_of_ports = 40
+			num_of_total_ports = 45
 		}
 	}
 	
@@ -152,11 +152,17 @@ country_event = {
 			}
 		}
 		change_tag = MDR
+		clr_country_flag = mondragon_company
+		clr_country_flag = mondragon_corporation
 		add_government_reform = corporation_reform
 		if = {
 			limit = { has_custom_ideas = no }
 			swap_free_idea_group = yes
 		}
+		add_inflation = -3
+		add_years_of_income = 5
+		add_republican_tradition = 10
+		add_stability = 3
 		remove_country_modifier = corporate_influence_mod
 		remove_country_modifier = corporate_influence_mod_reduced
 		remove_country_modifier = corporate_influence_mod_minimal
@@ -291,7 +297,7 @@ province_event = {
 		ROOT = {
 			add_province_modifier = { 
 				name = corporate_province_control
-				duration = -1
+				duration = 3650
 				desc = corporate_province_control_tooltip
 			}
 			owner = {
@@ -310,7 +316,7 @@ province_event = {
 	option = {
 		name = "mondragon_events.7.b"
 		owner = {
-			add_adm_power = -15
+			add_adm_power = -5
 		}
 		ai_chance = {
 			factor = 0

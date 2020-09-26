@@ -1,9 +1,9 @@
 war_goal_slavic_unification = {
 	type = take_province
 	
-	badboy_factor = 0.75
-	prestige_factor = 1
-	peace_cost_factor = 0.75
+	badboy_factor = 0.25
+	prestige_factor = 0.5
+	peace_cost_factor = 0.25
 
 	allowed_provinces = {
 		religion = slavic_pagan_reformed

@@ -249,17 +249,3 @@ country_event = {
 		}
 	}
 }
-
-# Kill Emperor
-country_event = {
-	id = empire_formation_events.2
-	title = "empire_formation_events.2.t"
-	desc = "empire_formation_events.2.d"
-	picture = MERCHANTS_TALKING_eventPicture
-
-	is_triggered_only = yes
-	
-	immediate = {
-		kill_ruler = yes
-	}
-}

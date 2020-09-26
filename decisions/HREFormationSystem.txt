@@ -1,48 +1,105 @@
 country_decisions = {
-	form_hre = {
+	join_hellenic_hre = {
 		major = yes
 	
 		potential = {
-			religion_group = christian
-			NOT = { has_global_flag = hre_formed }
+			religion = hellenic_pagan_reformed
+			is_part_of_hre = no
 		}
 		allow = {		
-			religion_group = christian
-			total_development = 200
+			religion = hellenic_pagan_reformed
+			NOT = { total_development = 200 }
 		}
 		effect = {
-			add_prestige = 25
+			add_prestige = 5
 			set_in_empire = yes
-			if = { limit = { government = monarchy } custom_tooltip = FORM_HRE_TOOLTIP }
-			hidden_effect = {
-				set_global_flag = hre_formed
-				save_event_target_as = forming_country
-				change_tag = HLR
-				change_tag = event_target:forming_country
-				every_known_country = {
-					limit = {
-						religion_group = christian
-						knows_country = ROOT
-					}
-					country_event = { 
-						id = empire_formation_events.1
-					}
-				}
-				#emperor = {
-				#	country_event = { 
-				#		id = empire_formation_events.2
-				#		days = 10
-				#	}
-				#}
+		}
+		ai_importance = 800
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				government_rank = 3
 			}
-			elector = yes
+			modifier = {
+				factor = 10
+				government_rank =1
+			}
+			modifier = {
+				factor = 3
+				has_border_with_religious_enemy = yes
+			}
+		}
+	}
+	cede_to_myrmidons = {
+		major = yes
+	
+		potential = {
+			religion = hellenic_pagan_reformed
+			any_owned_province = {
+				OR = {	
+					region = balkan_region
+					region = anatolia_region
+				}
+				NOT = {
+					area = slavonia_area
+					area = croatia_area
+					area = bosnia_area
+					area = east_adriatic_coast_area
+				}
+			}
+		}
+		NOT = { TAG = MRM }
+		allow = {		
+			religion = hellenic_pagan_reformed
+		}
+		effect = {
+			every_owned_province = { 
+			limit = {
+				OR = {	
+					region = balkan_region
+					region = anatolia_region
+				}
+				NOT = {
+					area = slavonia_area
+					area = croatia_area
+					area = bosnia_area
+					area = east_adriatic_coast_area
+				}
+			}
+			set_in_empire = no
+			remove_core = ROOT
+			add_core = MRM
+			cede_province = MRM
+			}
+			set_global_flag = ceded_myrmidons
 		}
 		ai_importance = 800
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				factor = 10
+				government_rank = 1
+			}
+			modifier = {
+				factor = 10
+				had_global_flag = {
+					flag = ceded_myrmidons
+					days = 3650
+				}
+			}
+			modifier = {
 				factor = 0
-				government_rank = 3
+				NOT = {
+					had_global_flag = {
+						flag = ceded_myrmidons
+						days = 1825
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				has_border_with_religious_enemy = yes
 			}
 		}
 	}

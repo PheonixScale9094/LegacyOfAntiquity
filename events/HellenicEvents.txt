@@ -8,6 +8,7 @@ province_event = {
 	is_triggered_only = no
 	
 	trigger = {
+		always = no
 		has_owner_accepted_culture = yes
 		owner = {
 			religion = hellenic_pagan_reformed
@@ -101,6 +102,7 @@ country_event = {
 	is_triggered_only = no
 	
 	trigger = {
+		always = no
 		religion = hellenic_pagan_reformed
 		all_owned_province = {
 			OR = {

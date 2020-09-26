@@ -1,13 +1,14 @@
 #Oligarchy vs Merchant Class vs Noble Elite
 merchant_elite_reform = {
 	icon = "trading_city"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	modifiers = {
 		max_absolutism = -60
+		governing_capacity = 50
 		merchants = 1
 		inflation_reduction = 0.05
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 40
 	legacy_equivalent = merchant_republic
 	potential = {
@@ -42,6 +43,7 @@ merchant_elite_reform = {
 		enables_plutocratic_idea_group = no
 		enables_aristocratic_idea_group = yes
 		is_merchant_republic = yes
+		locked_government_type = yes
 	}
 	duration = 5
 }
@@ -50,18 +52,15 @@ corporation_reform = {
 	icon = "compass"
 	allow_normal_conversion = no
 	modifiers = {
-		max_absolutism = -20
+		governing_capacity = 150
 		global_trade_power = 0.10
 		global_foreign_trade_power = 0.25
 		global_tax_modifier = -0.10
-		monarch_admin_power = 1
-		vassal_income = 0.2
-		liberty_desire_from_subject_development = -0.15
-		liberty_desire = -15
+		country_admin_power = 1
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
-	legacy_equivalent = oligarchic_republic
+	legacy_equivalent = merchant_republic
 	potential = {
 		has_reform = corporation_reform
 	}
@@ -91,12 +90,12 @@ corporation_reform = {
 		trade_city_reform = branch_office
 	}
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		is_merchant_republic = yes
+		locked_government_type = yes
+		locked_government_type = yes
 	}
 	locked_government_type = yes
 	valid_for_new_country = yes
-	allow_normal_conversion = no
 	duration = 3
 }
 
@@ -118,13 +117,14 @@ branch_office = {
 		max_absolutism = -20
 		global_trade_power = 0.2
 		liberty_desire = -30
+		governing_capacity = 50
 	}
 
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		locked_government_type = yes
 	}
-	locked_government_type = yes
 	allow_normal_conversion = no
 	conditional = {
 		allow = {
@@ -166,6 +166,7 @@ viking_reform = {
 	modifiers = {
 		unjustified_demands = -0.1
 		global_tax_modifier = -0.05
+		governing_capacity = 200
 		may_perform_slave_raid_on_same_religion = yes
 	}
 }

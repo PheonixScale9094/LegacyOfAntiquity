@@ -1,0 +1,87 @@
+loa_garrone = {
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = Z14
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	loa_garrone_development = {
+		icon = the_alpine_wall
+		position = 1
+		required_missions = {  }
+		
+		trigger = {
+			any_owned_province = {
+				development = 20
+			}
+		}
+		effect = {
+			poitou_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			brittany_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			loire_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	loa_garrone_secure_local_trade = {
+		icon = mission_rb_conquer_brittany
+		position = 2
+		required_missions = { loa_garrone_development }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = brittany_area
+				area = poitou_area
+				area = loire_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = brittany_area
+					area = poitou_area
+					area = loire_area
+				}
+				value = 6
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+					area = brittany_area
+					area = poitou_area
+					area = loire_area
+					}
+				}
+				add_province_modifier = {
+					name = garrone_controlling_trade
+					duration = 7300
+				}
+			}
+		}
+	}
+}
