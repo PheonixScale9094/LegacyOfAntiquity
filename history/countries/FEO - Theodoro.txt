@@ -1,9 +1,10 @@
-government = monarchy
-add_government_reform = autocracy_reform
+government = republic
+add_government_reform = merchants_reform
 government_rank = 1
 technology_group = eastern
-religion = orthodox
+religion = messalian
 primary_culture = goths
+
 capital = 2410
 historical_friend = TRE
 1410.3.8 =

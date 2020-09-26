@@ -305,6 +305,7 @@ vassal=
 	start_date="1288.12.5"
 	end_date="1836.1.1"
 }
+
 vassal=
 {
 	first="BOH"
@@ -313,3 +314,34 @@ vassal=
 	end_date="1836.1.1"
 }
 
+march=
+{
+	first="YAN"
+	second="Z00"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="SAR"
+	second="TUN"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="SAR"
+	second="ALG"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="SAR"
+	second="FEO"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}

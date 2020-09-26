@@ -1,5 +1,5 @@
-owner = SAR
-controller = SAR
+owner = TUN
+controller = TUN
 capital = "El Kef"
 is_city = yes
 culture = tunisian
@@ -8,7 +8,6 @@ trade_goods = wool
 base_tax = 7
 base_production = 3
 base_manpower = 4
-add_core = SAR
 add_core = TUN
 discovered_by = eastern
 discovered_by = indian

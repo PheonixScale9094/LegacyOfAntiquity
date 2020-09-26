@@ -1,5 +1,5 @@
-owner = YAN
-controller = YAN
+owner = Z00
+controller = Z00
 capital = "Urumqi"
 is_city = yes
 culture = tocharian

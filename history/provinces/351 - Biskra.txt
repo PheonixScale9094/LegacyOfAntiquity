@@ -1,5 +1,5 @@
-owner = SAR
-controller = SAR
+owner = ALG
+controller = ALG
 capital = "Biskra"
 is_city = yes
 culture = algerian
@@ -9,7 +9,6 @@ base_tax = 6
 base_production = 3
 base_manpower = 2
 add_core = ALG
-add_core = SAR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

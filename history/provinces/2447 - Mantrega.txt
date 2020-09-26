@@ -1,5 +1,5 @@
-owner = SAR
-controller = SAR
+owner = FEO
+controller = FEO
 capital = "Matrega"
 is_city = yes
 culture = pontic_greek
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 3
 add_core = SAR
-add_core = TRE
+add_core = FEO
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

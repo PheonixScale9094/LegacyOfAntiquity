@@ -1,5 +1,5 @@
-owner = SYR
-controller = SYR
+owner = Z44
+controller = Z44
 capital = "Ar Rakkah"
 is_city = yes
 culture = al_suryah_arabic
@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 2
 add_core = SYR
+add_core = Z44
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

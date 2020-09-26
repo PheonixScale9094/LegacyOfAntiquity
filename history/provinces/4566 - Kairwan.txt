@@ -1,5 +1,4 @@
-owner = SAR
-controller = SAR
+owner = TUN
 capital = "Kairwan"
 is_city = yes
 culture = tunisian
@@ -8,7 +7,6 @@ trade_goods = grain
 base_tax = 4
 base_production = 5
 base_manpower = 3
-add_core = SAR
 add_core = TUN
 discovered_by = eastern
 discovered_by = indian

@@ -1,11 +1,10 @@
-government = monarchy
-add_government_reform = iqta
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 1
 technology_group = muslim
-religion = sunni
+religion = hellenic_pagan_reformed
 primary_culture = algerian
 capital = 338
-religious_school = maliki_school
 1510.1.1 =
 {monarch ={name ="Salim"
 dynasty ="Al-Tumi"

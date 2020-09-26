@@ -1,5 +1,5 @@
-owner = MRK
-controller = MRK
+owner = Z90
+controller = Z90
 capital = "Lausanne"
 is_city = yes
 culture = swiss
@@ -9,7 +9,6 @@ hre = yes
 base_tax = 6
 base_production = 3
 base_manpower = 2
-add_core = MRK
 add_core = SWI
 add_core = Z90
 discovered_by = eastern

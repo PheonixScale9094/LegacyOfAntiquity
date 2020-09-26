@@ -3,47 +3,6 @@
 # If adding new groups or ideas, make sure they are unique.
 
 ### Nation specific idea groups
-
-MDR_ideas = {
-	start = {
-		merchants = 1
-		trade_company_investment_cost = -0.25
-	}
-
-	bonus = {
-		max_absolutism = 10
-		can_fabricate_for_vassals = yes
-	}
-	
-	trigger = {
-		tag = MDR
-	}
-	free = yes		#will be added at load.
-	
-	branch_structure = {
-		vassal_income = 0.1
-		reduced_liberty_desire = 10
-	}
-	national_guilds = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	expanded_citizenship = {
-		num_accepted_cultures = 1
-	}
-	faster_cutters = {
-		trade_efficiency = 0.15
-	}
-	rush_to_the_east = {
-		cb_on_overseas = yes
-	}
-	homestead_act = {
-		global_colonial_growth = 20
-	}
-	merchant_convention = {
-		trade_steering = 0.2
-	}
-}
-
 SLU_ideas = {
 	start = {
 		land_morale = 0.15

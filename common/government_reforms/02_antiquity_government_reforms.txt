@@ -6,7 +6,8 @@ merchant_elite_reform = {
 		max_absolutism = -60
 		governing_capacity = 50
 		merchants = 1
-		inflation_reduction = 0.05
+		republican_tradition = 0.5
+		reelection_cost = -0.9
 	}
 	valid_for_nation_designer = no
 	nation_designer_cost = 40
@@ -45,6 +46,7 @@ merchant_elite_reform = {
 		is_merchant_republic = yes
 		locked_government_type = yes
 	}
+	locked_government_type = yes
 	duration = 5
 }
 
@@ -57,6 +59,7 @@ corporation_reform = {
 		global_foreign_trade_power = 0.25
 		global_tax_modifier = -0.10
 		country_admin_power = 1
+		republican_tradition = 0.5
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
@@ -91,7 +94,6 @@ corporation_reform = {
 	}
 	custom_attributes = {
 		is_merchant_republic = yes
-		locked_government_type = yes
 		locked_government_type = yes
 	}
 	locked_government_type = yes
