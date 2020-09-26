@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = swedish
+capital = 251
+1443.12.5= {
+	monarch = {
+		name = "Sigurd"
+		dynasty = "af Germano"
+		adm = 3
+		dip = 4
+		mil = 2
+		birth_date = 1421.7.12
+		religion = norse_pagan_reformed
+		culture = swedish
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = sinner_personality
+	queen = {
+		name = "Märta"
+		dynasty = "af Germano"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = SCO
+		birth_date = 1421.7.6
+		death_date = 1481.7.6
+		female = yes
+		religion = norse_pagan_reformed
+		culture = swedish
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = infertile_personality
+	heir = {
+		name = "Ulvhilde"
+		monarch_name = "Ulvhilde"
+		dynasty = "af Germano"
+		adm = 2
+		dip = 1
+		mil = 2
+		birth_date = 1438.10.13
+		death_date = 1503.10.13
+		female = yes
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = swedish
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 84
+	add_treasury = 61
+}
+
+

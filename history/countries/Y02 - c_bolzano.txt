@@ -1,0 +1,59 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = austrian
+capital = 4758
+fixed_capital = 4758
+1443.12.5= {
+	monarch = {
+		name = "Tiborg"
+		dynasty = "d'Auvergne"
+		adm = 4
+		dip = 5
+		mil = 4
+		birth_date = 1394.12.25
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = austrian
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Bérard"
+		dynasty = "d'Auvergne"
+		adm = 4
+		dip = 4
+		mil = 4
+		country_of_origin = Y02
+		birth_date = 1395.6.7
+		death_date = 1455.6.7
+		religion = hellenic_pagan_reformed
+		culture = aquitaine
+	}
+	add_queen_personality = kind_hearted_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Candida"
+		monarch_name = "Candida"
+		dynasty = "d'Auvergne"
+		adm = 2
+		dip = 5
+		mil = 2
+		birth_date = 1432.7.16
+		death_date = 1497.7.16
+		female = yes
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = austrian
+	}
+	add_heir_personality = cruel_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1443.12.5= {
+	add_prestige = 28
+	add_treasury = 60
+}
+
+

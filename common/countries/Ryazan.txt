@@ -1,0 +1,116 @@
+graphical_culture = westerngfx
+color = { 146 134 77 }
+revolutionary_colors = { 0 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Afanasiy #1" = 10
+	"Ambrus #1" = 10
+	"Balázs #1" = 10
+	"Bonuslo #1" = 10
+	"Bálint #1" = 10
+	"Csongor #1" = 10
+	"Csák #1" = 10
+	"Darya #0" = -1
+	"Dezsõ #1" = 10
+	"Dénes #1" = 10
+	"Elek #0" = 0
+	"Ernõ #1" = 10
+	"Etel #0" = -1
+	"Ferenc #0" = 0
+	"Imre #2" = 10
+	"Jenõ #4" = 10
+	"Klára #0" = -1
+	"Konrád #1" = 10
+	"Kornél #1" = 10
+	"Károly #1" = 10
+	"Oleg #1" = 10
+	"Parush #1" = 10
+	"Rodislav #1" = 10
+	"Rostislav #2" = 10
+	"Salamon #1" = 10
+	"Saul #1" = 10
+	"Tacsony #1" = 10
+	"Tarján #1" = 10
+	"Tibor #1" = 10
+	"Tylmache #1" = 10
+	"Vazul #1" = 10
+	"Vencel #1" = 10
+	"Volodar #2" = 10
+	"Vyshata #1" = 10
+	"Yefimiy #0" = 0
+	"Zsófia #0" = -1
+	"Ábel #1" = 10
+	"Ágoston #1" = 10
+	"Álmos #1" = 10
+}
+leader_names = {
+	"Barabshin"
+	"Brukathy"
+	"Danilov"
+	"Dmitriev"
+	"Dobrynsky"
+	"Glazaty"
+	"Gorbaty"
+	"Gubastov"
+	"Ivanov"
+	"Kirdyapin"
+	"Muromsky"
+	"Nizhegorodsky"
+	"Nogtew"
+	"Pronsky"
+	"Rozhestvensky"
+	"Sapogov"
+	"Shuisky"
+	"Skopin"
+	"Tolbuzin"
+	"Travin"
+	"Vsevolozhsky"
+	"Yeropkin"
+}
+ship_names = {
+	"Kadorn"
+	"Kasimov"
+	"Lolotcha"
+	"Mikhailov"
+	"Moksha"
+	"Murom"
+	"Novornichurinsk"
+	"Oka"
+	"Pereslavl"
+	"Pronsk"
+	"Pronya"
+	"Ryazansky"
+	"Sasovo"
+	"Shatsk"
+	"Skopin"
+	"Staraya Ryazan"
+	"Tsna"
+	"Y. Sviatoslavich"
+}

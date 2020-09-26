@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = slovene
+capital = 132
+1443.12.5= {
+	monarch = {
+		name = "Oreste"
+		dynasty = "Liutprandingi"
+		adm = 1
+		dip = 3
+		mil = 3
+		birth_date = 1411.12.8
+		religion = hellenic_pagan_reformed
+		culture = slovene
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = sinner_personality
+	queen = {
+		name = "Engeltraud"
+		dynasty = "Smith"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = STY
+		birth_date = 1405.12.3
+		death_date = 1465.12.3
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = slovene
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = well_connected_personality
+	heir = {
+		name = "Antoniotto"
+		monarch_name = "Antoniotto"
+		dynasty = "Liutprandingi"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1442.1.21
+		death_date = 1507.1.21
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = slovene
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 68
+	add_treasury = 61
+}
+
+

@@ -1,0 +1,106 @@
+graphical_culture = easterngfx
+color = { 244 38 38 }
+revolutionary_colors = { 5 14 10 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aimo #1" = 10
+	"Asbjörn #1" = 10
+	"Asko #1" = 10
+	"Atyamas #1" = 10
+	"Azyren #1" = 10
+	"Boris #1" = 10
+	"Brage #1" = 10
+	"Dobrava #0" = -1
+	"Fedot #0" = 0
+	"Feodor #0" = 0
+	"Feodosia #0" = -1
+	"Gavriil #0" = 0
+	"Gorislava #0" = -1
+	"Gradislava #0" = -1
+	"Halsten #1" = 10
+	"Igor #0" = 0
+	"Ihala #1" = 10
+	"Kaarle #3" = 10
+	"Kirill #0" = 0
+	"Koz'ma #0" = 0
+	"Kujku #0" = -1
+	"Lemetti #2" = 10
+	"Maija #1" = -1
+	"Marina #0" = -1
+	"Mitrofan #0" = 0
+	"Mordvinko #2" = 10
+	"Olena #0" = -1
+	"Onni #1" = 10
+	"Putyayka #0" = -1
+	"Pyry #1" = 10
+	"Rikulfr #1" = 10
+	"Rodislav #1" = 10
+	"Ruslan #0" = 0
+	"Sarolt #0" = -1
+	"Sigurd #1" = 10
+	"Siyamka #0" = -1
+	"Skuli #1" = 10
+	"Sofia #1" = -1
+	"Sune #1" = 10
+	"Sviatopolk #0" = 0
+	"Sviatoslava #0" = -1
+	"Sörkver #1" = 10
+	"Tatyana #0" = -1
+	"Terho #2" = 10
+	"Tryggve #1" = 10
+	"Tutyra #1" = 10
+	"Väinö #1" = 10
+	"Yefimiy #1" = 10
+	"Ylva #1" = -1
+	"Yngvar #2" = 10
+}
+leader_names = {
+	"Azegid"
+	"Gachegid"
+	"Irtegid"
+	"Lunegid"
+	"Moshegid"
+	"Rategid"
+	"Syktyvkar"
+	"Yugra"
+	"Zhebegid"
+	"Zhunegid"
+}
+ship_names = {
+	"Noroava"
+	"Olota"
+	"Ordava"
+	"Pemka"
+	"Poshayka"
+	"Tekay"
+	"Tetyava"
+	"Tundya"
+	"Unzhutka"
+	"Yalgava"
+}

@@ -1,0 +1,58 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = occitain
+capital = 184
+fixed_capital = 184
+mercantilism = 25
+1443.12.5= {
+	monarch = {
+		name = "Borel"
+		dynasty = "Gaidoaldingi"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1402.4.18
+		religion = hellenic_pagan_reformed
+		culture = occitain
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Sofia"
+		dynasty = "Smith"
+		adm = 4
+		dip = 3
+		mil = 3
+		country_of_origin = ORL
+		birth_date = 1422.9.4
+		death_date = 1482.9.4
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = benevolent_personality
+	add_queen_personality = kind_hearted_personality
+	heir = {
+		name = "Borel"
+		monarch_name = "Borel"
+		dynasty = "Gaidoaldingi"
+		adm = 1
+		dip = 0
+		mil = 0
+		birth_date = 1442.11.1
+		death_date = 1507.11.1
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = aquitaine
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 75
+	add_treasury = 75
+}
+
+

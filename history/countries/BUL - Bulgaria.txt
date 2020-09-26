@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+technology_group = eastern
+religion = tengri_pagan_reformed
+primary_culture = bulgarian
+capital = 147
+1443.12.5= {
+	monarch = {
+		name = "Svetislav"
+		dynasty = "Balamberid"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1418.11.9
+		religion = tengri_pagan_reformed
+		culture = bulgarian
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Lucija"
+		adm = 2
+		dip = 2
+		mil = 2
+		country_of_origin = BUL
+		birth_date = 1423.2.18
+		death_date = 1483.2.18
+		female = yes
+		religion = catholic
+		culture = croatian
+	}
+	add_queen_personality = just_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Braslav"
+		monarch_name = "Braslav"
+		dynasty = "Balamberid"
+		adm = 1
+		dip = 0
+		mil = 0
+		birth_date = 1441.2.21
+		death_date = 1506.2.21
+		claim = 89
+		religion = tengri_pagan_reformed
+		culture = bulgarian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 36
+	add_treasury = 50
+}
+
+

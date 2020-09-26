@@ -1,0 +1,130 @@
+graphical_culture = easterngfx
+color = { 61 136 66 }
+revolutionary_colors = { 14 0 14 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agafya #0" = -1
+	"Boris #1" = 10
+	"Bozena #1" = -1
+	"Briachislav #2" = 10
+	"Dorofey #1" = 10
+	"Eufemia #1" = -1
+	"Gleb #0" = 0
+	"Gremislava #1" = -1
+	"Havel #1" = 10
+	"Igor #2" = 10
+	"Kolman #1" = 10
+	"Liubava #0" = -1
+	"Mieszko #1" = 10
+	"Milyduch #1" = 10
+	"Mitrofan #0" = 0
+	"Mstislav #2" = 10
+	"Praxida #0" = -1
+	"Prebrana #1" = -1
+	"Pribislava #0" = -1
+	"Przemysl #1" = 10
+	"Radoslav #2" = 10
+	"Roman #2" = 10
+	"Rurik #0" = 0
+	"Ruslan #1" = 10
+	"Snowid #1" = 10
+	"Sviatopolk #2" = 10
+	"Swietoslaw #1" = 10
+	"Tatyana #0" = -1
+	"Terentiy #1" = 10
+	"Trifon #2" = 10
+	"Vladimir #1" = 10
+	"Vladislav #2" = 10
+	"Voislav #1" = 10
+	"Vojtech #1" = 10
+	"Volodar #1" = 10
+	"Vyshata #1" = 10
+	"Vysheslav #1" = 10
+	"Yefrosinia #0" = -1
+	"Yelisey #2" = 10
+	"Yemelyan #2" = 10
+	"Yevstafiy #1" = 10
+}
+leader_names = {
+	"Behm"
+	"Beyse"
+	"Grosch"
+	"Heidmann"
+	"Jürgens"
+	"Krumtum"
+	"Kurzmann"
+	"Meuseling"
+	"Miercke"
+	"Normann"
+	"Rähl"
+	"Stellmacher"
+	"Wessel"
+	"Witt"
+	"von Borcke"
+	"von Cammin"
+	"von Eickstedt"
+	"von Greifswald"
+	"von Kolberg"
+	"von Krockows"
+	"von Lettows"
+	"von Neubrandenburg"
+	"von Neustettin"
+	"von Neustreliz"
+	"von Peglows"
+	"von Prenzlau"
+	"von Ramin"
+	"von Rügen"
+	"von Schwerin"
+	"von Stettin"
+	"von Stolp"
+	"von Stralsund"
+	"von Strelows"
+	"von Szczecin"
+	"von Wolgast"
+	"von Wolgatz"
+	"von Wolin"
+	"von Zitzewitzes"
+	"von und zu Stargard"
+}
+ship_names = {
+	"Anklam"
+	"Cammin"
+	"Demmin"
+	"Fräulein von Rügen"
+	"Greifswald"
+	"Herzog Bogislaw"
+	"Herzog Kasimir"
+	"Herzog Otto"
+	"Neustettin"
+	"Pommern"
+	"Rostock"
+	"Stettin Herzog Barnim"
+	"Stralsund"
+	"Wismar"
+	"Wolgast"
+}

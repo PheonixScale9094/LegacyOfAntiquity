@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = confucianism
+primary_culture = komi
+capital = 1080
+1443.12.5= {
+	monarch = {
+		name = "Vechkas"
+		dynasty = "Tikshaykid"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1390.12.4
+		religion = confucianism
+		culture = komi
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Tundava"
+		dynasty = "Kezhayid"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Z98
+		birth_date = 1404.10.14
+		death_date = 1464.10.14
+		female = yes
+		religion = confucianism
+		culture = komi
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Tyueykezhut"
+		monarch_name = "Tyueykezhut"
+		dynasty = "Tikshaykid"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1426.10.22
+		death_date = 1491.10.22
+		claim = 89
+		religion = confucianism
+		culture = komi
+	}
+	add_heir_personality = fierce_negotiator_personality
+	add_heir_personality = scholar_personality
+}
+1443.12.5= {
+	add_prestige = 45
+	add_treasury = 49
+}
+
+

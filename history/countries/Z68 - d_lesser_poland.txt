@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = kishinyov
+capital = 260
+1443.12.5= {
+	add_prestige = 59
+	add_treasury = 64
+}
+
+

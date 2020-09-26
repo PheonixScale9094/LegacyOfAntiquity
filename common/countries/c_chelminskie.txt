@@ -1,0 +1,16 @@
+graphical_culture = easterngfx
+color = { 170 70 70 }
+monarch_names = {
+	"Gelennis #0" = -1
+	"Gerdautas #0" = 0
+	"Glande #0" = 0
+	"Grasus #0" = -1
+	"Gulbis #0" = -1
+	"Kugis #0" = 0
+	"Milzas #0" = 0
+	"Prusas #0" = 0
+	"Torfinn #0" = 0
+	"Ulinniks #0" = 0
+	"Ulitis #0" = 0
+	"Veleslava #0" = -1
+}

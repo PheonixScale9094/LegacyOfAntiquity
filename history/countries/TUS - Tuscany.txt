@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = grand_duchy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = tuscan
+capital = 116
+1443.12.5= {
+	monarch = {
+		name = "Grasulf VII"
+		dynasty = "Teduericingi"
+		adm = 4
+		dip = 4
+		mil = 5
+		birth_date = 1419.7.21
+		religion = hellenic_pagan_reformed
+		culture = tuscan
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = righteous_personality
+	queen = {
+		name = "Pilitrud"
+		dynasty = "Gaidoaldingi"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = TUS
+		birth_date = 1418.10.22
+		death_date = 1478.10.22
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = old_lombard
+	}
+	add_queen_personality = naive_personality
+	add_queen_personality = righteous_personality
+}
+1443.12.5= {
+	add_prestige = 59
+	add_treasury = 71
+}
+
+

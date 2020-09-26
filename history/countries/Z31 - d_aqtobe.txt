@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = nomad_group
+religion = tengri_pagan_reformed
+primary_culture = khazak
+capital = 472
+1443.12.5= {
+	monarch = {
+		name = "Donát"
+		dynasty = "Apafi"
+		adm = 3
+		dip = 2
+		mil = 5
+		birth_date = 1425.11.9
+		religion = tengri_pagan_reformed
+		culture = khazak
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Shahzadah"
+		dynasty = "Solomonid"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z31
+		birth_date = 1415.3.18
+		death_date = 1475.3.18
+		female = yes
+		religion = sunni
+		culture = tuareg
+	}
+	add_queen_personality = bold_fighter_personality
+	add_queen_personality = lawgiver_personality
+}
+1443.12.5= {
+	add_prestige = 15
+	add_treasury = 58
+}
+
+

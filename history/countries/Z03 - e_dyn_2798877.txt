@@ -1,0 +1,57 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 3
+technology_group = nomad_group
+religion = manichean
+primary_culture = uyghur
+capital = 2189
+1443.12.5= {
+	monarch = {
+		name = "Jüküntirig"
+		dynasty = "Yaghlakar"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1422.3.16
+		religion = manichean
+		culture = uyghur
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Nayiñtay"
+		dynasty = "Kökmi"
+		adm = 2
+		dip = 4
+		mil = 3
+		country_of_origin = Z03
+		birth_date = 1421.11.11
+		death_date = 1481.11.11
+		female = yes
+		religion = manichean
+		culture = uyghur
+	}
+	add_queen_personality = careful_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Jüçi"
+		monarch_name = "Jüçi"
+		dynasty = "Yaghlakar"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1440.5.5
+		death_date = 1505.5.5
+		claim = 89
+		religion = manichean
+		culture = uyghur
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = naive_personality
+}
+1443.12.5= {
+	add_prestige = 53
+	add_treasury = 69
+}
+
+

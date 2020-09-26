@@ -1,0 +1,19 @@
+graphical_culture = muslimgfx
+color = { 107 158 17 }
+monarch_names = {
+	"Abdul-Lateef #0" = 0
+	"Ashraf #0" = 0
+	"Hafsa #0" = -1
+	"Hasti #0" = -1
+	"Imamaddin #0" = 0
+	"Ismat #0" = 0
+	"Kinah #0" = -1
+	"Musa #0" = 0
+	"Nasraddin #0" = 0
+	"Neelab #0" = -1
+	"Niki #0" = -1
+	"Nuri #0" = 0
+	"Salma #0" = -1
+	"Seyfullah #0" = 0
+	"Zahra #0" = -1
+}

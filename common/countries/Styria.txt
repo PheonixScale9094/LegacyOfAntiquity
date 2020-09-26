@@ -1,0 +1,106 @@
+graphical_culture = westerngfx
+color = { 59 126 59 }
+revolutionary_colors = { 0 9 0 }
+historical_idea_groups = {
+	diplomatic_ideas
+	economic_ideas
+	defensive_ideas
+	influence_ideas
+	offensive_ideas
+	trade_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelperga #1" = -1
+	"Alberico #2" = 10
+	"Aldihoc #1" = 10
+	"Ambrosia #0" = -1
+	"Amedeo #1" = 10
+	"Antonio #1" = 10
+	"Antoniotto #0" = 0
+	"Armando #1" = 10
+	"Berenice #0" = -1
+	"Damiano #0" = 0
+	"Domomisl #1" = 10
+	"Engeltraud #0" = -1
+	"Eugenia #0" = -1
+	"Gerardo #3" = 10
+	"Gojislav #1" = 10
+	"Govica #1" = -1
+	"Indulf #1" = 10
+	"Landari #1" = 10
+	"Ljutica #1" = -1
+	"Lucinetta #1" = -1
+	"Marcella #0" = -1
+	"Milaš #1" = 10
+	"Oreste #1" = 10
+	"Radogej #1" = 10
+	"Radwald #1" = 10
+	"Rosèla #0" = -1
+	"Semiko #1" = 10
+	"Stagoj #1" = 10
+	"Stranka #1" = -1
+	"Svetec #0" = 0
+	"Tiziano #1" = 10
+	"Tylmache #0" = 0
+	"Valerio #1" = 10
+	"Vidojko #1" = 10
+	"Vidoslava #1" = -1
+	"Virginia #0" = -1
+}
+leader_names = {
+	"Absenger"
+	"Allmer"
+	"Almer"
+	"Altmann"
+	"Amtmann"
+	"Andreitsch"
+	"Arlitz"
+	"Fuchs"
+	"Herndler"
+	"Hierzegger"
+	"Kroha"
+	"Lanz"
+	"Maxa"
+	"Messner"
+	"Potetz"
+	"Ruckenstuhl"
+	"Schmidtberger"
+	"Steinegger"
+	"Teubenbacher"
+	"Trenkler"
+	"Wergals"
+	"Zingl"
+}
+ship_names = {
+	"Bruck"
+	"Eisenerz"
+	"Graz"
+	"Greim"
+	"Kapfenberg"
+	"Leibnitz"
+	"Leoben"
+	"Mürztal"
+	"Steiermark"
+	"Weiz"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

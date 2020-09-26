@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = old_lombard
+capital = 75
+fixed_capital = 75
+1443.12.5= {
+	monarch = {
+		name = "Erchinoald"
+		dynasty = "Gaidoaldingi"
+		adm = 3
+		dip = 4
+		mil = 2
+		birth_date = 1418.10.9
+		religion = hellenic_pagan_reformed
+		culture = old_lombard
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = just_personality
+	queen = {
+		name = "Adalaïda"
+		dynasty = "de Beaujeu"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = Y24
+		birth_date = 1415.6.20
+		death_date = 1475.6.20
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = aquitaine
+	}
+	add_queen_personality = calm_personality
+	add_queen_personality = secretive_personality
+	heir = {
+		name = "Maginulf"
+		monarch_name = "Maginulf"
+		dynasty = "Gaidoaldingi"
+		adm = 1
+		dip = 1
+		mil = 2
+		birth_date = 1439.6.15
+		death_date = 1504.6.15
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = old_lombard
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 67
+	add_treasury = 82
+}
+
+

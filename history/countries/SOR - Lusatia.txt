@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = russian_culture
+capital = 1763
+1443.12.5= {
+	monarch = {
+		name = "Dobrynia"
+		dynasty = "Glinsky"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1387.2.1
+		religion = slavic_pagan_reformed
+		culture = russian_culture
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_connected_personality
+	queen = {
+		name = "Nezayka"
+		dynasty = "Kezhapid"
+		adm = 3
+		dip = 2
+		mil = 3
+		country_of_origin = SOR
+		birth_date = 1394.9.18
+		death_date = 1454.9.18
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = scholar_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Viacheslav"
+		monarch_name = "Viacheslav"
+		dynasty = "Glinsky"
+		adm = 6
+		dip = 5
+		mil = 5
+		birth_date = 1426.10.11
+		death_date = 1491.10.11
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = strict_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 76
+	add_treasury = 59
+}
+
+

@@ -1,0 +1,27 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = frisian
+capital = 4383
+1443.12.5= {
+	monarch = {
+		name = "Gerdeg III"
+		dynasty = "Ursingi"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1424.3.17
+		religion = hellenic_pagan_reformed
+		culture = frisian
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+1443.12.5= {
+	add_prestige = 43
+	add_treasury = 85
+}
+
+

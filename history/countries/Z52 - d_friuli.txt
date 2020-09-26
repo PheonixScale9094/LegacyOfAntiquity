@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = venetian
+capital = 4738
+elector = yes
+1443.12.5= {
+	monarch = {
+		name = "Saxo"
+		dynasty = "Gaidoaldingi"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1405.6.28
+		religion = hellenic_pagan_reformed
+		culture = venetian
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Candida"
+		dynasty = "Liutprandingi"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = Z52
+		birth_date = 1403.3.26
+		death_date = 1463.3.26
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = venetian
+	}
+	add_queen_personality = silver_tongue_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Archambaut"
+		monarch_name = "Archambaut"
+		dynasty = "Gaidoaldingi"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1427.4.18
+		death_date = 1492.4.18
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = aquitaine
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = secretive_personality
+}
+1443.12.5= {
+	add_prestige = 86
+	add_treasury = 70
+}
+
+

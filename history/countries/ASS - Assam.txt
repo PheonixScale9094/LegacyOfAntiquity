@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = assamese
+capital = 566
+fixed_capital = 566
+1443.12.5= {
+	monarch = {
+		name = "Asima"
+		dynasty = "Pala"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1425.8.1
+		female = yes
+		religion = hinduism
+		culture = assamese
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+1443.12.5= {
+	add_prestige = 68
+	add_treasury = 62
+}
+
+

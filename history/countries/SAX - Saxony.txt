@@ -1,0 +1,40 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = lollard
+primary_culture = hannoverian
+capital = 52
+1443.12.5= {
+	monarch = {
+		name = "Rudigar"
+		dynasty = "Hessing"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 1406.2.17
+		religion = lollard
+		culture = hannoverian
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Hildegard"
+		adm = 5
+		dip = 3
+		mil = 4
+		country_of_origin = SAX
+		birth_date = 1421.2.8
+		death_date = 1481.2.8
+		female = yes
+		religion = waldensian
+	}
+	add_queen_personality = free_thinker_personality
+	add_queen_personality = intricate_web_weaver_personality
+}
+1443.12.5= {
+	add_prestige = 10
+	add_treasury = 54
+}
+
+

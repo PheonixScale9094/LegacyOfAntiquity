@@ -1,0 +1,315 @@
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="KOR"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="RYU"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="DAI"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="AYU"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="SYG"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="HMI"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="CHA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="LXA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="KHM"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="MMA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="MLC"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="PGS"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="TDO"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="MJZ"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="MHX"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="ENG"
+	second="Z97"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="FRA"
+	second="FLA"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="KRK"
+	second="Z38"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="PRM"
+	second="Z91"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="SWE"
+	second="Z27"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="SWE"
+	second="Z78"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="Z20"
+	second="Z34"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="ARB"
+	second="Z44"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="MLO"
+	second="Y33"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="MLO"
+	second="GEN"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="MLO"
+	second="Z36"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="MLO"
+	second="BAV"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="MLO"
+	second="VRN"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="Z08"
+	second="Z09"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="Z11"
+	second="Z14"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="Z02"
+	second="Z05"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="YAN"
+	second="Z98"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="Y17"
+	second="DLH"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="UTS"
+	second="Z83"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="SYR"
+	second="OMA"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="SYR"
+	second="ARB"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+vassal=
+{
+	first="BOH"
+	second="MEI"
+	start_date="1443.12.5"
+	end_date="1836.1.1"
+}
+

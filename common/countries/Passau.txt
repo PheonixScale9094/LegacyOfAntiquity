@@ -1,0 +1,130 @@
+graphical_culture = easterngfx
+color = { 239 99 135 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Boleslava #0" = -1
+	"Boris #0" = 0
+	"Briachislav #0" = 0
+	"Dorofey #0" = 0
+	"Gorislava #0" = -1
+	"Liubava #0" = -1
+	"Mitrofan #0" = 0
+	"Mstislav #0" = 0
+	"Ngeva #0" = -1
+	"Pemka #0" = -1
+	"Pereyaslava #0" = -1
+	"Premyslava #0" = -1
+	"Putiata #0" = 0
+	"Rostislav #0" = 0
+	"Rurik #0" = 0
+	"Sviatopolk #0" = 0
+	"Terentiy #0" = 0
+	"Ulita #0" = -1
+	"Vasilko #0" = 0
+	"Veleslava #0" = -1
+	"Verkhoslava #0" = -1
+	"Viacheslav #0" = 0
+	"Vsevolod #0" = 0
+	"Vysheslav #0" = 0
+	"Yevdokia #0" = -1
+	"Zvenislava #0" = -1
+}
+leader_names = {
+	"Adler"
+	"Alers"
+	"Bake"
+	"Beckröge"
+	"Bergius"
+	"Berninghausen"
+	"Boelken"
+	"Bollheim"
+	"Brill"
+	"Delius"
+	"Drewers"
+	"Engels"
+	"Ficke"
+	"Foukhard"
+	"Geffken"
+	"Gildemeister"
+	"Grovermann"
+	"Happach"
+	"Heimbruch"
+	"Hinke"
+	"Kindt"
+	"Krefting"
+	"Köhne"
+	"Laporte"
+	"Löning"
+	"Meyer"
+	"Oelrichs"
+	"Ordemann"
+	"Reiners"
+	"Rohde"
+	"Sanders"
+	"Schulken"
+	"Steinwachs"
+	"Stucken"
+	"Truernitt"
+	"von Bobert"
+	"von Cappeln"
+	"von Freising"
+	"von Holten"
+	"von Horn"
+	"von Meinertzhagen"
+	"von Passau"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Burgau"
+	"Diessen"
+	"Friedberg"
+	"Graf von Andechs"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Kempten"
+	"König Arnulf"
+	"Lindau"
+	"Memmingen"
+	"Mindel"
+	"Nürnberg"
+	"Oettingen"
+	"Otto"
+	"Passau"
+	"Regensburg"
+	"St. Kilian"
+	"St. Sebaldus"
+	"Straubing"
+	"Tassilo III"
+	"Wittelsbach"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

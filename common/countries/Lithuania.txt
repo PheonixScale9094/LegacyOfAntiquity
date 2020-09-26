@@ -1,0 +1,128 @@
+graphical_culture = westerngfx
+color = { 154 69 116 }
+revolutionary_colors = { 9 0 5 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	economic_ideas
+	quality_ideas
+	diplomatic_ideas
+	administrative_ideas
+	aristocracy_ideas
+	quantity_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Botulfr #1" = 10
+	"Bukantas #1" = 10
+	"Dobieslaw #2" = 10
+	"Dobrogost #1" = 10
+	"Feodosia #0" = -1
+	"Geirr #1" = 10
+	"Hafrid #1" = -1
+	"Halla #1" = -1
+	"Haukr #0" = 0
+	"Henryk #1" = 10
+	"Igor #0" = 0
+	"Ingemar #0" = 0
+	"Kunegunda #1" = -1
+	"Leszek #1" = 10
+	"Liudmila #0" = -1
+	"Maer #0" = -1
+	"Malmfrið #2" = -1
+	"Malusha #0" = -1
+	"Milobrat #1" = 10
+	"Msciwoj #1" = 10
+	"Olafr #0" = 0
+	"Przemyslaw #1" = 10
+	"Rogvolod #1" = 10
+	"Roman #1" = 10
+	"Ruslan #0" = 0
+	"Rögnhildr #0" = -1
+	"Sofia #0" = -1
+	"Tarvydas #1" = 10
+	"Tolir #1" = 10
+	"Traidenis #1" = 10
+	"Tyke #1" = 10
+	"Vladislav #0" = 0
+	"Vysheslav #0" = 0
+	"Waclaw #1" = 10
+	"Yrsa #1" = -1
+	"Zegota #1" = 10
+}
+leader_names = {
+	"Alseniskis"
+	"Astikas"
+	"Chodkevicius"
+	"Daukantas"
+	"Dauksa"
+	"Denhofas"
+	"Giedraitis"
+	"Gosevskis"
+	"Gostautas"
+	"Kesgaila"
+	"Kiska"
+	"Kosakovskis"
+	"Kulvietis"
+	"Lietuvis"
+	"Masalskis"
+	"Mazvydas"
+	"Nemirovicius"
+	"Oginskis"
+	"Ostrogiskis"
+	"Pacas"
+	"Pociejus"
+	"Radvila"
+	"Rapolionis"
+	"Rimsa"
+	"Sanguska"
+	"Sapiega"
+	"Simonavicius"
+	"Sirvydas"
+	"Skorina"
+	"Sluska"
+	"Sosnovskis"
+	"Svyriskis"
+	"Tiskevicius"
+	"Valancius"
+	"Valavicius"
+	"Visniovieckis"
+	"Zabiela"
+}
+ship_names = {
+	"Alytus"
+	"Birzai"
+	"Druskininkai"
+	"Gardinas"
+	"Jonava"
+	"Kaunas"
+	"Kretinga"
+	"Kreva"
+	"Lazdijai"
+	"Naugardukas"
+	"Palanga"
+	"Raseiniai"
+	"Siauliai"
+	"Sventoji"
+	"Taurage"
+	"Telsiai"
+	"Trakai"
+	"Utena"
+	"Vilkmerge"
+}

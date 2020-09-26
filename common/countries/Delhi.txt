@@ -1,0 +1,117 @@
+graphical_culture = indiangfx
+color = { 157 200 42 }
+revolutionary_colors = { 10 4 13 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	administrative_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Amrapali #0" = -1
+	"Anangpal #0" = 0
+	"Anokhi #1" = -1
+	"Anup #0" = -1
+	"Bauladevi #0" = -1
+	"Bhavashankari #1" = -1
+	"Bhim-Singh #1" = 10
+	"Bhogishwar #0" = 0
+	"Birnayaran #1" = 10
+	"Chand #1" = 10
+	"Damayanti #0" = -1
+	"Dattaji #0" = 0
+	"Dehanagadevi #1" = -1
+	"Dev Singh #0" = 0
+	"Dhangadeva #2" = 10
+	"Dharendranarayan #1" = 10
+	"Draupad #1" = 10
+	"Draupada #3" = 10
+	"Ekoji #1" = 10
+	"Farid #0" = 0
+	"Gopalrao #1" = 10
+	"Gujri #0" = -1
+	"Hari #0" = 0
+	"Harshapala #0" = 0
+	"Hemavati #1" = -1
+	"Jetha #1" = 10
+	"Kalyanachandra #1" = 10
+	"Kanchuka #0" = -1
+	"Kapur #1" = 10
+	"Lakshmansen #0" = 0
+	"Lokpala #0" = 0
+	"Madhavrao #0" = 0
+	"Mahidevi #0" = -1
+	"Mahlakadeva #0" = 0
+	"Malavyadevi #0" = -1
+	"Prabhavatigupta #0" = -1
+	"Prasadhanadevi #0" = -1
+	"Puppadevi #0" = -1
+	"Pushkaranadhipa #0" = 0
+	"Rajyapala #0" = 0
+	"Sahib #0" = -1
+	"Shanwei #0" = -1
+	"Shashanka #0" = 0
+	"Shouji #0" = -1
+	"Shrimitradevi #0" = -1
+	"Somasi #1" = 10
+	"Sulakhni #1" = -1
+	"Tejasimha #1" = 10
+	"Tripta #1" = -1
+	"Vishnuchitta #1" = 10
+}
+leader_names = {
+	"Ali"
+	"Azad"
+	"Bhutto"
+	"Hussein"
+	"Jahan"
+	"Khan"
+	"Lodi"
+	"Lohia"
+	"Musharif"
+	"Nagar"
+	"Nazimuddin"
+	"Ra'ana"
+	"Sharif"
+	"Sharma"
+	"Sinan"
+	"Singh"
+	"Viqar-ul-Mulk"
+}
+ship_names = {
+	"Alia"
+	"Chambal"
+	"Fatimah"
+	"Ganges"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Noor"
+	"Sagar"
+	"Spiti"
+	"Yamuna"
+	"Yasmine"
+}

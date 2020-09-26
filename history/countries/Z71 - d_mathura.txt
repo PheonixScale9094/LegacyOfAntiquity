@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = panjabi
+capital = 524
+mercantilism = 15
+1443.12.5= {
+	monarch = {
+		name = "Zorawar"
+		dynasty = "Pala"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1424.11.12
+		religion = hinduism
+		culture = panjabi
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Mahidevi"
+		dynasty = "Bori"
+		adm = 3
+		dip = 3
+		mil = 2
+		country_of_origin = Z71
+		birth_date = 1425.1.10
+		death_date = 1485.1.10
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = cruel_personality
+	add_queen_personality = free_thinker_personality
+	heir = {
+		name = "Zorawar"
+		monarch_name = "Zorawar II"
+		dynasty = "Pala"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1442.2.16
+		death_date = 1507.2.16
+		claim = 89
+		religion = hinduism
+		culture = kashmiri
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 72
+	add_treasury = 70
+}
+
+

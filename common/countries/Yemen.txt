@@ -1,0 +1,98 @@
+graphical_culture = africangfx
+color = { 106 38 44 }
+revolutionary_colors = { 5 0 1 }
+historical_idea_groups = {
+	defensive_ideas
+	maritime_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abdul-Qadir #1" = 10
+	"Aberikos #1" = 10
+	"Adil #1" = 10
+	"Amare #0" = 0
+	"Amlale #0" = 0
+	"Eirotatouññlki #1" = -1
+	"Geesi #0" = -1
+	"Geteye #1" = 10
+	"Guyan #0" = 0
+	"Habesha #0" = -1
+	"Habiba #0" = -1
+	"Ibrahim #1" = 10
+	"Isa #0" = 0
+	"Iskander #0" = 0
+	"Jamal #0" = 0
+	"Keren #0" = -1
+	"Kurake #0" = -1
+	"Kuriakos #1" = 10
+	"Maharene #0" = -1
+	"Menashe #0" = 0
+	"Mengesha #1" = 10
+	"Musa #1" = 10
+	"Negash #0" = 0
+	"Negasi #0" = -1
+	"Oromo #0" = 0
+	"Qwara #0" = -1
+	"Shujah #1" = 10
+	"Sisay #1" = -1
+	"Thadeosi #1" = 10
+	"Waris #0" = -1
+	"Yagana #0" = -1
+	"Yu'fir #1" = 10
+	"Yusuf #1" = 10
+	"Zala #0" = -1
+	"Zenia #0" = -1
+	"Ñojjl #1" = -1
+}
+leader_names = {
+	"Ali"
+	"Ibrahim"
+	"Issa"
+	"Jomaa"
+	"Khalil"
+	"Mansour"
+	"Saab"
+	"Saad"
+	"Saleh"
+	"Shammas"
+}
+ship_names = {
+	"Al-Kawd"
+	"Ali ibn Rasul"
+	"At-Tubah"
+	"Dhubab"
+	"Ibb"
+	"Jabal Kharaz"
+	"Jabal Thamar"
+	"Jabal al-Hasha"
+	"Malik al-Mujahid"
+	"Mansur Umar"
+	"Mawiyah"
+	"Musaymir"
+	"Muzaffar Yusuf"
+	"Qa'tabah"
+	"Shaykh Uthman"
+	"Ta'izz"
+	"Wadi Bana"
+	"Whaqra"
+	"Zabid"
+	"Zaizz"
+}

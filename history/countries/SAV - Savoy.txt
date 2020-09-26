@@ -1,0 +1,27 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = occitain
+capital = 4719
+elector = yes
+1443.12.5= {
+	monarch = {
+		name = "Valentino"
+		adm = 6
+		dip = 2
+		mil = 6
+		birth_date = 1378.3.5
+		religion = hellenic_pagan_reformed
+		culture = occitain
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 59
+	add_treasury = 67
+}
+
+

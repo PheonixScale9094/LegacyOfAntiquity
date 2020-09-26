@@ -1,0 +1,104 @@
+graphical_culture = westerngfx
+color = { 236 159 90 }
+revolutionary_colors = { 5 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	spy_ideas
+	quantity_ideas
+	economic_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alvar #1" = 10
+	"Burmort #1" = 10
+	"Chiyya #0" = 0
+	"Deryab #1" = 10
+	"Emili #0" = -1
+	"Inzhay #1" = 10
+	"Lope #0" = 0
+	"Luis #0" = 0
+	"Ordoño #0" = 0
+	"Vechkas #1" = 10
+	"Virdyan #3" = 10
+	"Vokan #1" = 10
+	"Wayngachi #1" = 10
+	"Yurak #2" = 10
+}
+leader_names = {
+	"Burmatov"
+	"Cheskidov"
+	"Dozmorov"
+	"Ichetkin"
+	"Kachesov"
+	"Kanev"
+	"Kochev"
+	"Koinov"
+	"Kolegov"
+	"Kudymov"
+	"Kychanov"
+	"Kykin"
+	"Kynev"
+	"Kynkurogov"
+	"Kyrnyshev"
+	"Kyrov"
+	"Kysov"
+	"Lyurov"
+	"Michkin"
+	"Moshev"
+	"Oshev"
+	"Oshkokov"
+	"Porsin"
+	"Purtov"
+	"Rakin"
+	"Rochev"
+	"Ruchev"
+	"Syuzev"
+	"Vilesov"
+	"Volegov"
+	"Yusev"
+	"Zerov"
+	"Zyrianov"
+}
+ship_names = {
+	"Baseg"
+	"Cherdyn"
+	"Iskor"
+	"Kama"
+	"Koleg"
+	"Kolva"
+	"Kudym-Osha"
+	"Pelym"
+	"Pokcha"
+	"Rateg"
+	"Shudeg"
+	"Sysola"
+	"Uros"
+	"Uzheg"
+	"Vilgort"
+	"Vishera"
+	"Voleg"
+	"Vychegda"
+	"Yazva"
+	"Yus"
+}

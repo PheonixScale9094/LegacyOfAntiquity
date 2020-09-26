@@ -1,0 +1,110 @@
+graphical_culture = easterngfx
+color = { 230 228 214 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aleramo #1" = 10
+	"Alexandros #3" = 10
+	"Amalia #0" = -1
+	"Anatolios #2" = 10
+	"Andreas #1" = 10
+	"Ansfrid #1" = 10
+	"Anthemios #1" = 10
+	"Artemios #1" = 10
+	"Atenulf #1" = 10
+	"Athanasia #0" = -1
+	"Ausilio #0" = 0
+	"Bartholomaios #1" = 10
+	"Berin #0" = 0
+	"Budimir #1" = 10
+	"Caracosa #0" = -1
+	"Cataldo #1" = 10
+	"Christophoros #3" = 10
+	"Chrysogonos #1" = 10
+	"Ereleuva #0" = -1
+	"Erelieva #0" = -1
+	"Euphemios #1" = 10
+	"Gabriel #1" = 10
+	"Galasso #0" = 0
+	"Gaspare #0" = 0
+	"Helias #1" = 10
+	"Ioustina #0" = -1
+	"Konstas #1" = 10
+	"Loukas #2" = 10
+	"Markos #1" = 10
+	"Nikodemos #1" = 10
+	"Niphon #2" = 10
+	"Oreste #1" = 10
+	"Philotheos #1" = 10
+	"Porphyrios #1" = 10
+	"Prokopios #1" = 10
+	"Riccardo #0" = 0
+	"Rodolf #1" = 10
+	"Romylia #1" = -1
+	"Serapion #2" = 10
+	"Sergios #1" = 10
+	"Stephanos #2" = 10
+	"Theodosios #1" = 10
+	"Theodoulos #1" = 10
+	"Theophanes #1" = 10
+	"Theophylaktos #1" = 10
+	"Thomais #1" = -1
+	"Traianos #4" = 10
+	"Zenon #2" = 10
+}
+leader_names = {
+	"Angelus"
+	"Asan"
+	"Branas"
+	"Cantacuzene"
+	"Comnenus"
+	"Ducas"
+	"Mavros"
+	"Notaras"
+	"Palaeologus"
+	"Phocas"
+	"Raoul"
+	"Spagnoli"
+	"Sphrantzes"
+	"Tocco"
+	"Zaccaria"
+}
+ship_names = {
+	"Agios Kyprianos"
+	"Areopoli"
+	"Elika"
+	"Geronlimenas"
+	"Gytheio"
+	"Kardamyli"
+	"Kokkala"
+	"Kotronas"
+	"Skoutari"
+	"Vathia"
+}

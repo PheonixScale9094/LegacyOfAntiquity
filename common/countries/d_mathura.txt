@@ -1,0 +1,25 @@
+graphical_culture = indiangfx
+color = { 150 45 10 }
+monarch_names = {
+	"Beejpal #0" = 0
+	"Fateh #0" = 0
+	"Gambhir #4" = 10
+	"Govindapal #3" = 10
+	"Har Krishan #0" = 0
+	"Hemant Sen #1" = 10
+	"Hirapal #1" = 10
+	"Kalkurna #1" = 10
+	"Kamal #2" = 10
+	"Kanchuka #0" = -1
+	"Kanhad #2" = 10
+	"Maharana #1" = 10
+	"Mahidevi #0" = -1
+	"Mahindranarayan #1" = 10
+	"Mahipala #1" = 10
+	"Prithichand #0" = 0
+	"Prithvi #0" = 0
+	"Uddharandeva #1" = 10
+	"Vigrahapala #0" = 0
+	"Vijayasakti #5" = 10
+	"Zorawar #1" = 10
+}

@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = cosmopolitan_french
+capital = 177
+fixed_capital = 177
+1443.12.5= {
+	monarch = {
+		name = "Lamberto"
+		dynasty = "di Beaumont"
+		adm = 4
+		dip = 1
+		mil = 3
+		birth_date = 1399.3.15
+		religion = hellenic_pagan_reformed
+		culture = cosmopolitan_french
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_connected_personality
+	queen = {
+		name = "Lanthechilde"
+		dynasty = "Welenti"
+		adm = 4
+		dip = 4
+		mil = 1
+		country_of_origin = Y20
+		birth_date = 1398.11.12
+		death_date = 1458.11.12
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = frankish
+	}
+	add_queen_personality = cruel_personality
+	add_queen_personality = lawgiver_personality
+	heir = {
+		name = "Clotaire"
+		monarch_name = "Clotaire"
+		dynasty = "di Beaumont"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1433.5.13
+		death_date = 1498.5.13
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = cosmopolitan_french
+	}
+	add_heir_personality = calm_personality
+	add_heir_personality = just_personality
+}
+1443.12.5= {
+	add_prestige = 4
+	add_treasury = 65
+}
+
+

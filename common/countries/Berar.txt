@@ -1,0 +1,126 @@
+graphical_culture = indiangfx
+color = { 26 207 81 }
+revolutionary_colors = { 1 8 1 }
+historical_idea_groups = {
+	administrative_ideas
+	quantity_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Allada #2" = 10
+	"Bhagabhadra #1" = 10
+	"Bhandanaditya #2" = 10
+	"Bhattamahabahu #1" = 10
+	"Bijjabbe #1" = -1
+	"Chandaladevi #1" = -1
+	"Dantidurga #1" = 10
+	"Dasharathadeva #0" = 0
+	"Dattadevi #0" = -1
+	"Dhruva #1" = 10
+	"Gajankusha #1" = 10
+	"Gandaraditya #1" = 10
+	"Govinda #2" = 10
+	"Gunarnava #0" = 0
+	"Harendranarayan #0" = 0
+	"Hari Singh #1" = 10
+	"Haripaladeva #1" = 10
+	"Hemantavarman #0" = 0
+	"Indra #1" = 10
+	"Jagaddipendranarayan #2" = 10
+	"Jhetpala #1" = 10
+	"Jira #0" = -1
+	"Jivajirao #1" = 10
+	"Kalakampa #1" = 10
+	"Konganivarman #2" = 10
+	"Krishna #1" = 10
+	"Kulastambha #0" = 0
+	"Madhura #2" = 10
+	"Mahadev #0" = 0
+	"Mangalesi #1" = 10
+	"Mogubai #0" = -1
+	"Murarirao #0" = 0
+	"Neetimarga #1" = 10
+	"Nuyat #1" = 10
+	"Prabhavati #0" = -1
+	"Praudharaya #1" = 10
+	"Revakanimmadi #1" = -1
+	"Sadashiva #1" = 10
+	"Sanyukta #0" = -1
+	"Shashthadeva #1" = 10
+	"Sthamba #1" = 10
+	"Sudevaraja #0" = 0
+	"Thirumalambike #1" = -1
+	"Vasudeva #0" = 0
+}
+leader_names = {
+	"Ardastani"
+	"Astarabadi"
+	"Badakshi"
+	"Banda"
+	"Basri"
+	"Bhosle"
+	"Bukhari"
+	"Changezi"
+	"Dakhni"
+	"Gilani"
+	"Hasanabadi"
+	"Jurjani"
+	"Kabuli"
+	"Khan"
+	"Kirmani"
+	"Kudha"
+	"Majmudar"
+	"Maloji"
+	"Munshi"
+	"Muzzafar"
+	"Parikh"
+	"Qummi"
+	"Shahji"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Arusa"
+	"Bori"
+	"Fatimah"
+	"Girna"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Narmada"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Noor"
+	"Panjhra"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Tapi"
+	"Yasmine"
+	"Zahira"
+}

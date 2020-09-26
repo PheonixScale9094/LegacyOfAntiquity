@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = occitain
+capital = 110
+fixed_capital = 110
+1443.12.5= {
+	monarch = {
+		name = "Puelle"
+		dynasty = "de Beaujeu"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1400.5.24
+		female = yes
+		religion = hellenic_pagan_reformed
+		culture = occitain
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Dorotheos"
+		dynasty = "de Transjuranie"
+		adm = 3
+		dip = 3
+		mil = 5
+		country_of_origin = TNT
+		birth_date = 1407.6.18
+		death_date = 1467.6.18
+		religion = hellenic_pagan_reformed
+		culture = goths
+	}
+	add_queen_personality = careful_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Bérard"
+		monarch_name = "Bérard"
+		dynasty = "de Beaujeu"
+		adm = 6
+		dip = 6
+		mil = 4
+		birth_date = 1427.6.6
+		death_date = 1492.6.6
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = aquitaine
+	}
+	add_heir_personality = malevolent_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1443.12.5= {
+	add_prestige = 75
+	add_treasury = 59
+}
+
+

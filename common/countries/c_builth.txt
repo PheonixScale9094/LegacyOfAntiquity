@@ -1,0 +1,16 @@
+graphical_culture = westerngfx
+color = { 172 85 15 }
+monarch_names = {
+	"Anlaff #0" = 0
+	"Astrid #0" = -1
+	"Beata #0" = -1
+	"Brethoc #0" = -1
+	"Cadfan #0" = 0
+	"Cadwal #0" = 0
+	"Coel #0" = 0
+	"Ivor #0" = 0
+	"Leofwynn #0" = -1
+	"Mwyn #0" = 0
+	"Sara #0" = -1
+	"Tudwallon #0" = 0
+}

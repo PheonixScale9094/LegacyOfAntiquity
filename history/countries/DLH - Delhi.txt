@@ -1,0 +1,38 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 2
+technology_group = indian
+religion = hinduism
+primary_culture = avadhi
+capital = 523
+mercantilism = 15
+1443.12.5= {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date155.1.1
+		regent = yes
+		religion = hinduism
+		culture = avadhi
+	}
+	heir = {
+		name = "Dhangadeva II"
+		dynasty = "Bhar"
+		adm = 5
+		dip = 5
+		mil = 5
+		birth_date = 1432.2.10
+		death_date = 1497.2.10
+		claim = 89
+		religion = hinduism
+		culture = avadhi
+	}
+}
+1443.12.5= {
+	add_prestige = 61
+	add_treasury = 0
+}
+
+

@@ -1,0 +1,106 @@
+graphical_culture = muslimgfx
+color = { 84 242 223 }
+revolutionary_colors = { 8 0 5 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abanoub #1" = 10
+	"Abbas #1" = 10
+	"Adelaide #0" = -1
+	"Adhémar #0" = 0
+	"Alaricho #1" = 10
+	"Amennay #2" = 10
+	"Anthimos #0" = 0
+	"Antonella #0" = -1
+	"Assur #1" = 10
+	"Awdia #1" = 10
+	"Bakr-Kanbu #1" = 10
+	"Eugenio #1" = 10
+	"Fahd #2" = 10
+	"Fella #1" = 10
+	"Gaetano #0" = 0
+	"Gauda #1" = 10
+	"Giuditta #0" = -1
+	"Hartwig #0" = 0
+	"Harun #1" = 10
+	"Hashim #2" = 10
+	"Himmi #1" = 10
+	"Hypatia #1" = -1
+	"Ippolita #0" = -1
+	"Isli #1" = 10
+	"Keraja #1" = 10
+	"Kinkin #0" = 0
+	"Liuva #1" = 10
+	"Monnio #1" = 10
+	"Muhammad #1" = 10
+	"Murad #2" = 10
+	"Muzaffaraddin #2" = 10
+	"Ranimiro #1" = 10
+	"Savary #0" = 0
+	"Shamsaddin #1" = 10
+	"Sifaks #1" = 10
+	"Sisenanda #1" = -1
+	"Sofia #0" = -1
+	"Tabat #1" = 10
+	"Theodoricho #1" = 10
+	"Tiberios #0" = 0
+	"Tiljad #1" = 10
+	"Traianos #1" = 10
+	"Umar #1" = 10
+	"Uregh #1" = 10
+	"Yahya #1" = 10
+	"Yattuy #2" = 10
+	"Zayar #2" = 10
+}
+leader_names = {
+	"Alami"
+	"Arazi"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Haida"
+	"Lahsini"
+	"Sahiri"
+	"Sellami"
+	"Skah"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Fa'uf"
+	"Fazl Azim"
+	"Ghani"
+	"Hadi"
+	"Jalal Ikram"
+	"Jami"
+	"Malik Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaqim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

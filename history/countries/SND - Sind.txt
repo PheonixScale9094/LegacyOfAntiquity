@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+technology_group = indian
+religion = hinduism
+primary_culture = avadhi
+capital = 4327
+1443.12.5= {
+	monarch = {
+		name = "Hamir III"
+		dynasty = "Kazeruni"
+		adm = 2
+		dip = 3
+		mil = 2
+		birth_date = 1419.9.12
+		religion = hinduism
+		culture = avadhi
+	}
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Kanchuka"
+		dynasty = "Yadava"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = SND
+		birth_date = 1419.8.12
+		death_date = 1479.8.12
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Hamir"
+		monarch_name = "Hamir IV"
+		dynasty = "Kazeruni"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.9.5
+		death_date = 1508.9.5
+		claim = 89
+		religion = hinduism
+		culture = pahari
+	}
+	add_heir_personality = craven_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 70
+	add_treasury = 0
+}
+
+

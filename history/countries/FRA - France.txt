@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = cosmopolitan_french
+capital = 183
+1443.12.5= {
+	monarch = {
+		name = "Aubry III"
+		dynasty = "de Luxembourg"
+		adm = 2
+		dip = 5
+		mil = 3
+		birth_date = 1411.11.15
+		religion = catholic
+		culture = cosmopolitan_french
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Elvira"
+		dynasty = "Ure"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = FRA
+		birth_date = 1405.3.10
+		death_date = 1465.3.10
+		female = yes
+		religion = catholic
+		culture = visigothic
+	}
+	add_queen_personality = bold_fighter_personality
+	add_queen_personality = righteous_personality
+	heir = {
+		name = "Aubry"
+		monarch_name = "Aubry IV"
+		dynasty = "de Luxembourg"
+		adm = 1
+		dip = 2
+		mil = 3
+		birth_date = 1434.10.16
+		death_date = 1499.10.16
+		claim = 89
+		religion = catholic
+		culture = burgundian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 72
+	add_treasury = 47
+}
+
+

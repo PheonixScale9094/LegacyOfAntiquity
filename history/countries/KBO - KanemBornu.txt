@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = east_african
+religion = catholic
+primary_culture = nubian
+capital = 4033
+1443.12.5= {
+	monarch = {
+		name = "Philotheos"
+		dynasty = "Azim"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1382.9.3
+		religion = catholic
+		culture = nubian
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Myassa"
+		dynasty = "Capet"
+		adm = 6
+		dip = 1
+		mil = 4
+		country_of_origin = KBO
+		birth_date = 1421.12.13
+		death_date = 1481.12.13
+		female = yes
+		religion = catholic
+		culture = tuareg
+	}
+	add_queen_personality = greedy_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Thoma"
+		monarch_name = "Thoma"
+		dynasty = "Azim"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1406.8.20
+		death_date = 1471.8.20
+		claim = 89
+		religion = catholic
+		culture = beja
+	}
+	add_heir_personality = infertile_personality
+	add_heir_personality = lawgiver_personality
+}
+1443.12.5= {
+	add_prestige = 3
+	add_treasury = 69
+}
+
+

@@ -1,0 +1,13 @@
+graphical_culture = westerngfx
+color = { 160 160 210 }
+monarch_names = {
+	"Adalaïda #0" = -1
+	"Alda #0" = -1
+	"Ebbon #0" = 0
+	"Erchinoald #0" = 0
+	"Geretrudis #0" = -1
+	"Gisulf #0" = 0
+	"Gunzelin #0" = 0
+	"Letizia #0" = -1
+	"Maginulf #0" = 0
+}

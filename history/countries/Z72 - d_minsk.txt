@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = byelorussian
+capital = 276
+1443.12.5= {
+	monarch = {
+		name = "Ingvar"
+		dynasty = "Novotorgsky"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1420.7.11
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Gradislava"
+		dynasty = "Glinsky"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = Z72
+		birth_date = 1419.12.24
+		death_date = 1479.12.24
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+}
+1443.12.5= {
+	add_prestige = 40
+	add_treasury = 62
+}
+
+

@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = frankish
+capital = 1875
+1443.12.5= {
+	add_prestige = 69
+	add_treasury = 5
+}
+
+

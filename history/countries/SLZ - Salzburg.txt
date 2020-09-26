@@ -1,0 +1,27 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = bavarian
+capital = 76
+fixed_capital = 76
+1443.12.5= {
+	monarch = {
+		name = "Kaspar"
+		adm = 5
+		dip = 4
+		mil = 5
+		birth_date = 1383.7.18
+		religion = hellenic_pagan_reformed
+		culture = bavarian
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = secretive_personality
+}
+1443.12.5= {
+	add_prestige = -9
+	add_treasury = 84
+}
+
+

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = novgorodian
+capital = 4259
+1443.12.5= {
+	monarch = {
+		name = "Vyshata"
+		dynasty = "Chernyshev"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1411.4.18
+		religion = slavic_pagan_reformed
+		culture = novgorodian
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Yevpraxia"
+		dynasty = "Manvid"
+		adm = 2
+		dip = 4
+		mil = 2
+		country_of_origin = YAR
+		birth_date = 1411.2.2
+		death_date = 1471.2.2
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = tactical_genius_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Feodor"
+		monarch_name = "Feodor"
+		dynasty = "Chernyshev"
+		adm = 4
+		dip = 6
+		mil = 5
+		birth_date = 1428.2.6
+		death_date = 1493.2.6
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+	add_heir_personality = well_connected_personality
+}
+1443.12.5= {
+	add_prestige = 46
+	add_treasury = 59
+}
+
+

@@ -1,0 +1,100 @@
+graphical_culture = westerngfx
+color = { 234 214 165 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Ailbrenn #0" = 0
+	"Aleta #0" = -1
+	"Alfgeir #1" = 10
+	"Arnemetia #0" = -1
+	"Asbjörn #1" = 10
+	"Bagge #1" = 10
+	"Bersi #1" = 10
+	"Björn #0" = 0
+	"Botulfr #1" = 10
+	"Bragi #0" = 0
+	"Caicher #1" = 10
+	"Dag #0" = 0
+	"Dunáed #0" = 0
+	"Emma #0" = -1
+	"Fearghus #2" = 10
+	"Fergus #1" = 10
+	"Flann #0" = -1
+	"Gilla-Críst #0" = 0
+	"Guoedanau #1" = 10
+	"Gurli #1" = -1
+	"Guðfrið #0" = 0
+	"Guðrun #0" = -1
+	"Hjalmar #2" = 10
+	"Hrafn #1" = 10
+	"Hæsteinn #1" = 10
+	"Iarnbud #1" = 10
+	"Iarndetguid #1" = 10
+	"Knut #0" = 0
+	"Morand #0" = 0
+	"Muirenn #1" = -1
+	"Olafr #1" = 10
+	"Refil #0" = 0
+	"Rikulfr #2" = 10
+	"Saga #0" = -1
+	"Sigrid #1" = -1
+	"Skuld #0" = -1
+	"Snorri #1" = 10
+	"Sæthryth #1" = -1
+	"Wulfrun #0" = -1
+	"Áed #1" = 10
+	"Þorbrandr #3" = 10
+	"Þorfinn #1" = 10
+	"Þorsteinn #1" = 10
+}
+leader_names = {
+	"Barry"
+	"Boyle"
+	"Darcy"
+	"FitzGerald"
+	"FitzThomas"
+	"MacCarthy"
+	"Magginis"
+	"McDonnald"
+	"O'Brien"
+	"O'Neill"
+	"Sarsfield"
+	"Talbot"
+}
+ship_names = {
+	"Clare"
+	"Cork"
+	"Deas Mhuman"
+	"Kerry"
+	"Lar Mumhan"
+	"Limerick"
+	"Tipperary"
+	"Tuad Mhuman"
+	"Urh Mumhan"
+	"Waterford"
+}

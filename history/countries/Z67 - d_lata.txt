@@ -1,0 +1,37 @@
+government = monarchy
+add_government_reform = rajput_kingdom
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = gujarati
+capital = 516
+1443.12.5= {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 1
+		dip = 1
+		mil = 1
+		birth_date155.1.1
+		regent = yes
+		religion = hinduism
+		culture = gujarati
+	}
+	heir = {
+		name = "Prithvipal"
+		dynasty = "Yadava"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1434.2.18
+		death_date = 1499.2.18
+		claim = 89
+		religion = hinduism
+		culture = gujarati
+	}
+}
+1443.12.5= {
+	add_prestige = 32
+	add_treasury = 50
+}
+
+

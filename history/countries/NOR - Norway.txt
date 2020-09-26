@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = swedish
+capital = 10
+1443.12.5= {
+	add_prestige = 88
+	add_treasury = 81
+}
+
+

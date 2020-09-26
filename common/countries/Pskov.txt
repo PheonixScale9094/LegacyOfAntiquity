@@ -1,0 +1,109 @@
+graphical_culture = easterngfx
+color = { 82 123 95 }
+revolutionary_colors = { 15 8 15 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	administrative_ideas
+	economic_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Agafya #1" = -1
+	"Alexei #1" = 10
+	"Dobrynia #1" = 10
+	"Fedot #2" = 10
+	"Feodor #3" = 10
+	"Hakon #1" = 10
+	"Igor #1" = 10
+	"Ihameel #1" = 10
+	"Ingvar #1" = 10
+	"Irina #0" = -1
+	"Malfrida #0" = -1
+	"Malusha #0" = -1
+	"Nikita #1" = 10
+	"Prebrana #0" = -1
+	"Radoslav #3" = 10
+	"Rodislav #2" = 10
+	"Roman #1" = 10
+	"Rostislav #1" = 10
+	"Sudislav #1" = 10
+	"Sviatoslava #0" = -1
+	"Trifon #1" = 10
+	"Uzluk #0" = 0
+	"Verkhoslava #1" = -1
+	"Viacheslav #2" = 10
+	"Vladislav #0" = 0
+	"Vsevolod #1" = 10
+	"Vyshata #1" = 10
+	"Xenia #0" = -1
+	"Yaroslav #2" = 10
+	"Yelizaveta #0" = -1
+	"Yemelyan #2" = 10
+	"Yeremey #1" = 10
+	"Yevdokia #1" = -1
+	"Yevstafiy #1" = 10
+	"Youwei #0" = -1
+}
+leader_names = {
+	"Aladyin"
+	"Beznosov"
+	"Bokeev"
+	"Borovsky"
+	"Burukhin"
+	"Dalmatov"
+	"Dursky"
+	"Galisky"
+	"Galitsky"
+	"Izyaslavsky"
+	"Kisleevsky"
+	"Korobyin"
+	"Mozhaisky"
+	"Satin"
+	"Shemyakin"
+	"Shukalovsky"
+	"Travin"
+	"Tsyplyatev"
+	"Uglisky"
+	"Vereisky"
+	"Vitebsky"
+	"Vnukov"
+	"Volotsky"
+	"Zabolotsky"
+}
+ship_names = {
+	"Bolotovo"
+	"Chudskoye"
+	"Izborsk"
+	"Kulikovo"
+	"Narva"
+	"Ostrov"
+	"Pechory"
+	"Porhov"
+	"Pskovskoye"
+	"Rakovor"
+	"Sebezh"
+	"Velikaya"
+	"Velikiye Luki"
+}

@@ -1,0 +1,174 @@
+graphical_culture = easterngfx
+color = { 99 137 153 }
+revolutionary_colors = { 10 13 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alexei #1" = 10
+	"Ankad #1" = 10
+	"Aotõiv #0" = 0
+	"Borut #1" = 10
+	"Briachislav #1" = 10
+	"Budrys #1" = 10
+	"Darya #0" = -1
+	"Erasts #1" = 10
+	"Fevronia #0" = -1
+	"Gavriil #1" = 10
+	"Gintautas #1" = 10
+	"Iliya #1" = 10
+	"Imela #1" = -1
+	"Ingvar #1" = 10
+	"Juvage #1" = 10
+	"Kiten #2" = 10
+	"Kodere #2" = 10
+	"Malfrida #0" = -1
+	"Mitrofan #0" = 0
+	"Oleg #1" = 10
+	"Olena #1" = -1
+	"Rodislav #0" = 0
+	"Shutr #1" = 10
+	"Sviatoslav #0" = 0
+	"Swietoslaw #3" = 10
+	"Valikaila #2" = 10
+	"Verkhoslava #1" = -1
+	"Voislav #2" = 10
+	"Vseslav #3" = 10
+	"Waclaw #1" = 10
+	"Yaroslav #1" = 10
+	"Yefimiy #0" = 0
+	"Yeremey #2" = 10
+	"Yevstafiy #1" = 10
+}
+leader_names = {
+	"Ascheberg"
+	"Behr"
+	"Bilderling"
+	"Blomberg"
+	"Borch"
+	"Brincken"
+	"Brüggen"
+	"Buchholtz"
+	"Derschau"
+	"Drachenfels"
+	"Düsterlohe"
+	"Engelhardt"
+	"Fircks"
+	"Funck"
+	"Fölkersam"
+	"Grotthuss"
+	"Haaren"
+	"Hahn"
+	"Heyking"
+	"Howen"
+	"Kleist"
+	"Klopmann"
+	"Komorowski"
+	"Koskull"
+	"Lambsdorff"
+	"Mirbach"
+	"Nettelhorst"
+	"Nolcken"
+	"Oelsen"
+	"Offenberg"
+	"Osten-Sacken"
+	"Pahlen"
+	"Raczynski"
+	"Recke"
+	"Ropp"
+	"Rosenberg"
+	"Schlippenbach"
+	"Seefeld"
+	"Stackelberg"
+	"Stromberg"
+	"Taube"
+	"von Altenbockum"
+	"von Bach"
+	"von Boetticher"
+	"von Hoerner"
+	"von Lysander"
+	"von Rummel"
+	"von Schroeders"
+	"von Timroth"
+	"von der Launitz"
+}
+ship_names = {
+	"Aa"
+	"Blumentopf"
+	"Bruno"
+	"Dame"
+	"Das Wappen der Herzogin von Kurland"
+	"Diderick Tork"
+	"Drei Heringe"
+	"Düna"
+	"Franco Kerskorff"
+	"Goldingen"
+	"Hasenpoth"
+	"Herzogenstein"
+	"Hoffnung"
+	"Johannes Ungenade"
+	"Krokodil"
+	"Lynn kurländische Möwe"
+	"Mitau"
+	"Reimar Hane"
+	"Seeburg"
+	"Tukums"
+	"Windau"
+	"von Bockenvorde"
+	"von Breithausen"
+	"von Bürggeneye"
+	"von Dreileben"
+	"von Eltz"
+	"von Endorp"
+	"von Feuchtwangen"
+	"von Fürstenberg"
+	"von Galen"
+	"von Grüningen"
+	"von Hercke"
+	"von Herse"
+	"von Hohembach"
+	"von Hornhausen"
+	"von Jocke"
+	"von Loringhofe"
+	"von Lutterberg"
+	"von Mandern"
+	"von Mengede"
+	"von Monheim"
+	"von Nortecken"
+	"von Overbergen"
+	"von Plettenberg"
+	"von Rassburg"
+	"von Rogga"
+	"von Rutenberg"
+	"von Sangershausen"
+	"von Spanheim"
+	"von Stierland"
+	"von Vietinghof"
+	"von Vrymersheim"
+	"von der Borch"
+	"von der Recke"
+	"von dinkelaghe"
+}

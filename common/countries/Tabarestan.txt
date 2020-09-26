@@ -1,0 +1,109 @@
+graphical_culture = muslimgfx
+color = { 217 144 88 }
+revolutionary_colors = { 13 10 5 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Al-Mansur #1" = 10
+	"Ali #0" = 0
+	"Alim #1" = 10
+	"Anushirvan #1" = 10
+	"Ardavan #1" = 10
+	"Aurang #1" = 10
+	"Ayeshah #2" = 10
+	"Babak #2" = 10
+	"Bharkhuman #1" = 10
+	"Braanz #1" = 10
+	"Chanin #1" = 10
+	"Dabuya #1" = 10
+	"Dadhburzmihr #1" = 10
+	"Darab #1" = 10
+	"Dariush #1" = 10
+	"Fariborz #1" = 10
+	"Farrukhan #1" = 10
+	"Faruk #1" = 10
+	"Farzad #1" = 10
+	"Fayiz #1" = 10
+	"Gavbarih #1" = 10
+	"Godarz #2" = 10
+	"Hafiz #1" = 10
+	"Hossein #1" = 10
+	"Huma #0" = -1
+	"Jalab #1" = 10
+	"Kharmandar #1" = 10
+	"Khurshid #2" = 10
+	"Mallouk #1" = 10
+	"Malyaka #1" = 10
+	"Marzuban #0" = 0
+	"Mehrzad #1" = 10
+	"Moqli #1" = 10
+	"Muzaffar #1" = 10
+	"Muzhdah #0" = -1
+	"Nawid #1" = 10
+	"Rahmat #1" = 10
+	"Sa'ud #0" = 0
+	"Samira #0" = -1
+	"Seljuk #1" = 10
+	"Shahryar #1" = 10
+	"Shayan #1" = 10
+	"Shervin #1" = 10
+	"Sorkhab #2" = 10
+	"Sulayman #1" = 10
+	"Surin #1" = 10
+	"Tahmasb #2" = 10
+	"Tylze #1" = 10
+	"Vandad Hormozd #1" = 10
+	"Vindaspagan #2" = 10
+}
+leader_names = {
+	"Ardashir"
+	"Buzurg"
+	"Dabuya"
+	"Dadhburzmihr"
+	"Farrukhan"
+	"Hassan"
+	"Kamal"
+	"Khurshid"
+	"Kiya"
+	"Mazyar"
+	"Qarin"
+	"Quhyar"
+	"Rida"
+	"Rustam"
+	"Shahriyar"
+	"Vindadhhurmuzd"
+}
+ship_names = {
+	"Amol"
+	"Ardashir"
+	"Astarabad"
+	"Chalus"
+	"Farim"
+	"Kelar"
+	"Lahican"
+	"Mazyar"
+	"Natel"
+	"Rustam"
+	"Vindadhhurmuzd"
+}

@@ -1,0 +1,104 @@
+graphical_culture = easterngfx
+color = { 195 149 155 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Alexei #0" = 0
+	"Boris #0" = 0
+	"Borzyslaw #1" = 10
+	"Bozena #1" = -1
+	"Briachislav #0" = 0
+	"Cirulis #1" = 10
+	"Doman #0" = 0
+	"Feodor #0" = 0
+	"Henryk #1" = 10
+	"Igor #1" = 10
+	"Ingvar #0" = 0
+	"Jedvard #0" = 0
+	"Konrad #1" = 10
+	"Koz'ma #1" = 10
+	"Lambert #1" = 10
+	"Liudmila #0" = -1
+	"Malusha #0" = -1
+	"Nadbor #1" = 10
+	"Olga #0" = -1
+	"Pawel #1" = 10
+	"Predslava #0" = -1
+	"Prendota #1" = 10
+	"Radoslav #0" = 0
+	"Rimantas #1" = 10
+	"Rogneda #0" = -1
+	"Rurik #0" = 0
+	"Siemowit #2" = 10
+	"Sinyava #0" = -1
+	"Snowid #1" = 10
+	"Stanislav #0" = 0
+	"Svatoslav #1" = 10
+	"Svatoslava #1" = -1
+	"Sviatoslava #0" = -1
+	"Ulita #0" = -1
+	"Usciech #1" = 10
+	"Varvara #0" = -1
+	"Vasiliy #1" = 10
+	"Verkhoslava #0" = -1
+	"Viacheslav #1" = 10
+	"Vladimir #0" = 0
+	"Vladimír #1" = 10
+	"Vseslav #2" = 10
+	"Wieslaw #1" = 10
+	"Yelisey #1" = 10
+}
+leader_names = {
+	"Jagiellon"
+	"Kedzierzawy"
+	"Leszczynski"
+	"Lubomirski"
+	"Piast"
+	"Poniatowski"
+	"Premyslid"
+	"Radziwill"
+	"Sapieha"
+	"Wisniowiecki"
+}
+ship_names = {
+	"Biebrza"
+	"Bug"
+	"Bzura"
+	"Kolno"
+	"Liwiec"
+	"Lowicz"
+	"Mlawa"
+	"Narew"
+	"Pilica"
+	"Radomka"
+	"Warszawa"
+	"Wisla"
+	"Wizna"
+	"Wkra"
+}

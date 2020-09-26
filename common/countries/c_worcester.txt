@@ -1,0 +1,23 @@
+graphical_culture = westerngfx
+color = { 250 25 25 }
+monarch_names = {
+	"Alvör #0" = -1
+	"Anundr #0" = 0
+	"Asta #0" = -1
+	"Bo #0" = 0
+	"Buðli #0" = 0
+	"Cyneswith #0" = -1
+	"Eskild #0" = 0
+	"Freyja #0" = -1
+	"Hakon #0" = 0
+	"Hjalmar #0" = 0
+	"Ingibjörg #0" = -1
+	"Rikissa #0" = -1
+	"Rögnhildr #0" = -1
+	"Sigrid #0" = -1
+	"Skuli #0" = 0
+	"Örvar #0" = 0
+	"Þorbjörn #0" = 0
+	"Þordr #0" = 0
+	"Þorgil #0" = 0
+}

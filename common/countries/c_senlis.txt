@@ -1,0 +1,22 @@
+graphical_culture = westerngfx
+color = { 68 164 235 }
+monarch_names = {
+	"Amelie #0" = -1
+	"Aton #0" = 0
+	"Aubry #0" = 0
+	"Bohemond #0" = 0
+	"Bérengère #0" = -1
+	"Clotaire #0" = 0
+	"Gaucelin #0" = 0
+	"Godefroy #0" = 0
+	"Gudrun #0" = -1
+	"Guillaume #0" = 0
+	"Hugues #0" = 0
+	"Isabeau #0" = -1
+	"Pernelle #0" = -1
+	"Raynaud #0" = 0
+	"Renaud #0" = 0
+	"Yves #0" = 0
+	"Zdenka #0" = -1
+	"Élodie #0" = -1
+}

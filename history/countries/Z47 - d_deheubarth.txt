@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = swedish
+capital = 4369
+1443.12.5= {
+	monarch = {
+		name = "Elisabet"
+		dynasty = "af Germano"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1423.7.19
+		female = yes
+		religion = norse_pagan_reformed
+		culture = swedish
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = lawgiver_personality
+	queen = {
+		name = "Björn"
+		dynasty = "af Germano"
+		adm = 5
+		dip = 3
+		mil = 4
+		country_of_origin = Z47
+		birth_date = 1426.5.21
+		death_date = 1486.5.21
+		religion = norse_pagan_reformed
+		culture = swedish
+	}
+	add_queen_personality = lawgiver_personality
+	add_queen_personality = midas_touched_personality
+	heir = {
+		name = "Gyla"
+		monarch_name = "Gyla"
+		dynasty = "af Germano"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.10.12
+		death_date = 1508.10.12
+		female = yes
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = swedish
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = naive_personality
+}
+1443.12.5= {
+	add_prestige = 86
+	add_treasury = 62
+}
+
+

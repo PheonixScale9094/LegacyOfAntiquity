@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = slavic_pagan_reformed
+primary_culture = hungarian
+capital = 297
+1443.12.5= {
+	monarch = {
+		name = "Álmos"
+		dynasty = "Spanhem-Ortenburg"
+		adm = 3
+		dip = 4
+		mil = 2
+		birth_date = 1412.1.2
+		religion = slavic_pagan_reformed
+		culture = hungarian
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = greedy_personality
+	queen = {
+		name = "Darya"
+		dynasty = "Glinsky"
+		adm = 2
+		dip = 3
+		mil = 3
+		country_of_origin = Z63
+		birth_date = 1404.8.7
+		death_date = 1464.8.7
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = bold_fighter_personality
+	add_queen_personality = intricate_web_weaver_personality
+}
+1443.12.5= {
+	add_prestige = 7
+	add_treasury = 59
+}
+
+

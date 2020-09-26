@@ -1,0 +1,113 @@
+graphical_culture = easterngfx
+color = { 67 80 128 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Bohuslava #1" = -1
+	"Boleslaw #1" = 10
+	"Dobrynia #1" = 10
+	"Drosuk #1" = 10
+	"Gavriil #0" = 0
+	"Hengest #0" = 0
+	"Iliya #0" = 0
+	"Jaromil #1" = 10
+	"Jedrzej #1" = 10
+	"Jindrich #0" = 0
+	"Kajetan #1" = 10
+	"Kazimierz #1" = 10
+	"Kornelia #1" = -1
+	"Krzysztof #1" = 10
+	"Malusha #0" = -1
+	"Marina #0" = -1
+	"Mieszko #1" = 10
+	"Milobrat #1" = 10
+	"Mstislav #1" = 10
+	"Nezayka #0" = -1
+	"Nikita #0" = 0
+	"Olga #0" = -1
+	"Ondrej #1" = 10
+	"Pereyaslava #0" = -1
+	"Piotr #1" = 10
+	"Pribislava #0" = -1
+	"Radomil #1" = 10
+	"Rurik #0" = 0
+	"Sofia #0" = -1
+	"Sviatoslav #0" = 0
+	"Szczesny #1" = 10
+	"Tatyana #0" = -1
+	"Ulyana #0" = -1
+	"Urjasz #1" = 10
+	"Urszula #1" = -1
+	"Verkhoslava #0" = -1
+	"Viacheslav #0" = 0
+	"Voislav #1" = 10
+	"Vojtech #1" = 10
+	"Vseslav #0" = 0
+	"Wojciech #1" = 10
+	"Wojslawa #1" = -1
+	"Wratislaw #1" = 10
+	"Yefrosinia #0" = -1
+	"Zvenislava #0" = -1
+}
+leader_names = {
+	"Abeln"
+	"Greve"
+	"Gronau"
+	"Heintzel"
+	"Hergesell"
+	"Hoppe"
+	"Jauernik"
+	"Kahl"
+	"Liegnitz"
+	"Schwarz"
+	"Sterner"
+	"Tilch"
+	"Wiehle"
+}
+ship_names = {
+	"Bautzen"
+	"Breslau"
+	"Cosel-Beuthen"
+	"Cottbus"
+	"Falkenberg"
+	"Glogau"
+	"Guben"
+	"Görlitz"
+	"Liegnitz-Brieg"
+	"Luckau"
+	"Münsterberg"
+	"Neisse-Ottmachau"
+	"Oels"
+	"Oppeln"
+	"Ratibor"
+	"Sagan"
+	"Schweidnitz-Jauer"
+	"Spremberg"
+	"Steinau"
+	"Teschen"
+	"Zossen"
+}

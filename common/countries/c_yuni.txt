@@ -1,0 +1,24 @@
+graphical_culture = asiangfx
+color = { 190 170 30 }
+monarch_names = {
+	"Ali #0" = 0
+	"Amrätasene #0" = -1
+	"Anktsas #0" = 0
+	"Bhavashankari #0" = -1
+	"Cina #0" = 0
+	"Damutara #0" = -1
+	"Darab #0" = 0
+	"Kosthile #0" = -1
+	"Moksasene #0" = 0
+	"Mukalanti #0" = 0
+	"Nard #0" = 0
+	"Putere #0" = -1
+	"Saci #0" = -1
+	"Shri #0" = -1
+	"Tarmaraksite #0" = 0
+	"Tisyarakshita #0" = -1
+	"Upatisye #0" = -1
+	"Vina #0" = -1
+	"Visaram #0" = 0
+	"Ñirot #0" = 0
+}

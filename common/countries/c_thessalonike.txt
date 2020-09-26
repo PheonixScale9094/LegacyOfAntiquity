@@ -1,0 +1,26 @@
+graphical_culture = westerngfx
+color = { 195 25 136 }
+monarch_names = {
+	"Adalgisa #0" = -1
+	"Adil #0" = 0
+	"Agalina #0" = -1
+	"Alboino #0" = 0
+	"Aton #0" = 0
+	"Bertrand #0" = 0
+	"Camila #0" = -1
+	"Clara #0" = -1
+	"Eugenio #0" = 0
+	"Friedenando #0" = 0
+	"Gerberge #0" = -1
+	"Gilbèrt #0" = 0
+	"Joan #0" = 0
+	"Mikica #0" = 0
+	"Napoleone #0" = 0
+	"Natroi #0" = 0
+	"Ognen #0" = 0
+	"Ottone #0" = 0
+	"Peranudet #0" = 0
+	"Poppo #0" = 0
+	"Sante #0" = 0
+	"Saxo #0" = 0
+}

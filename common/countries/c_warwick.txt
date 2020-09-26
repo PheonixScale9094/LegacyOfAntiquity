@@ -1,0 +1,23 @@
+graphical_culture = westerngfx
+color = { 241 60 30 }
+monarch_names = {
+	"Balthild #0" = -1
+	"Cristina #0" = -1
+	"Cydrych #0" = 0
+	"Ealdwulf #0" = 0
+	"Eastmund #0" = 0
+	"Ecgberht #0" = 0
+	"Gurli #0" = -1
+	"Hereswith #0" = -1
+	"Hereweald #0" = 0
+	"Katarina #0" = -1
+	"Leofflæd #0" = -1
+	"Maccus #0" = 0
+	"Sighere #0" = 0
+	"Sigrid #0" = -1
+	"Swæfræd #0" = 0
+	"Uhtræd #0" = 0
+	"Waltheof #0" = 0
+	"Wulfgyth #0" = -1
+	"Ælfric #0" = 0
+}

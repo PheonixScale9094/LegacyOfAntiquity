@@ -1,0 +1,12 @@
+graphical_culture = westerngfx
+color = { 245 99 50 }
+monarch_names = {
+	"Arnfast #0" = 0
+	"Asta #0" = -1
+	"Birgitta #0" = -1
+	"Gersvinda #0" = -1
+	"Ragnarr #0" = 0
+	"Rögnfrið #0" = -1
+	"Skuli #0" = 0
+	"Valdemar #0" = 0
+}

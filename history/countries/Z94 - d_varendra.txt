@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = bengali
+capital = 4478
+1443.12.5= {
+	monarch = {
+		name = "Devakhadga III"
+		dynasty = "Pala"
+		adm = 3
+		dip = 3
+		mil = 1
+		birth_date = 1384.10.25
+		religion = hinduism
+		culture = bengali
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Kakanvati"
+		dynasty = "Bhar"
+		adm = 4
+		dip = 3
+		mil = 3
+		country_of_origin = Z94
+		birth_date = 1385.11.2
+		death_date = 1445.11.2
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = obsessive_perfectionist_personality
+	heir = {
+		name = "Mahindranarayan"
+		monarch_name = "Mahindranarayan"
+		dynasty = "Pala"
+		adm = 4
+		dip = 5
+		mil = 3
+		birth_date = 1404.2.15
+		death_date = 1469.2.15
+		claim = 89
+		religion = hinduism
+		culture = telegu
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 89
+	add_treasury = 71
+}
+
+

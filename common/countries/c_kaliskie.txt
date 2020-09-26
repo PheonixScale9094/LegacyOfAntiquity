@@ -1,0 +1,13 @@
+graphical_culture = easterngfx
+color = { 155 6 20 }
+monarch_names = {
+	"Alexei #0" = 0
+	"Feodor #0" = 0
+	"Lev #0" = 0
+	"Malfrida #0" = -1
+	"Nikita #0" = 0
+	"Sbyslava #0" = -1
+	"Trifon #0" = 0
+	"Twardomir #0" = 0
+	"Volodar #0" = 0
+}

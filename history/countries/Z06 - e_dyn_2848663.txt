@@ -1,0 +1,57 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 3
+technology_group = western
+religion = tengri_pagan_reformed
+primary_culture = hungarian
+capital = 2413
+1443.12.5= {
+	monarch = {
+		name = "Jenõ"
+		dynasty = "Tarján"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1398.7.12
+		religion = tengri_pagan_reformed
+		culture = hungarian
+	}
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = greedy_personality
+	queen = {
+		name = "Agafya"
+		dynasty = "Balamberid"
+		adm = 2
+		dip = 2
+		mil = 1
+		country_of_origin = Z06
+		birth_date = 1400.10.3
+		death_date = 1460.10.3
+		female = yes
+		religion = tengri_pagan_reformed
+		culture = bulgarian
+	}
+	add_queen_personality = righteous_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Abdul-Rahman"
+		monarch_name = "Abdul-Rahman"
+		dynasty = "Wannaqo"
+		adm = 4
+		dip = 6
+		mil = 5
+		birth_date = 1426.4.17
+		death_date = 1491.4.17
+		claim = 89
+		religion = catholic
+		culture = tuareg
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = strict_personality
+}
+1443.12.5= {
+	add_prestige = 52
+	add_treasury = 58
+}
+
+

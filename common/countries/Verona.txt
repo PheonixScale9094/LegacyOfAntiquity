@@ -1,0 +1,182 @@
+graphical_culture = westerngfx
+color = { 121 163 114 }
+historical_idea_groups = {
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	religious_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Acfred #0" = 0
+	"Adriana #1" = -1
+	"Ainès #1" = -1
+	"Altpert #1" = 10
+	"Amedeo #1" = 10
+	"Ansfrith #1" = 10
+	"Archambaut #0" = 0
+	"Argentina #1" = -1
+	"Arnefrith #1" = 10
+	"Ava #1" = -1
+	"Bermond #1" = 10
+	"Bertrand #1" = 10
+	"Borel #0" = 0
+	"Desiderius #1" = 10
+	"Ebles #0" = 0
+	"Elena #0" = -1
+	"Erlembald #1" = 10
+	"Eufrosina #0" = -1
+	"Guidone #0" = 0
+	"Guigues #0" = 0
+	"Indulf #1" = 10
+	"Lamberto #1" = 10
+	"Landari #1" = 10
+	"Leon #1" = 10
+	"Lucinetta #1" = -1
+	"Martina #1" = -1
+	"Radwald #1" = 10
+	"Rodoald #1" = 10
+	"Serafino #1" = 10
+	"Siconulf #1" = 10
+	"Tothrencher #1" = 10
+	"Ubald #0" = 0
+	"Ubert #1" = 10
+	"Unigild #1" = 10
+	"Varbert #1" = 10
+	"Wechthari #1" = 10
+}
+leader_names = {
+	"Amigazzi"
+	"Avanzi"
+	"Badile"
+	"Barbieri"
+	"Baroni"
+	"Bassetti"
+	"Bellunello"
+	"Benaglio"
+	"Bernardi"
+	"Bonsignori"
+	"Buffetti"
+	"Cabianca"
+	"Caliari"
+	"Calvi"
+	"Calzetta"
+	"Canella"
+	"Canera"
+	"Canziani"
+	"Cappelletti"
+	"Caroto"
+	"Cavazzola"
+	"Ceroni"
+	"Cignaroli"
+	"Dall'Oca Bianca"
+	"Dalla Rosa"
+	"Dondoli"
+	"Dossi"
+	"Elenetti"
+	"Falcieri"
+	"Farina"
+	"Farinati"
+	"Ferrari"
+	"Flacco"
+	"Frisoni"
+	"Ghirlandini"
+	"Giarol"
+	"Giolfino"
+	"Lanceni"
+	"Lancerotti"
+	"Lancioni"
+	"Locatelli"
+	"Lorenzi"
+	"Maccari"
+	"Maderni"
+	"Marchesini"
+	"Marcola"
+	"Montemezzano"
+	"Morone"
+	"Nani"
+	"Noro"
+	"Ottini"
+	"Pachera"
+	"Pajetta"
+	"Panelli"
+	"Perini"
+	"Picenardi"
+	"Pozzo"
+	"Prunati"
+	"Riccio"
+	"Ridolfi"
+	"Robido"
+	"Rossetti"
+	"Ruggieri"
+	"Salis"
+	"Scaligeri"
+	"Semplice"
+	"Spada"
+	"Squarcione"
+	"Tarabotti"
+	"Torelli"
+	"Tumicelli"
+	"Turchi"
+	"Ugolini"
+	"Verla"
+	"Veronese"
+	"Vini"
+	"Voltolino"
+	"Zanconti"
+	"Zannoni"
+	"Zenatello"
+	"Zimengoli"
+	"da Conegliano"
+	"da Verona"
+	"da Zevio"
+	"dai Libri"
+	"del Moro"
+}
+ship_names = {
+	"Benvolio"
+	"Escalus"
+	"Giulietta Capuleti"
+	"Mercutio"
+	"Paris"
+	"Romeo Montecchi"
+	"San Babila"
+	"San Bernardino alle Ossa"
+	"San Cristoforo sul Naviglio"
+	"San Giovanni in Conca"
+	"San Gottardo"
+	"San Lorenzo"
+	"San Marco"
+	"San Nazaro Maggiore"
+	"San Satiro"
+	"San Simpliciano"
+	"Sant'Agostino"
+	"Sant'Ambrogio"
+	"Sant'Eustorgio"
+	"Santa Maria dei Miracoli"
+	"Santo Stefano"
+	"Sondrio"
+	"Tebaldo"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

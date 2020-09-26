@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = bedouin_arabic
+capital = 2325
+1443.12.5= {
+	add_prestige = 51
+	add_treasury = 48
+}
+
+

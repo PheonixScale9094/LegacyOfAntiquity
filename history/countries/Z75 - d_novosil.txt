@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = ryazanian
+capital = 4116
+1443.12.5= {
+	monarch = {
+		name = "Roman III"
+		dynasty = "Potyomkin"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1410.6.6
+		religion = slavic_pagan_reformed
+		culture = ryazanian
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	queen = {
+		name = "Luca"
+		dynasty = "Tarján"
+		adm = 3
+		dip = 3
+		mil = 2
+		country_of_origin = Z75
+		birth_date = 1406.5.22
+		death_date = 1466.5.22
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = slovak
+	}
+	add_queen_personality = cruel_personality
+	add_queen_personality = lawgiver_personality
+	heir = {
+		name = "Ruslan"
+		monarch_name = "Ruslan"
+		dynasty = "Potyomkin"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.3.13
+		death_date = 1508.3.13
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 59
+	add_treasury = 59
+}
+
+

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = oriya
+capital = 2082
+1443.12.5= {
+	monarch = {
+		name = "Jhetpala"
+		dynasty = "Yadava"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1417.12.5
+		religion = hinduism
+		culture = oriya
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = midas_touched_personality
+	queen = {
+		name = "Prabhavati"
+		dynasty = "Vigraharajid"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = Z43
+		birth_date = 1396.12.7
+		death_date = 1456.12.7
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = conqueror_personality
+	add_queen_personality = midas_touched_personality
+	heir = {
+		name = "Bhimaratha"
+		monarch_name = "Bhimaratha"
+		dynasty = "Yadava"
+		adm = 1
+		dip = 2
+		mil = 1
+		birth_date = 1436.12.24
+		death_date = 1501.12.24
+		claim = 89
+		religion = hinduism
+		culture = oriya
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 60
+	add_treasury = 87
+}
+
+

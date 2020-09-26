@@ -1,0 +1,27 @@
+graphical_culture = easterngfx
+color = { 156 65 140 }
+monarch_names = {
+	"Adelmo #0" = 0
+	"Aliénor #0" = -1
+	"Anthemios #0" = 0
+	"Authari #0" = 0
+	"Barnaba #0" = 0
+	"Beltrano #0" = 0
+	"Delinda #0" = -1
+	"Elena #0" = -1
+	"Ermenegilda #0" = -1
+	"Eunike #0" = -1
+	"Evangelos #0" = 0
+	"Eve #0" = -1
+	"Gautier #0" = 0
+	"Gilberto #0" = 0
+	"Klementia #0" = -1
+	"Loui #0" = 0
+	"Pantoleon #0" = 0
+	"Patrizia #0" = -1
+	"Rinaldo #0" = 0
+	"Secondotto #0" = 0
+	"Theognosia #0" = -1
+	"Valeria #0" = -1
+	"Wechthari #0" = 0
+}

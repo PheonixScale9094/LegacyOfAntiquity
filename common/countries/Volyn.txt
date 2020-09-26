@@ -1,0 +1,118 @@
+graphical_culture = easterngfx
+color = { 205 38 38 }
+revolutionary_colors = { 13 5 8 }
+historical_idea_groups = {
+	defensive_ideas
+	expansion_ideas
+	religious_ideas
+	offensive_ideas
+	naval_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alboin #1" = 10
+	"Boleslava #0" = -1
+	"Boris #0" = 0
+	"Briachislav #1" = 10
+	"Buzan #1" = 10
+	"Dorofey #0" = 0
+	"Gorislava #0" = -1
+	"Igor #1" = 10
+	"Izyaslav #1" = 10
+	"Liubava #0" = -1
+	"Mitrofan #0" = 0
+	"Mstislav #0" = 0
+	"Ngeva #0" = -1
+	"Nikita #1" = 10
+	"Onisim #1" = 10
+	"Pemka #0" = -1
+	"Pereyaslava #0" = -1
+	"Premysl #1" = 10
+	"Premyslava #0" = -1
+	"Putiata #1" = 10
+	"Rodoald #1" = 10
+	"Rostislav #1" = 10
+	"Rurik #0" = 0
+	"Sevar #1" = 10
+	"Sviatopolk #1" = 10
+	"Terentiy #1" = 10
+	"Ulita #0" = -1
+	"Vasilko #1" = 10
+	"Veleslava #0" = -1
+	"Verkhoslava #0" = -1
+	"Viacheslav #0" = 0
+	"Vinekh #1" = 10
+	"Vladimir #2" = 10
+	"Vladislav #1" = 10
+	"Voislav #3" = 10
+	"Volodar #1" = 10
+	"Vsevolod #0" = 0
+	"Vysheslav #0" = 0
+	"Yemelyan #1" = 10
+	"Yevdokia #0" = -1
+	"Zvenislava #0" = -1
+}
+leader_names = {
+	"Apraksin"
+	"Bagration"
+	"Barclay de Tolly"
+	"Bibikoff"
+	"Bodisco"
+	"Boruffsin"
+	"Golitzin"
+	"Kaibula"
+	"Kamenski"
+	"Kolzoff"
+	"Mensjikov"
+	"Mustislavski"
+	"Ostermann Tolstoy"
+	"Paletskij"
+	"Rajevski"
+	"Schuvalov"
+	"Sjeremetjev"
+	"Sjtjenjatvev"
+	"Tiesenhusen"
+	"Vasiljevitj"
+	"von Buxhoevden"
+	"von Knorring"
+	"von Lascy"
+}
+ship_names = {
+	"Coluna"
+	"Cortiza"
+	"D. Aleksandrovich"
+	"Dmitri Donskoi"
+	"Iausa"
+	"Ivan Kalita"
+	"Klin"
+	"Moscha"
+	"Mosnisk"
+	"Olescho"
+	"Piersek"
+	"Rurik"
+	"Schorna"
+	"Troitzkoy"
+	"Vasiliy I"
+	"Volga"
+	"Wolok"
+}

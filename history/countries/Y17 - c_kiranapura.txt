@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = bengali
+capital = 4458
+fixed_capital = 4458
+1443.12.5= {
+	monarch = {
+		name = "Padma Singh"
+		dynasty = "Pala"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1419.1.1
+		religion = hinduism
+		culture = bengali
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Sanyukta"
+		dynasty = "Kazeruni"
+		adm = 6
+		dip = 3
+		mil = 4
+		country_of_origin = Y17
+		birth_date = 1418.12.4
+		death_date = 1478.12.4
+		female = yes
+		religion = hinduism
+		culture = pahari
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = conqueror_personality
+}
+1443.12.5= {
+	add_prestige = 67
+	add_treasury = 0
+}
+
+

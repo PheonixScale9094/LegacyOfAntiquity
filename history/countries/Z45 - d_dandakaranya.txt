@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = bengali
+capital = 547
+1443.12.5= {
+	monarch = {
+		name = "Maurayadhwaj II"
+		dynasty = "Somavamsi"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1407.7.28
+		religion = hinduism
+		culture = bengali
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Asima"
+		dynasty = "Sripuri"
+		adm = 3
+		dip = 2
+		mil = 3
+		country_of_origin = Z45
+		birth_date = 1421.10.5
+		death_date = 1481.10.5
+		female = yes
+		religion = hinduism
+		culture = bihari
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = righteous_personality
+	heir = {
+		name = "Shivendranarayan"
+		monarch_name = "Shivendranarayan"
+		dynasty = "Somavamsi"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1427.7.13
+		death_date = 1492.7.13
+		claim = 89
+		religion = hinduism
+		culture = bihari
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = tactical_genius_personality
+}
+1443.12.5= {
+	add_prestige = 63
+	add_treasury = 52
+}
+
+

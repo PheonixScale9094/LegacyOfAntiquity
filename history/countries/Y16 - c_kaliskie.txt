@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = kishinyov
+capital = 255
+fixed_capital = 255
+1443.12.5= {
+	monarch = {
+		name = "Nikita"
+		dynasty = "Radimich"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1414.12.12
+		religion = slavic_pagan_reformed
+		culture = kishinyov
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = fierce_negotiator_personality
+	queen = {
+		name = "Malfrida"
+		dynasty = "Balashov"
+		adm = 4
+		dip = 2
+		mil = 3
+		country_of_origin = Y16
+		birth_date = 1409.4.28
+		death_date = 1469.4.28
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = obsessive_perfectionist_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Lev"
+		monarch_name = "Lev"
+		dynasty = "Radimich"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1432.10.9
+		death_date = 1497.10.9
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = calm_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1443.12.5= {
+	add_prestige = 46
+	add_treasury = 55
+}
+
+

@@ -1,0 +1,116 @@
+graphical_culture = africangfx
+color = { 30 131 162 }
+revolutionary_colors = { 13 8 16 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	bantu_plains_warfare
+	niger_kongolese_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Aberikos #0" = 0
+	"Aichata #1" = -1
+	"Andreas #0" = 0
+	"Birêl #0" = 0
+	"Christina #1" = -1
+	"Dauid #0" = 0
+	"Eionñoka #0" = -1
+	"Eirena #0" = -1
+	"Eirota #0" = -1
+	"Enôch #0" = 0
+	"Ephannê #1" = -1
+	"Epimachosi #0" = -1
+	"Epiphanios #0" = 0
+	"Fatima #1" = -1
+	"Gabrielophorou #0" = 0
+	"Genseoua #0" = -1
+	"Hêlias #0" = 0
+	"Iacob #0" = 0
+	"Jeddjiga #0" = -1
+	"Kelile #0" = 0
+	"Kondolon #1" = -1
+	"Leon #1" = 10
+	"Mariana #0" = 0
+	"Mariankouda #0" = 0
+	"Michaêl #0" = 0
+	"Myassa #0" = -1
+	"Niakhaté #1" = 10
+	"Ouarenô #1" = -1
+	"Panigiros #0" = 0
+	"Petronia #0" = -1
+	"Philotheos #1" = 10
+	"Qwara #0" = -1
+	"Raphael #0" = 0
+	"Samson #0" = 0
+	"Sergios #0" = 0
+	"Soizuros #0" = 0
+	"Soukhouna #1" = 10
+	"Stephanos #0" = 0
+	"Stephanou #0" = 0
+	"Temzi #0" = -1
+	"Theobronia #0" = -1
+	"Theodorake #0" = -1
+	"Theodosia #0" = -1
+	"Theodote #1" = 10
+	"Theodôros #0" = 0
+	"Theophilia #1" = -1
+	"Thoma #0" = 0
+	"Tirsakouni #1" = 10
+	"Tophêna #0" = 0
+	"Tzemach #0" = 0
+	"Yatabéri #1" = 10
+	"Zeina #0" = -1
+	"Ñejin #0" = -1
+}
+leader_names = {
+	"Ahmat"
+	"Ardoum"
+	"Deby"
+	"Djammous"
+	"Kabadi"
+	"Malloum"
+	"Nahor"
+	"Oueddai"
+	"Terap"
+	"Yorassem"
+}
+ship_names = {
+	"Abd al-Djel Selma"
+	"Aritso"
+	"Arki"
+	"Ayoma"
+	"Bad al-Djel"
+	"Biri"
+	"Birkoru"
+	"Bulu"
+	"Dari"
+	"Djil"
+	"Dugu"
+	"Dunama"
+	"Dunama Dibbalem"
+	"Fune"
+	"Hume"
+	"Kachim Biri"
+	"Kade"
+	"Kature"
+	"Kure Gana"
+	"Kure Kura"
+	"Shu"
+}

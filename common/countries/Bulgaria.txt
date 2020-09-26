@@ -1,0 +1,126 @@
+graphical_culture = easterngfx
+color = { 116 107 140 }
+revolutionary_colors = { 0 10 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Ajjar #1" = 10
+	"Araslan #0" = 0
+	"Arjun #1" = 10
+	"Asparukh #1" = 10
+	"Balin #0" = 0
+	"Basawa #1" = 10
+	"Batbayan #1" = 10
+	"Bogoris #0" = 0
+	"Bozidar #1" = 10
+	"Braslav #0" = 0
+	"Desislava #0" = -1
+	"Eskhakh #1" = 10
+	"Etel #0" = -1
+	"Frujin #0" = 0
+	"Gizella #0" = -1
+	"Guar #1" = 10
+	"Isbul #1" = 10
+	"Jerolim #0" = 0
+	"Karan #1" = 10
+	"Kirill #0" = 0
+	"Kormesiy #1" = 10
+	"Kormisosh #1" = 10
+	"Krum #1" = 10
+	"Kubrat #1" = 10
+	"Ljubomir #0" = 0
+	"Lucija #0" = -1
+	"Momchil #1" = 10
+	"Nadejda #0" = -1
+	"Nevena #0" = -1
+	"Okors #1" = 10
+	"Omortag #1" = 10
+	"Omurtag #1" = 10
+	"Oshi #2" = 10
+	"Pagan #1" = 10
+	"Pakhtiyar #1" = 10
+	"Pheru #1" = 10
+	"Prijezda #1" = 10
+	"Radislav #0" = 0
+	"Radoslav #1" = 10
+	"Ranjor #1" = 10
+	"Sabin #1" = 10
+	"Sarkhan #1" = 10
+	"Sartäç #2" = 10
+	"Sava #1" = 10
+	"Sevar #2" = 10
+	"Shilki #1" = 10
+	"Silva #0" = -1
+	"Stoyanka #0" = -1
+	"Svetislav #1" = 10
+	"Telerig #1" = 10
+	"Telets #1" = 10
+	"Terentiy #0" = 0
+	"Tervel #1" = 10
+	"Thakur #1" = 10
+	"Tiradin #1" = 10
+	"Toktu #1" = 10
+	"Tomislav #0" = 0
+	"Tukiy #1" = 10
+	"Umor #1" = 10
+	"Uturgur #2" = 10
+	"Vinekh #2" = 10
+	"Yani #1" = 10
+	"Yeçtirek #1" = 10
+	"Zabergan #1" = 10
+	"Zdeslav #1" = 10
+	"Özlem #0" = -1
+}
+leader_names = {
+	"Balina"
+	"Djordjic"
+	"Dobrovski"
+	"Frujin"
+	"Karposh"
+	"Konstantin"
+	"Marinov"
+	"Peyachevich"
+	"Radic"
+	"Rali"
+	"Shishman"
+	"Sorkochovich"
+	"Strahil"
+	"Stratimirovich"
+}
+ship_names = {
+	"Alhtpolo"
+	"Kiten"
+	"Kraymorie"
+	"Lozenets"
+	"Promorsko"
+	"Rezovo"
+	"Sarafovo"
+	"Sinemorets"
+	"Sozopol"
+	"Varara"
+}

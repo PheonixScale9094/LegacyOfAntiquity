@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = cathar
+primary_culture = visigothic
+capital = 230
+1443.12.5= {
+	monarch = {
+		name = "Pelagio"
+		dynasty = "Balthes"
+		adm = 4
+		dip = 1
+		mil = 4
+		birth_date = 1417.12.25
+		religion = cathar
+		culture = visigothic
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = loose_lips_personality
+	queen = {
+		name = "Agnes"
+		adm = 2
+		dip = 0
+		mil = 0
+		country_of_origin = Z29
+		birth_date = 1404.5.22
+		death_date = 1464.5.22
+		female = yes
+		religion = fraticelli
+		culture = visigothic
+	}
+	add_queen_personality = careful_personality
+	add_queen_personality = craven_personality
+}
+1443.12.5= {
+	add_prestige = 42
+	add_treasury = 67
+}
+
+

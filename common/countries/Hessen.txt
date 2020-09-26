@@ -1,0 +1,90 @@
+graphical_culture = westerngfx
+color = { 114 171 184 }
+revolutionary_colors = { 15 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agilbert #1" = 10
+	"Albrada #1" = -1
+	"Arsinde #0" = -1
+	"Chilperic #2" = 10
+	"Eberulf #1" = 10
+	"Emmerich #0" = 0
+	"Euric #1" = 10
+	"Gautselin #1" = 10
+	"Gottfried #1" = 10
+	"Gundrada #1" = -1
+	"Hasala #0" = -1
+	"Heregyth #1" = -1
+	"Humbert #1" = 10
+	"Imnachar #1" = 10
+	"Isentrude #0" = -1
+	"Kunigunde #1" = -1
+	"Lantbert #1" = 10
+	"Leubast #1" = -1
+	"Liudger #1" = 10
+	"Lutbert #1" = 10
+	"Margarete #0" = -1
+	"Menfrid #2" = 10
+	"Michael #1" = 10
+	"Radbot #1" = 10
+	"Raynaud #0" = 0
+	"Roland #1" = 10
+	"Torgodorio #1" = 10
+	"Werinbert #1" = 10
+	"Wilbert #1" = 10
+	"Willichar #1" = 10
+	"Æthelwulf #1" = 10
+}
+leader_names = {
+	"Arnsberg"
+	"Bebra"
+	"Eder"
+	"Fulda"
+	"Hamm"
+	"Kassel"
+	"Knyphausen"
+	"Lippstadt"
+	"Münden"
+	"Paderborn"
+	"von Scheideck"
+}
+ship_names = {
+	"Fulda"
+	"Hanau"
+	"Heinrich I"
+	"Kassel"
+	"Lahn"
+	"Marburg"
+	"Stirnberg"
+	"Wasserkuppe"
+	"Werra"
+	"Wetzlar"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

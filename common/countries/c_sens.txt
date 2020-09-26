@@ -1,0 +1,11 @@
+graphical_culture = westerngfx
+color = { 102 40 242 }
+monarch_names = {
+	"Clarmonda #0" = -1
+	"Gersenda #0" = -1
+	"Laura #0" = -1
+	"Péire-Raimond #0" = 0
+	"Richènda #0" = -1
+	"Rochus #0" = 0
+	"Rorgon #0" = 0
+}

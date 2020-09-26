@@ -6,6 +6,7 @@ age_of_discovery = {
 	}
 	
 	religious_conflicts = yes
+	papacy = 1.0
 	
 
 	objectives = {
@@ -40,11 +41,7 @@ age_of_discovery = {
 			}
 			total_development = 100
 
-		}
-		
-		
-		
-	
+		}	
 		obj_5_centers_of_trade = {
 			calc_true_if = {
 				all_owned_province = {
@@ -179,7 +176,13 @@ age_of_discovery = {
 		
 		ab_ottoman_siege_ability = {
 			allow = {
-				tag = TUR
+				OR = {
+					tag = TUR
+					AND = {
+						technology_group = ottoman
+						government_rank = 2
+					}
+				}
 			}
 			modifier = {
 				siege_ability = 0.33
@@ -192,7 +195,13 @@ age_of_discovery = {
 		ab_portugal_colonial_growth = {
 		
 			allow = {
-				tag = POR
+				OR = {
+					tag = POR
+					AND = {
+						has_idea_group = exploration_ideas 
+						num_of_total_ports = 15
+					}
+				}
 			}
 			modifier = {
 				global_colonial_growth = 50
@@ -204,7 +213,10 @@ age_of_discovery = {
 		ab_denmark_reduced_lib_desire = {
 		
 			allow = {
-				tag = DAN
+				OR = {
+					tag = DAN
+					personal_union = 2
+				}
 			}
 			modifier = {
 				reduced_liberty_desire = 30
@@ -224,7 +236,16 @@ age_of_discovery = {
 		ab_venice_ship_trade = {
 		
 			allow = {
-				tag = VEN
+				OR = {
+					tag = VEN
+					AND = {
+						OR = {
+							has_reform = merchants_reform
+							has_reform = venice_merchants_reform
+						}
+						government_rank = 2
+					}
+				}
 			}
 			modifier = {
 				global_ship_trade_power = 0.5
@@ -240,11 +261,15 @@ age_of_reformation = {
 	start = 1530
 	
 	can_start = {
-		is_religion_enabled = protestant
+		OR = {
+			is_religion_enabled = protestant
+			is_year = 1594 #6 years before 1600, when Global Trade Can Spawn
+		}
 	}
 	
 	
 	religious_conflicts = yes
+	papacy = 1.25
 	
 	objectives = {
 		obj_christian_convert = {
@@ -252,6 +277,10 @@ age_of_reformation = {
 				religion = protestant
 				religion = reformed
 				religion = anglican
+				religion = hussite
+				religion = cathar
+				religion = waldensian
+				religion = lollard
 			}
 		}
 		
@@ -385,7 +414,14 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
+				OR = { 
+					tag = SPA
+					AND = {
+						government_rank = 2
+						culture_group = iberian
+						num_of_colonies = 2
+					}
+				}
 			}
 			modifier = {
 				shock_damage_received = -0.3
@@ -396,7 +432,40 @@ age_of_reformation = {
 		}
 		ab_mughal_artillery = {
 			allow = {
-				tag = MUG
+				OR = {
+					tag = MUG
+					AND = {
+						government_rank = 3
+						OR = {
+							religion_group = zoroastrian_group
+							religion_group = muslim
+							religion = buddhism
+						}
+						calc_true_if = { #One controls a substantial amount of India
+							amount = 2
+							deccan_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							coromandel_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							bengal_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							hindusthan_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							west_india_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+						}
+					}
+				}
 			}
 			modifier = {
 				artillery_cost = -0.5
@@ -411,6 +480,13 @@ age_of_reformation = {
 				OR = {
 					tag = PLC
 					tag = POL
+					AND = {
+						government_rank = 3
+						OR = {
+							culture_group = west_slavic
+							tag = LIT
+						}
+					}
 				}
 			}
 			modifier = {
@@ -423,7 +499,13 @@ age_of_reformation = {
 		
 		ab_persia_reinforce = {
 			allow = {
-				tag = PER
+				OR = {
+					tag = PER
+					AND = {
+						government_rank = 3
+						culture_group = iranian
+					}
+				}
 			}
 			modifier = {
 				reinforce_cost_modifier = -0.3
@@ -434,13 +516,7 @@ age_of_reformation = {
 		}
 	
 	}
-	
-	
-	
-
-	
 }
-
 
 
 
@@ -451,6 +527,7 @@ age_of_absolutism = {
 		is_institution_enabled = global_trade
 	}
 	
+	papacy = 1.5
 	
 	absolutism = {
 		harsh_treatment = 1
@@ -577,7 +654,13 @@ age_of_absolutism = {
 	
 		ab_france_fire_damage = {
 			allow = {
-				tag = FRA
+				OR = {
+					tag = FRA
+					AND = {
+						government_rank = 2
+						culture_group = french
+					}
+				}
 			}
 			modifier = {
 				fire_damage = 0.2
@@ -588,7 +671,17 @@ age_of_absolutism = {
 		}
 		ab_dutch_anti_corruption = {
 			allow = {
-				tag = NED
+				OR = {
+					tag = NED
+					AND = {
+						government_rank = 2
+						OR = {
+							culture = dutch
+							culture = flemish
+							culture = frisian
+						}
+					}
+				}
 			}
 			modifier = {
 				yearly_corruption = -0.2
@@ -599,7 +692,18 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
-				tag = SWE
+				OR = {
+					tag = SWE
+					tag = SCA
+					AND = {
+						government_rank = 2
+						culture = swedish
+					}
+					AND = {
+						government_rank = 3
+						culture_group = scandinavian
+					}
+				}						
 			}
 			modifier = {
 				manpower_recovery_speed = 0.35
@@ -614,6 +718,7 @@ age_of_absolutism = {
 				OR = {
 					tag = MCH
 					tag = QNG
+					num_of_banners = 10
 				}
 			}
 			modifier = {
@@ -633,6 +738,7 @@ age_of_revolutions = {
 		is_institution_enabled = enlightenment
 	}
 	
+	papacy = 2.0
 	absolutism = {
 		harsh_treatment = 1
 		stability = 1
@@ -767,7 +873,11 @@ age_of_revolutions = {
 		}
 		ab_pru_military = {
 			allow = {
-				tag = PRU
+				OR = {
+					tag = PRU
+					has_reform = prussian_monarchy 
+					has_reform = prussian_republic_reform
+				}
 			}
 			modifier = {
 				fire_damage_received = -0.2
@@ -778,7 +888,10 @@ age_of_revolutions = {
 		}
 		ab_gbr_fleet = {
 			allow = {
-				tag = GBR
+				OR = {
+					tag = GBR
+					navy_size = 200
+				}
 			}
 			modifier = {
 				naval_maintenance_modifier = -0.33
@@ -789,10 +902,13 @@ age_of_revolutions = {
 		}
 		ab_russia_boost = {
 			allow = {
-				tag = RUS
+				OR = {
+					tag = RUS
+					has_reform = tsardom
+				}
 			}
 			modifier = {
-				max_states = 20
+				governing_capacity_modifier = 0.33
 			}
 			ai_will_do = {
 				factor = 100
@@ -800,7 +916,11 @@ age_of_revolutions = {
 		}
 		ab_austria_rep = {
 			allow = {
-				tag = HAB
+				OR = {
+					tag = HAB
+					tag = HRE
+					is_emperor = yes
+				}
 			}
 			modifier = {
 				diplomatic_reputation = 5

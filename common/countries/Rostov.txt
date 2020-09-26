@@ -1,0 +1,108 @@
+graphical_culture = inuitgfx
+color = { 227 221 77 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alexandra #0" = -1
+	"Auni #1" = -1
+	"Briachislav #1" = 10
+	"Chipaz #0" = 0
+	"Chumbulat #1" = 10
+	"Darya #0" = -1
+	"Deryab #1" = 10
+	"Dobrynia #1" = 10
+	"Fedot #1" = 10
+	"Feodora #1" = -1
+	"Gavriil #1" = 10
+	"Igor #1" = 10
+	"Kardaz #1" = 10
+	"Kasper #2" = 10
+	"Kezhedey #1" = 10
+	"Kirdyava #0" = -1
+	"Koshel #1" = 10
+	"Kubrat #0" = 0
+	"Liudmila #0" = -1
+	"Malyaka #1" = 10
+	"Mordvinko #1" = 10
+	"Nalka #0" = 0
+	"Naruchad #0" = 0
+	"Nishkepaz #3" = 10
+	"Nuyat #1" = 10
+	"Paksyut #0" = 0
+	"Parush #1" = 10
+	"Radoslav #2" = 10
+	"Roman #1" = 10
+	"Rurik #2" = 10
+	"Setyamka #0" = -1
+	"Shoksha #1" = 10
+	"Sviatoslav #1" = 10
+	"Sviatoslava #0" = -1
+	"Tunya #0" = 0
+	"Tyushtya #1" = 10
+	"Vechkas #1" = 10
+	"Viryay #1" = 10
+	"Volodar #1" = 10
+	"Yaroslava #0" = -1
+	"Yefimiy #1" = 10
+}
+leader_names = {
+	"Andomsky"
+	"Beloselsky"
+	"Chernyatinsky"
+	"Dorogobushsky"
+	"Dyabrinsky"
+	"Kargolomsky"
+	"Kashinsky"
+	"Kemsky"
+	"Kholmsky"
+	"Mikulinsky"
+	"Sheleshpansky"
+	"Sugorsky"
+	"Telyatevsky"
+	"Ukhtomsky"
+	"Vadbolsky"
+}
+ship_names = {
+	"Brosno"
+	"Dmitry"
+	"Kashin"
+	"Kholmsky"
+	"Mikhail"
+	"Rzev"
+	"Startsa"
+	"Toropets"
+	"Torzhok"
+	"Tvertsa"
+	"Valdai"
+	"Volga"
+	"Vyshniy Voloche"
+	"Yaroslavich"
+	"Zubtsov"
+}

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = ruthenian
+capital = 279
+1443.12.5= {
+	monarch = {
+		name = "Vasilko"
+		dynasty = "Novotorgsky"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1375.6.16
+		religion = slavic_pagan_reformed
+		culture = ruthenian
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = well_connected_personality
+	queen = {
+		name = "Ulita"
+		dynasty = "Potyomkin"
+		adm = 2
+		dip = 5
+		mil = 5
+		country_of_origin = VOL
+		birth_date = 1420.3.22
+		death_date = 1480.3.22
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = malevolent_personality
+	add_queen_personality = obsessive_perfectionist_personality
+	heir = {
+		name = "Rostislav"
+		monarch_name = "Rostislav II"
+		dynasty = "Novotorgsky"
+		adm = 6
+		dip = 4
+		mil = 4
+		birth_date = 1405.8.24
+		death_date = 1470.8.24
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = tolerant_personality
+}
+1443.12.5= {
+	add_prestige = 83
+	add_treasury = 59
+}
+
+

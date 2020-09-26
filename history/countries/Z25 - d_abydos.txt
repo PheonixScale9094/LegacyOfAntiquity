@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+religion = hellenic_pagan_reformed
+primary_culture = greek
+capital = 2296
+1443.12.5= {
+	monarch = {
+		name = "Arrigo"
+		dynasty = "Gaidoaldingi"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1399.4.1
+		religion = hellenic_pagan_reformed
+		culture = greek
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = loose_lips_personality
+	queen = {
+		name = "Cothilda"
+		dynasty = "Teduericingi"
+		adm = 3
+		dip = 2
+		mil = 4
+		country_of_origin = Z25
+		birth_date = 1411.6.13
+		death_date = 1471.6.13
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = righteous_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Lamberto"
+		monarch_name = "Lamberto"
+		dynasty = "Gaidoaldingi"
+		adm = 5
+		dip = 6
+		mil = 6
+		birth_date = 1417.8.12
+		death_date = 1482.8.12
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = goths
+	}
+	add_heir_personality = embezzler_personality
+	add_heir_personality = greedy_personality
+}
+1443.12.5= {
+	add_prestige = 69
+	add_treasury = 71
+}
+
+

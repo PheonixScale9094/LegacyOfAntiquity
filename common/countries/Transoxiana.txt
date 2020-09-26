@@ -1,0 +1,128 @@
+graphical_culture = muslimgfx
+color = { 49 185 191 }
+revolutionary_colors = { 1 5 1 }
+historical_idea_groups = {
+	administrative_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	offensive_ideas
+	maritime_ideas
+	quantity_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Abbas #1" = 10
+	"Abolhassan #1" = 10
+	"Afhak #0" = -1
+	"Afshar #0" = 0
+	"Allahyar #1" = 10
+	"Asa #0" = -1
+	"Assad #1" = 10
+	"Azadeh #0" = -1
+	"Azarmidokht #0" = -1
+	"Babak #1" = 10
+	"Baha-ud-Din Naqshband #0" = 0
+	"Behnaz #0" = -1
+	"Chen #0" = 0
+	"Dariush #1" = 10
+	"Dinah #0" = -1
+	"Djamasp #1" = 10
+	"Dîlan #0" = -1
+	"Farah #0" = -1
+	"Farrin #0" = -1
+	"Farzad #0" = 0
+	"Fereedun #0" = 0
+	"Furuzan #0" = -1
+	"Ghamze #0" = -1
+	"Ghazal #0" = -1
+	"Golbahar #0" = -1
+	"Goshtasb #0" = 0
+	"Hazarasp #2" = 10
+	"Hooshyar #0" = 0
+	"Jahandar #2" = 10
+	"Jahanshah #2" = 10
+	"Jiamut #0" = 0
+	"Jibril #1" = 10
+	"Kambiz #1" = 10
+	"Kamran #2" = 10
+	"Keykhosrau #1" = 10
+	"Khashayar #1" = 10
+	"Mahdokht #0" = -1
+	"Mahtab #0" = -1
+	"Marzuban #0" = 0
+	"Meirona #0" = -1
+	"Morteza #0" = 0
+	"Navvaba #0" = -1
+	"Nazilla #0" = -1
+	"Rajiya #0" = -1
+	"Roshanora #0" = -1
+	"Roxana #0" = -1
+	"Ruhollah #1" = 10
+	"Sadri #0" = 0
+	"Shahram #1" = 10
+	"Shahryar #0" = 0
+	"Shahrzad #0" = -1
+	"Shahzadi #0" = -1
+	"Soraya #0" = -1
+	"Suryakk #1" = 10
+	"Touran #0" = -1
+	"Tourandokht #0" = -1
+	"Vahid #0" = 0
+	"Wuji #0" = 0
+	"Yasaman #0" = -1
+	"Yekta #0" = -1
+	"Zahak #0" = 0
+	"Zand #1" = 10
+	"Zia #0" = 0
+}
+leader_names = {
+	"Abbâs"
+	"Abû"
+	"Akbar"
+	"Bakr"
+	"Jahagir"
+	"Jalâl"
+	"Jâmî"
+	"Khalil"
+	"Mohsin"
+	"Zaman"
+	"ud-Dîn"
+}
+ship_names = {
+	"Ardabil"
+	"Bakhura"
+	"Balkh"
+	"Baluches"
+	"Herat"
+	"Ispahan"
+	"Kandahar"
+	"Kharesm"
+	"Kirman"
+	"Kish"
+	"Lahore"
+	"Merv"
+	"Nishupur"
+	"Ormuz"
+	"Rustam"
+	"Samarqand"
+	"Sebzewar"
+	"Shah Rukh"
+	"Sikandar"
+	"Slurax"
+	"Tahriz"
+	"Tamerlane"
+}

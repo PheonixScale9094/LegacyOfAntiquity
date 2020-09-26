@@ -1,0 +1,98 @@
+graphical_culture = westerngfx
+color = { 248 125 125 }
+revolutionary_colors = { 15 1 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelajda #0" = -1
+	"Alar #1" = 10
+	"Asa #0" = -1
+	"Asbjörn #1" = 10
+	"Bersi #1" = 10
+	"Bezprym #1" = 10
+	"Bozena #0" = -1
+	"Budziwuj #0" = 0
+	"Dobieslaw #1" = 10
+	"Dobrawa #0" = -1
+	"Dobrogost #1" = 10
+	"Doman #0" = 0
+	"Elmar #1" = 10
+	"Freyja #0" = -1
+	"Gierolt #1" = 10
+	"Liubava #0" = -1
+	"Marcin #0" = 0
+	"Mazava #0" = -1
+	"Merkelis #2" = 10
+	"Pärt #1" = 10
+	"Ragnarr #0" = 0
+	"Rikulfr #1" = 10
+	"Ruzava #0" = -1
+	"Rögnhildr #0" = -1
+	"Scholastyka #0" = -1
+	"Snorri #1" = 10
+	"Tasulemb #1" = 10
+	"Tolir #1" = 10
+	"Tõivulemb #1" = 10
+	"Ulita #0" = -1
+	"Wincenty #0" = 0
+	"Wszebora #0" = -1
+	"Wszemila #0" = -1
+	"Yekaterina #0" = -1
+	"Zbigniew #0" = 0
+	"Zegota #1" = 10
+	"Zygmunt #0" = 0
+}
+leader_names = {
+	"Aminoff"
+	"Armfelt"
+	"Bielke"
+	"Bonde"
+	"Carpelan"
+	"Fleming"
+	"Furuhjelm"
+	"Horn"
+	"Mannerheim"
+	"Paijkull"
+	"Rehbinder"
+	"Schulman"
+	"Soop"
+	"Tott"
+	"Wrede"
+}
+ship_names = {
+	"Arensburg"
+	"Hapsal"
+	"Maria"
+	"Narva"
+	"Pernau"
+	"Reval"
+	"Toompea"
+	"Weissenstein"
+	"Wesenberg"
+	"Ösel"
+}

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = occitain
+capital = 203
+1443.12.5= {
+	monarch = {
+		name = "Bertrand II"
+		dynasty = "Gaidoaldingi"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1417.11.5
+		religion = hellenic_pagan_reformed
+		culture = occitain
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Ida"
+		dynasty = "Gaidoaldingi"
+		adm = 4
+		dip = 3
+		mil = 3
+		country_of_origin = DAU
+		birth_date = 1419.6.8
+		death_date = 1479.6.8
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = righteous_personality
+	heir = {
+		name = "Carlòta"
+		monarch_name = "Carlòta"
+		dynasty = "Gaidoaldingi"
+		adm = 1
+		dip = 1
+		mil = 1
+		birth_date = 1439.6.11
+		death_date = 1504.6.11
+		female = yes
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = aquitaine
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 78
+	add_treasury = 74
+}
+
+

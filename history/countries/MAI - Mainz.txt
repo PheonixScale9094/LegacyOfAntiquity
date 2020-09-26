@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = hellenic_pagan_reformed
+primary_culture = cosmopolitan_french
+capital = 78
+fixed_capital = 78
+1443.12.5= {
+	monarch = {
+		name = "Charles"
+		dynasty = "de Menthon"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1405.7.2
+		religion = hellenic_pagan_reformed
+		culture = cosmopolitan_french
+	}
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = sinner_personality
+	queen = {
+		name = "Valence"
+		dynasty = "Smith"
+		adm = 2
+		dip = 4
+		mil = 3
+		country_of_origin = MAI
+		birth_date = 1418.9.18
+		death_date = 1478.9.18
+		female = yes
+		religion = hellenic_pagan_reformed
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Eve"
+		monarch_name = "Eve"
+		dynasty = "de Menthon"
+		adm = 0
+		dip = 1
+		mil = 0
+		birth_date = 1439.11.4
+		death_date = 1504.11.4
+		female = yes
+		claim = 89
+		religion = hellenic_pagan_reformed
+		culture = burgundian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 29
+	add_treasury = 72
+}
+
+

@@ -1,0 +1,135 @@
+graphical_culture = westerngfx
+color = { 155 147 180 }
+revolutionary_colors = { 0 9 0 }
+historical_idea_groups = {
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	trade_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abrahil #1" = 10
+	"Ansgar #0" = 0
+	"Anund #1" = 10
+	"Audofleda #1" = -1
+	"Bertha #0" = -1
+	"Björn #1" = 10
+	"Brun #1" = 10
+	"Christina #0" = -1
+	"Cissa #1" = 10
+	"Diederik #1" = 10
+	"Dubravka #0" = -1
+	"Ekbert #2" = 10
+	"Erik #1" = 10
+	"Faste #1" = 10
+	"Franz #1" = 10
+	"Fredrick #1" = 10
+	"Fredrik #1" = 10
+	"Froila #1" = 10
+	"Galswinth #1" = -1
+	"Gloiumed #1" = -1
+	"Hans #1" = 10
+	"Helene #0" = -1
+	"Hildegard #0" = -1
+	"Hjalmar #1" = 10
+	"Hodierne #1" = -1
+	"Hugo #1" = 10
+	"Hulderic #1" = 10
+	"Jaspar #0" = 0
+	"Kettil #1" = 10
+	"Lealdo #1" = 10
+	"Lothar #1" = 10
+	"Mallobaudes #1" = 10
+	"Mathilde #0" = -1
+	"Philipp #2" = 10
+	"Radbot #1" = 10
+	"Ragnar #2" = 10
+	"Reginbern #1" = 10
+	"Reineke #0" = 0
+	"Rudigar #1" = 10
+	"Rudolf #1" = 10
+	"Siconulf #1" = 10
+	"Tacsony #2" = 10
+	"Theodrada #0" = -1
+	"Vuldretrada #1" = -1
+	"Waldemar #1" = 10
+	"Warin #1" = 10
+	"Warinechin #1" = 10
+	"Wicho #0" = 0
+	"Wilbrand #1" = 10
+	"Withgils #1" = 10
+	"Wolter #0" = 0
+}
+leader_names = {
+	"Arnim"
+	"Bieber"
+	"Bretfeld"
+	"Deitz"
+	"Dietze"
+	"Fischer"
+	"Gödel"
+	"Hamann"
+	"Harzer"
+	"Hergesell"
+	"Kirbach"
+	"Kranke"
+	"Kuhn"
+	"Oelssner"
+	"Oertel"
+	"Pilz"
+	"Rabs"
+	"Rank"
+	"Schönfeld"
+	"Sehm"
+	"Taut"
+	"Teichmann"
+	"Tellig"
+	"Uebigau"
+	"Uhlich"
+	"Winkler"
+	"von Rath"
+}
+ship_names = {
+	"Bernhard I"
+	"Billing"
+	"Brun"
+	"Edberg"
+	"Heinrich I"
+	"Heinrich II"
+	"Liedolf"
+	"Lothar"
+	"Manus"
+	"Ordulf"
+	"Otto I"
+	"Wichman"
+	"Widukind"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Kurfürstliche Garde"
+}
+fleet_names = {
+	"Kurfürstliche Flotte"
+}
+preferred_religion = protestant

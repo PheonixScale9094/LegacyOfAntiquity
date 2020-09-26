@@ -1,0 +1,112 @@
+graphical_culture = asiangfx
+color = { 63 150 30 }
+revolutionary_colors = { 4 0 4 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	administrative_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Atak #1" = -1
+	"Birsha #0" = -1
+	"Bonchung #1" = 10
+	"Chunmardang #1" = 10
+	"Damitheke #2" = 10
+	"Dangwa #1" = 10
+	"Dokchen #1" = 10
+	"Gyung #1" = 10
+	"Lakring #1" = 10
+	"Mabu #1" = 10
+	"Marpo #0" = 0
+	"Meri #1" = 10
+	"Mewar #1" = -1
+	"Mukhö #1" = 10
+	"Mutik #1" = 10
+	"Pholha #1" = 10
+	"Po #1" = 10
+	"Pungse #1" = 10
+	"Ringtsun #1" = -1
+	"Sambhota #2" = 10
+	"Sangto #1" = 10
+	"Shelgyung #1" = 10
+	"Trisong Detsen #1" = 10
+	"Tsatsame #1" = -1
+	"Wangmo #1" = -1
+	"Zijid #1" = 10
+	"Zutse #1" = 10
+}
+leader_names = {
+	"Afridi"
+	"Bahadur"
+	"Bakhsh"
+	"Bhangalia"
+	"Bhatta"
+	"Chandral"
+	"Das"
+	"Dev"
+	"Gahunia"
+	"Gami"
+	"Hamadani"
+	"Jamwal"
+	"Jivan"
+	"Kashmiri"
+	"Katoch"
+	"Kisthwaria"
+	"Kralawari"
+	"Lal"
+	"Makhdum"
+	"Malik"
+	"Mehsud"
+	"Mir"
+	"Naga"
+	"Pahore"
+	"Pakhral"
+	"Parmanand"
+	"Pundir"
+	"Rai"
+	"Shergill"
+	"Singh"
+	"Sodhi"
+	"Sohal"
+}
+ship_names = {
+	"Alia"
+	"Alisha"
+	"Aziza"
+	"Beas"
+	"Chenab"
+	"Fatimah"
+	"Guru"
+	"Indus"
+	"Jalsena"
+	"Jhelum"
+	"Khan"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Niloufa"
+	"Ravi"
+	"Sagar"
+	"Sutlej"
+	"Yasmine"
+	"Zahira"
+}

@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = kannada
+capital = 534
+mercantilism = 15
+1443.12.5= {
+	monarch = {
+		name = "Vishnugopa IV"
+		dynasty = "Koppamid"
+		adm = 1
+		dip = 5
+		mil = 4
+		birth_date = 1425.9.6
+		religion = hinduism
+		culture = kannada
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Mailaladevi"
+		dynasty = "Eregangid"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z38
+		birth_date = 1421.3.6
+		death_date = 1481.3.6
+		female = yes
+		religion = hinduism
+		culture = kannada
+	}
+	add_queen_personality = expansionist_personality
+	add_queen_personality = fertile_personality
+}
+1443.12.5= {
+	add_prestige = 44
+	add_treasury = 66
+}
+
+

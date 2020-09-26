@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+religion = slavic_pagan_reformed
+primary_culture = polish
+capital = 38
+1443.12.5= {
+	monarch = {
+		name = "Dobieslaw"
+		dynasty = "Lechowicz"
+		adm = 5
+		dip = 3
+		mil = 3
+		birth_date = 1411.8.18
+		religion = slavic_pagan_reformed
+		culture = polish
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = fertile_personality
+	queen = {
+		name = "Rögnhildr"
+		dynasty = "Ölfúss"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = EST
+		birth_date = 1403.10.30
+		death_date = 1463.10.30
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = norse
+	}
+	add_queen_personality = benevolent_personality
+	add_queen_personality = pious_personality
+	heir = {
+		name = "Zygmunt"
+		monarch_name = "Zygmunt"
+		dynasty = "Lechowicz"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.9.7
+		death_date = 1508.9.7
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = schlesian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 75
+	add_treasury = 80
+}
+
+

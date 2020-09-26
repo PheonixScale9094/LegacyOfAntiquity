@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = norse
+capital = 170
+1443.12.5= {
+	monarch = {
+		name = "Kristina"
+		dynasty = "af Germano"
+		adm = 1
+		dip = 4
+		mil = 2
+		birth_date = 1407.10.24
+		female = yes
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = midas_touched_personality
+	queen = {
+		name = "Sigeberht"
+		dynasty = "af Germano"
+		adm = 3
+		dip = 2
+		mil = 2
+		country_of_origin = BRI
+		birth_date = 1407.7.22
+		death_date = 1467.7.22
+		religion = norse_pagan_reformed
+		culture = anglo_saxon
+	}
+	add_queen_personality = naive_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Leofwaru"
+		monarch_name = "Leofwaru"
+		dynasty = "af Germano"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1442.10.5
+		death_date = 1507.10.5
+		female = yes
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = anglo_saxon
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 83
+	add_treasury = 67
+}
+
+

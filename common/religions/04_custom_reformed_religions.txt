@@ -1,0 +1,136 @@
+pagan = {
+	hellenic_pagan_reformed = {
+		icon = 58
+		color = { 153 26 26 }
+		country = {
+			
+fort_maintenance_modifier =-0.1
+
+stability_cost_modifier =-0.1
+global_unrest =-1
+
+		}
+		province = {
+			
+local_defensiveness =0.1
+
+		}
+				country_as_secondary = {
+			
+tolerance_heretic =2
+
+stability_cost_modifier =-0.1
+
+		}
+		personal_deity =yes
+
+		
+		heretic = { GOAT_SKULL  }
+	}
+	norse_pagan_reformed = {
+		icon = 21
+		color = { 191 191 191 }
+		country = {
+			
+fort_maintenance_modifier =-0.1
+
+advisor_cost =-0.1
+
+naval_morale =0.1
+
+		}
+		province = {
+			
+local_defensiveness =0.1
+
+		}
+				country_as_secondary = {
+			
+naval_morale =0.1
+
+		}
+		
+		
+		heretic = { OLD_NORSE  }
+	}
+	slavic_pagan_reformed = {
+		icon = 55
+		color = { 217 186 102 }
+		country = {
+			
+fort_maintenance_modifier =-0.1
+
+land_morale =0.1
+
+advisor_cost =-0.1
+
+		}
+		province = {
+			
+local_defensiveness =0.1
+
+		}
+				country_as_secondary = {
+			
+discipline =0.05
+
+		}
+		
+		
+		heretic = { OLD_SLAVIC  }
+	}
+	tengri_pagan_reformed = {
+		icon = 27
+		color = { 25 76 217 }
+		country = {
+			
+religious_unity =0.5
+
+cav_to_inf_ratio =0.25
+
+land_morale =0.1
+
+		}
+		province = {
+			
+		}
+				country_as_secondary = {
+			
+loot_amount =0.2
+
+discipline =0.05
+
+		}
+		can_have_secondary_religion =yes
+
+		
+		heretic = { GOAT_SKULL  }
+	}
+	west_african_pagan_reformed = {
+		icon = 52
+		color = { 255 160 0 }
+		country = {
+			
+global_missionary_strength =0.02
+tolerance_heathen =-1
+
+land_morale =0.1
+
+		}
+		province = {
+			
+		}
+				country_as_secondary = {
+			
+global_unrest =-1
+
+land_morale =0.1
+
+		}
+		fetishist_cult =yes
+
+		
+		heretic = { GOAT_SKULL  }
+	}
+	
+}

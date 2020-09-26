@@ -1,0 +1,107 @@
+graphical_culture = indiangfx
+color = { 212 84 55 }
+revolutionary_colors = { 2 10 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Adel #0" = 0
+	"Ajairaja #1" = 10
+	"Amir #1" = 10
+	"Arjunpal #2" = 10
+	"Asvapala #2" = 10
+	"Bachraj #1" = 10
+	"Baliraja #1" = 10
+	"Bhagadatta #0" = 0
+	"Bhilladitya #2" = 10
+	"Dasharathadeva #0" = 0
+	"Desaladevi #0" = -1
+	"Dharmapala #0" = 0
+	"Dhir Singh #1" = 10
+	"Durlabharaja #1" = 10
+	"Gambhir #1" = 10
+	"Govinda #0" = 0
+	"Govindaraja #1" = 10
+	"Hariraja #1" = 10
+	"Hemachandra #1" = 10
+	"Jagadeva #1" = 10
+	"Kanchuka #1" = -1
+	"Lakshman #1" = -1
+	"Mahalakshmi #0" = -1
+	"Prithivipala #1" = 10
+	"Prithvi #1" = 10
+	"Prithviraja #0" = 0
+	"Sagunabai #1" = -1
+	"Subhatavarman #1" = 10
+	"Udayaditya #2" = 10
+	"Udayamati #0" = -1
+	"Vanaraja #2" = 10
+	"Vapyata #0" = 0
+	"Vinaykpala #1" = 10
+	"Viravarman #1" = 10
+}
+leader_names = {
+	"Bhati"
+	"Chavda"
+	"Jadeja"
+	"Jethwa"
+	"Mehar"
+	"Mulraj"
+	"Paramara"
+	"Pargir"
+	"Pratap"
+	"Rathore"
+	"Saran"
+	"Sarvaiya"
+	"Savji"
+	"Shah"
+	"Singh"
+	"Sisodiya"
+	"Solanki"
+	"Soomrah"
+	"Vaghela"
+	"Valas"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

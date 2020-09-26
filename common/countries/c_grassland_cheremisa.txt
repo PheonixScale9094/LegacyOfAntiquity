@@ -1,0 +1,18 @@
+graphical_culture = inuitgfx
+color = { 231 171 10 }
+monarch_names = {
+	"Chindyayka #0" = -1
+	"Chinzhay #0" = -1
+	"Chumbulat #0" = 0
+	"Erziya #0" = 0
+	"Kanyuva #0" = -1
+	"Kichay #0" = 0
+	"Lingyue #0" = -1
+	"Malyy #0" = 0
+	"Sangasa #0" = -1
+	"Syrka #0" = 0
+	"Tul #0" = 0
+	"Tundava #0" = -1
+	"Tyushtya #0" = 0
+	"Viryay #0" = 0
+}

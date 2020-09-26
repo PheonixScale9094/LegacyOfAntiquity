@@ -1,0 +1,123 @@
+graphical_culture = easterngfx
+color = { 81 123 210 }
+revolutionary_colors = { 8 15 8 }
+historical_idea_groups = {
+	defensive_ideas
+	expansion_ideas
+	religious_ideas
+	offensive_ideas
+	naval_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alexei #0" = 0
+	"Boleslava #0" = -1
+	"Borbála #0" = -1
+	"Briachislav #0" = 0
+	"Butvydas #0" = 0
+	"Demid #2" = 10
+	"Dobrava #1" = -1
+	"Gavriil #1" = 10
+	"Gleb #0" = 0
+	"Gradislava #0" = -1
+	"Igor #1" = 10
+	"Iliya #3" = 10
+	"Ingvar #1" = 10
+	"Ingólfr #0" = 0
+	"Izyaslav #0" = 0
+	"Kálmán #0" = 0
+	"Lev #1" = 10
+	"Maslaw #1" = 10
+	"Mitrofan #1" = 10
+	"Mstislav #1" = 10
+	"Nyayka #0" = -1
+	"Oleg #0" = 0
+	"Pereyaslava #0" = -1
+	"Premyslava #0" = -1
+	"Putiata #1" = 10
+	"Radoslav #1" = 10
+	"Rodislav #2" = 10
+	"Rostislav #2" = 10
+	"Rostislava #0" = -1
+	"Ruslan #0" = 0
+	"Siemowit #1" = 10
+	"Sudislav #1" = 10
+	"Svetozar #1" = 10
+	"Sviatopolk #0" = 0
+	"Ulita #0" = -1
+	"Vasilisa #1" = -1
+	"Vasilko #1" = 10
+	"Viacheslav #0" = 0
+	"Vladimir #2" = 10
+	"Vladislav #1" = 10
+	"Volodar #1" = 10
+	"Vseslav #1" = 10
+	"Vysheslav #1" = 10
+	"Yaropolk #1" = 10
+	"Yelisey #1" = 10
+	"Yemelyan #1" = 10
+}
+leader_names = {
+	"Apraksin"
+	"Bagration"
+	"Barclay de Tolly"
+	"Bibikoff"
+	"Bodisco"
+	"Boruffsin"
+	"Golitzin"
+	"Kaibula"
+	"Kamenski"
+	"Kolzoff"
+	"Mensjikov"
+	"Mustislavski"
+	"Ostermann Tolstoy"
+	"Paletskij"
+	"Rajevski"
+	"Schuvalov"
+	"Sjeremetjev"
+	"Sjtjenjatvev"
+	"Tiesenhusen"
+	"Vasiljevitj"
+	"von Buxhoevden"
+	"von Knorring"
+	"von Lascy"
+}
+ship_names = {
+	"Aleksandr Nevskiy"
+	"Arkhangel Mikhail"
+	"Coluna"
+	"Cortiza"
+	"Iausa"
+	"Ivan Kalita"
+	"Klin"
+	"Moscha"
+	"Mosnisk"
+	"Olescho"
+	"Piersek"
+	"Rurik"
+	"Schorna"
+	"Svyatoy Muchenik"
+	"Troitzkoy"
+	"Volga"
+	"Wolok"
+}

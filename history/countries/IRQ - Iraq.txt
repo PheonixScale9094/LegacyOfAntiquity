@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 2
+technology_group = muslim
+religion = shiite
+primary_culture = al_iraqiya_arabic
+capital = 410
+mercantilism = 15
+1443.12.5= {
+	monarch = {
+		name = "Fayiz"
+		dynasty = "Karbalid"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1422.12.5
+		religion = shiite
+		culture = al_iraqiya_arabic
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 62
+	add_treasury = 69
+}
+
+

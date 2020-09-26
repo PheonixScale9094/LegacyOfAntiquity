@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = indian
+religion = hinduism
+primary_culture = panjabi
+capital = 2231
+1443.12.5= {
+	monarch = {
+		name = "Shamsher"
+		dynasty = "Bhar"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1405.11.13
+		religion = hinduism
+		culture = panjabi
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = industrious_personality
+	queen = {
+		name = "Gujri"
+		dynasty = "Takkavishaya"
+		adm = 2
+		dip = 3
+		mil = 3
+		country_of_origin = Z20
+		birth_date = 1416.12.12
+		death_date = 1476.12.12
+		female = yes
+		religion = hinduism
+		culture = kashmiri
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Pheru"
+		monarch_name = "Pheru"
+		dynasty = "Bhar"
+		adm = 5
+		dip = 5
+		mil = 5
+		birth_date = 1427.7.14
+		death_date = 1492.7.14
+		claim = 89
+		religion = hinduism
+		culture = kashmiri
+	}
+	add_heir_personality = infertile_personality
+	add_heir_personality = tactical_genius_personality
+}
+1443.12.5= {
+	add_prestige = 80
+	add_treasury = 49
+}
+
+

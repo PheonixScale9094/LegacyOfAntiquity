@@ -1,0 +1,23 @@
+graphical_culture = easterngfx
+color = { 225 117 155 }
+monarch_names = {
+	"Abdullah #1" = 10
+	"Aberikos #1" = 10
+	"Bashar #0" = 0
+	"Eirotatouññlki #1" = -1
+	"Eratee #0" = -1
+	"Gerges #1" = 10
+	"Imamaddin #0" = 0
+	"Iêsousinkouda #2" = 10
+	"Jerjer #0" = 0
+	"Khalid #0" = 0
+	"Kuriakos #1" = 10
+	"Lwiza #0" = -1
+	"Nechemiah #0" = 0
+	"Paisi #0" = -1
+	"Psote #0" = 0
+	"Rava #0" = 0
+	"Sai'ou #0" = -1
+	"Tadros #0" = 0
+	"Thadeosi #1" = 10
+}
