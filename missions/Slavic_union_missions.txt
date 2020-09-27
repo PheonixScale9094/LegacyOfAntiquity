@@ -72,7 +72,6 @@ conquer_warmia = { #Conquer Western Prussia
 	vassalize_the_teutonic_order = {
 		icon = mission_teutonic_knights
 		required_missions = { conquer_warmia }
-		position = 5
 		provinces_to_highlight = {
 			area = east_prussia_area
 			NOT = {
@@ -118,18 +117,6 @@ conquer_warmia = { #Conquer Western Prussia
 			}
 		}
 	}
-}
-
-plc_missions_1 = {
-	slot = 1
-	generic = no
-	ai = yes
-	potential = {
-		tag = PLC
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
 	polish_navy_mission = {
 		icon = mission_galleys_in_port
 		required_missions = { vassalize_the_teutonic_order }
@@ -167,29 +154,17 @@ plc_missions_1 = {
 		}
 		effect = {
 			country_event = { id = flavor_pol.1 }
-			ostra_svealand_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			gotaland_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
+			
 		}
 	}
-	
 }
 
 
 
+
+
 polish_missions_slot_3 = {
-	slot = 3
+	slot = 2
 	generic = no
 	ai = yes
 	potential = {
@@ -362,28 +337,10 @@ polish_missions_slot_3 = {
 			}
 		}
 	}
-tr_muscovy_conquest = {
-	slot = 1
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Third Rome"
-	}
-	potential = {
-		tag = RUS
-		tag = SLU
-		tag = POL
-		tag = CZA
-		has_dlc = "Third Rome"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
 	tr_access_to_the_baltic_sea = {
 		icon = mission_galleys_in_port
 		required_missions = { vassalize_lithuania}
 		completed_by = 1776.1.1
-		position = 4
 		provinces_to_highlight = {
 			OR = {
 				area = curonia_area
@@ -415,13 +372,12 @@ tr_muscovy_conquest = {
 			}
 		}
 	}
-	
-	
 }
+
 	
 	
 tr_russia_conquest_1 = {
-	slot = 2
+	slot = 3
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -580,10 +536,7 @@ tr_russia_conquest_1 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			north_karelia = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			
 			arkhangelsk_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -591,9 +544,7 @@ tr_russia_conquest_1 = {
 			4148 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			1777 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			
 			33 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -749,7 +700,7 @@ tr_russia_conquest_1 = {
 }
 
 tr_russia_exclusive_1 = {
-	slot = 2
+	slot = 4
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -910,7 +861,7 @@ tr_russia_exclusive_1 = {
 
 
 tr_russia_exclusive_2 = {
-	slot = 3
+	slot = 5
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -1045,10 +996,93 @@ tr_russia_exclusive_2 = {
 			}
 		}
 	}
+	
+		tr_prikazy_mission = {
+			icon = mission_establish_the_prikazy
+			required_missions = { time_of_troubles_mission }
+			position = 9
+			trigger = {
+				custom_trigger_tooltip = {
+					tooltip = tr_prikazy_mission.tooltip.1
+					OR = {
+						philosopher = 3
+						natural_scientist = 3
+						artist = 3
+						treasurer = 3
+						theologian = 3
+						master_of_mint = 3
+						inquisitor = 3
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = tr_prikazy_mission.tooltip.2
+					OR = {
+						statesman = 3
+						naval_reformer = 3
+						trader = 3
+						spymaster = 3
+						colonial_governor = 3
+						diplomat = 3
+						navigator = 3
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = tr_prikazy_mission.tooltip.3
+					OR = {
+						army_reformer = 3
+						army_organiser = 3
+						commandant = 3
+						quartermaster = 3
+						recruitmaster = 3
+						fortification_expert = 3
+						grand_captain = 3
+					}
+				}
+				NOT = {
+					num_of_loans = 1
+				}
+				is_in_deficit = no
+			}
+			effect = {
+				add_country_modifier = {
+					name = "prikazy_modifier"
+					duration = 7300
+				}
+			}
+	}
+	
+	tr_state_manufactories = {
+		icon = mission_state_manufactories
+		required_missions = { tr_prikazy_mission }
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "proto_industrialization"
+				duration = 9125
+			}
+			add_years_of_income = 1.5
+		}
+	}
 }
 
 tr_russia_conquest_3 = {
-	slot = 4
+	slot = 6
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -1349,123 +1383,6 @@ tr_russia_conquest_3 = {
 			}
 		}
 	}
-}
-
-tr_russia_exclusive_3 = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Third Rome"
-	}
-	potential = {
-		tag = RUS
-		has_dlc = "Third Rome"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	tr_prikazy_mission = {
-		icon = mission_establish_the_prikazy
-		required_missions = { time_of_troubles_mission }
-		position = 9
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = tr_prikazy_mission.tooltip.1
-				OR = {
-					philosopher = 3
-					natural_scientist = 3
-					artist = 3
-					treasurer = 3
-					theologian = 3
-					master_of_mint = 3
-					inquisitor = 3
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tr_prikazy_mission.tooltip.2
-				OR = {
-					statesman = 3
-					naval_reformer = 3
-					trader = 3
-					spymaster = 3
-					colonial_governor = 3
-					diplomat = 3
-					navigator = 3
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tr_prikazy_mission.tooltip.3
-				OR = {
-					army_reformer = 3
-					army_organiser = 3
-					commandant = 3
-					quartermaster = 3
-					recruitmaster = 3
-					fortification_expert = 3
-					grand_captain = 3
-				}
-			}
-			NOT = {
-				num_of_loans = 1
-			}
-			is_in_deficit = no
-		}
-		effect = {
-			add_country_modifier = {
-				name = "prikazy_modifier"
-				duration = 7300
-			}
-		}
-	}
-	
-	tr_state_manufactories = {
-		icon = mission_state_manufactories
-		required_missions = { tr_prikazy_mission }
-		trigger = {
-			calc_true_if = {
-				all_owned_province = {
-					OR = {
-						has_building = mills
-						has_building = farm_estate
-						has_building = tradecompany
-						has_building = plantations
-						has_building = textile
-						has_building = weapons
-						has_building = wharf
-						has_building = furnace
-					}
-				}
-				amount = 20
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "proto_industrialization"
-				duration = 9125
-			}
-			add_years_of_income = 1.5
-		}
-	}
-}
-
-tr_siberia_missions = {
-	slot = 5
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Third Rome"
-	}
-	potential = {
-		OR = {
-			tag = MOS
-			tag = RUS
-		}
-		has_dlc = "Third Rome"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
 	tr_subjugate_kazan = {
 		icon = mission_conquer_50_development
 		required_missions = { tr_conquer_steppes_russia_mission }
@@ -1798,3 +1715,6 @@ tr_siberia_missions = {
 		}
 	}
 }
+
+
+
