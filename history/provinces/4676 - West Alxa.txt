@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+owner = Z00
+controller = Z00
 capital = "Badain Jaran"
 is_city = yes
 culture = uyghur
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = KAS
 add_core = Z03
+add_core = Z00
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

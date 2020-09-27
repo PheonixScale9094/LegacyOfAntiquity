@@ -345,3 +345,20 @@ vassal=
 	start_date="1288.12.5"
 	end_date="1836.1.1"
 }
+
+
+march=
+{
+	first="GER"
+	second="SAX"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
+
+march=
+{
+	first="GER"
+	second="HES"
+	start_date="1288.12.5"
+	end_date="1836.1.1"
+}
