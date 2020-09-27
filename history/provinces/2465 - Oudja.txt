@@ -1,5 +1,5 @@
-owner = SAR
-controller = SAR
+owner = ALG
+controller = ALG
 capital = "Oujda"
 is_city = yes
 culture = visigothic
@@ -8,8 +8,7 @@ trade_goods = wool
 base_tax = 7
 base_production = 3
 base_manpower = 4
-add_core = CAS
-add_core = SAR
+add_core = ALG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

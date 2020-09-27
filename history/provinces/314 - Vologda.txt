@@ -1,5 +1,5 @@
-owner = Y40
-controller = Y40
+owner = YAR
+controller = YAR
 capital = "Vologda"
 is_city = yes
 culture = mordvin
@@ -9,6 +9,7 @@ base_tax = 3
 base_production = 2
 base_manpower = 2
 add_core = Y40
+add_core = YAR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

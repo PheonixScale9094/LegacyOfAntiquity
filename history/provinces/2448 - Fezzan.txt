@@ -1,5 +1,5 @@
-owner = SAR
-controller = SAR
+owner = TUN
+controller = TUN
 capital = "Murzuk"
 is_city = yes
 culture = berber
@@ -9,8 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 1
 base_manpower = 2
-add_core = SAR
-add_core = TLC
+add_core = TUN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

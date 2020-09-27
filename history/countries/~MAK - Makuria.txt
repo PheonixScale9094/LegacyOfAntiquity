@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 2
+technology_group = east_african
+religion = lollard
+primary_culture = amhara
+capital = 1220
+mercantilism = 15
+1443.12.5= {
+	add_prestige = 8
+	add_treasury = 68
+}
+
+

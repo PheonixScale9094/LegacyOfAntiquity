@@ -1,5 +1,5 @@
-owner = Z06
-controller = Z06
+owner = Z00
+controller = Z00
 capital = "Kerey"
 is_city = yes
 culture = karluk
@@ -9,6 +9,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = Z06
+add_core = Z00
+add_core = YAN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

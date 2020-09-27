@@ -1,5 +1,5 @@
-owner = Z33
-controller = Z33
+owner = Y45
+controller = Y45
 capital = "Bristol"
 is_city = yes
 culture = anglo_saxon
@@ -10,7 +10,7 @@ base_production = 6
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = Z33
+add_core = Y45
 add_core = Z56
 discovered_by = eastern
 discovered_by = indian

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = russian
+capital = 307
+1443.12.5= {
+	monarch = {
+		name = "Sviatoslav"
+		dynasty = "Turov"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1418.3.5
+		religion = slavic_pagan_reformed
+		culture = russian
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = righteous_personality
+	queen = {
+		name = "Yevpraxia"
+		dynasty = "Novotorgsky"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = Z95
+		birth_date = 1413.7.26
+		death_date = 1473.7.26
+		female = yes
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_queen_personality = benevolent_personality
+	add_queen_personality = kind_hearted_personality
+	heir = {
+		name = "Rodislav"
+		monarch_name = "Rodislav IV"
+		dynasty = "Turov"
+		adm = 1
+		dip = 1
+		mil = 0
+		birth_date = 1438.9.12
+		death_date = 1503.9.12
+		claim = 89
+		religion = slavic_pagan_reformed
+		culture = byelorussian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1443.12.5= {
+	add_prestige = 34
+	add_treasury = 53
+}
+
+

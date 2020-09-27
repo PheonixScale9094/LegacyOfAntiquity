@@ -1,5 +1,5 @@
-owner = Z06
-controller = Z06
+owner = Z05
+controller = Z05
 capital = "Iglino"
 is_city = yes
 culture = turkish
@@ -8,7 +8,7 @@ trade_goods = fur
 base_tax = 3
 base_production = 1
 base_manpower = 1
-add_core = TUR
+add_core = Z05
 add_core = Z06
 discovered_by = eastern
 discovered_by = indian

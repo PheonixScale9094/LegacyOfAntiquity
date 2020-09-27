@@ -49,7 +49,7 @@ country_decisions = {
 				}
 			}
 		}
-		NOT = { TAG = MRM }
+		NOT = { TAG = MYM }
 		allow = {		
 			religion = hellenic_pagan_reformed
 		}
@@ -69,8 +69,8 @@ country_decisions = {
 			}
 			set_in_empire = no
 			remove_core = ROOT
-			add_core = MRM
-			cede_province = MRM
+			add_core = MYM
+			cede_province = MYM
 			}
 			set_global_flag = ceded_myrmidons
 		}

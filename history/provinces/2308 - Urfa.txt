@@ -1,5 +1,5 @@
-owner = IRQ
-controller = IRQ
+owner = Z44
+controller = Z44
 capital = "Urfa"
 is_city = yes
 culture = anatolian
@@ -8,8 +8,7 @@ trade_goods = wool
 base_tax = 7
 base_production = 3
 base_manpower = 2
-add_core = BYZ
-add_core = IRQ
+add_core = Z44
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

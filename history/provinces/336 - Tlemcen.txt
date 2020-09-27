@@ -1,5 +1,5 @@
-owner = SAR
-controller = SAR
+owner = ALG
+controller = ALG
 capital = "Tlemcen"
 is_city = yes
 culture = algerian
@@ -12,7 +12,6 @@ base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
 add_core = ALG
-add_core = SAR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
