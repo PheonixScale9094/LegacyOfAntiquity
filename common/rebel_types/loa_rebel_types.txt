@@ -1,0 +1,124 @@
+######################################################################
+# Valid arguments:
+#
+# area = [nation/culture/nation_culture/nation_religion/religion/all]
+# government = [monarchy/republic/theocracy/anti/any]
+# defection = [culture/culture_group/religion/any/none]
+# independence = [culture/culture_group/religion/colonial/any/none]
+# gfx_type = [culture_province/culture_owner]
+#
+######################################################################
+
+# All rebels in province scope
+
+# For siege_won_trigger, siege_won_effect
+# FROM = owner
+# ROOT = province
+
+# For Other
+# FROM = owner
+# ROOT = Homecountry
+######################################################################
+# Mondragon Rebels
+######################################################################
+mondragon_rebels = {
+
+	area = nation
+	unit_transfer = yes
+	gfx_type = culture_province
+	
+	resilient = yes
+	reinforcing = yes
+	general = yes
+	smart = yes
+	
+	artillery = 0.3
+	infantry = 0.7
+	cavalry = 0.0
+	
+	morale = 1.3
+
+	# Possible handle actions
+	handle_action_negotiate = no
+	handle_action_stability = no
+	handle_action_build_core = no
+	handle_action_send_missionary = no	
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 0
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+		modifier = {
+			factor = 1.2
+			has_port = yes
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+		NOT = {
+			AND = {
+				owned_by = PAP
+				is_capital = yes
+			}
+		}
+ 	}
+	
+	siege_won_effect = {
+		if = {
+			limit = {
+				OR = {
+					has_port = yes
+					any_neighbor_province = {
+						is_claim = MDR
+					}
+				}
+			}
+			add_claim = MDR
+		}
+	}
+	
+	# Country scope
+	can_negotiate_trigger = {
+		always = no
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+	# Localisation for their demands
+	demands_description = "mondragon_rebel_demands"
+	
+	# Country Scope	
+	demands_enforced_effect = {
+		country_event = { 
+			id = mondragon_events.100
+		}
+	}
+}

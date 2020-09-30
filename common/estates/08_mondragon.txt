@@ -4,7 +4,10 @@ estate_mondragon =
 
 	# If true, country will get estate
 	trigger = {	
-		has_country_flag = mondragon_company
+		OR = {
+			has_country_flag = mondragon_company
+			has_country_flag = mondragon_subsidiary
+		}
 		is_nomad = no
 		is_colonial_nation = no
 	}
@@ -29,35 +32,20 @@ estate_mondragon =
 	province_independence_weight = {
 		factor = 1
 		modifier = {
-			factor = 0.1
-			NOT = { development = 5 }
+			factor = 20
+			has_rebel_faction = mondragon_rebels
 		}
 		modifier = {
-			factor = 0.5
-			OR = {
-				NOT = { development = 10 }
-				NOT = { province_trade_power = 5 }
-			}
+			factor = 20
+			has_port = yes
 		}
 		modifier = {
-			factor = 2
-			development = 20
-		}
-		modifier = {
-			factor = 0.5
-			is_territorial_core = owner
-		}
-		modifier = {
-			factor = 1.5
+			factor = 10
 			province_trade_power = 10
 		}
 		modifier = {
-			factor = 1.5
-			province_trade_power = 20
-		}
-		modifier = {
-			factor = 1.5
-			has_province_modifier = thankful_guilds
+			factor = 10
+			province_trade_power = 5
 		}
 	}
 
