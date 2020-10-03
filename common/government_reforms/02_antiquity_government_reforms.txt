@@ -13,6 +13,7 @@ merchant_elite_reform = {
 	nation_designer_cost = 40
 	legacy_equivalent = merchant_republic
 	potential = {
+		culture = basque
 		NOT = { map_setup = map_setup_random }
 	}
 	boost_income = yes
@@ -155,20 +156,56 @@ branch_office = {
 	duration = 4
 }
 
-viking_reform = {
-	icon = "crown"
-	allow_normal_conversion = yes
+subsidiary_reform = {
+	icon = "trading_city"
+	allow_normal_conversion = no
 	potential = {
-		religion = norse_pagan_reformed
-		has_dlc = "Golden Century"
+		OR = {
+			is_subject_of_type = subsidiary
+			is_at_war = yes
+		}
 	}
-	legacy_equivalent = despotic_monarchy
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
+	valid_for_nation_designer = no
+	legacy_equivalent = merchant_republic
+	boost_income = yes
+	lock_level_when_selected = no
+	is_trading_city = no
 	modifiers = {
-		unjustified_demands = -0.1
-		global_tax_modifier = -0.05
-		governing_capacity = 200
-		may_perform_slave_raid_on_same_religion = yes
+		max_absolutism = -20
+		global_trade_power = 0.2
+		governing_capacity = 50
 	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		locked_government_type = yes
+	}
+	duration = 4
+}
+
+subsidiary_trigger_reform = {
+	icon = "trading_city"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = subsidiary_trigger_reform
+	}
+	valid_for_nation_designer = no
+	legacy_equivalent = merchant_republic
+	boost_income = yes
+	lock_level_when_selected = no
+	is_trading_city = no
+	modifiers = {
+		max_absolutism = -20
+		global_trade_power = 0.2
+		liberty_desire = -30
+		governing_capacity = 50
+	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		locked_government_type = yes
+	}
+	duration = 4
 }

@@ -51,6 +51,33 @@ corporation_government = {
 	}
 }
 
+corporation_government = {
+	rank = {
+		1 = BRANCH
+		2 = SUBSIDIARY
+		3 = SUBSIDIARY
+	}
+
+	ruler_male = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = PRESIDENT
+	}
+
+	ruler_female = {
+		1 = PRESIDENT_fem
+		2 = PRESIDENT_fem
+		3 = PRESIDENT_fem
+	}
+
+	trigger = {
+		OR = {
+			has_reform = subsidiary_reform
+			has_reform = subsidiary_trigger_reform
+		}
+	}
+}
+
 viking_government = {
 	
 	rank = {
@@ -72,6 +99,7 @@ viking_government = {
 	}
 	
 	trigger = {
-		has_reform = viking_reform
+		government = monarchy
+		religion = norse_pagan_reformed
 	}
 }

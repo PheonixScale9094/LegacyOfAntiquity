@@ -1,6 +1,6 @@
 namespace = slavic_union_events
 
-# Mondragon Formation
+# Slavic Union Formation
 country_event = {
 	id = slavic_union_events.1
 	title = "slavic_union_events.1.t"
@@ -12,5 +12,44 @@ country_event = {
 	# Reject
 	option = {
 		name = "slavic_union_events.1.a"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# War
+country_event = {
+	id = slavic_union_events.2
+	title = "slavic_union_events.2.t"
+	desc = "slavic_union_events.2.d"
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+	
+	# nice
+	option = {
+		name = "slavic_union_events.2.a"
+		random_neighbor_country = { 
+			limit = {
+				NOT = { 
+					army_strength = {
+						who = ROOT
+						value = 0.66
+					}
+				}
+			}
+			random_owned_province = {
+				save_event_target_as = random_enemy_province
+			}
+			save_event_target_as = random_enemy
+		}
+		declare_war_with_cb = {
+			who = event_target:random_enemy
+			casus_belli = cb_slavic_unification
+		}
+		ai_chance = {
+			factor = 1
+		}
 	}
 }

@@ -11,6 +11,7 @@ country_event = {
 
 	trigger = {
 		has_reform = merchant_elite_reform
+		tag = Z15
 		NOT = { has_country_flag = mondragon_company }
 		year = 1490
 	}
@@ -21,6 +22,7 @@ country_event = {
 
 	immediate = {
 		set_country_flag = mondragon_company
+		complete_mission = loa_garrone_formation_mondragon
 	}
 
 	# Reject
@@ -28,7 +30,7 @@ country_event = {
 		name = "mondragon_events.1.a"
 		change_estate_land_share = {
 			estate = estate_mondragon
-			share = -35
+			share = -30
 		}
 	}
 
@@ -37,7 +39,7 @@ country_event = {
 		name = "mondragon_events.1.b"
 		change_estate_land_share = {
 			estate = estate_mondragon
-			share = -30
+			share = -25
 		}
 	}
 }
@@ -54,10 +56,13 @@ country_event = {
 	trigger = {
 		has_reform = merchant_elite_reform
 		has_estate = estate_mondragon
+		has_country_flag = mondragon_company
+		tag = Z15
 		NOT = { has_country_flag = mondragon_corporation }
 		OR = {
-			num_of_ports = 40
-			num_of_total_ports = 45
+			num_of_ports = 30
+			num_of_total_ports = 35
+			year = 1550
 		}
 	}
 	
@@ -135,7 +140,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-	clr_country_flag = mondragon_ultimatum
+		clr_country_flag = mondragon_ultimatum
+		set_variable = {
+			which = numberOfSubsidiaries
+			value = 0
+		}
 	}
 
 	# We Must Accept
@@ -163,9 +172,7 @@ country_event = {
 		add_years_of_income = 5
 		add_republican_tradition = 10
 		add_stability = 3
-		remove_country_modifier = corporate_influence_mod
-		remove_country_modifier = corporate_influence_mod_reduced
-		remove_country_modifier = corporate_influence_mod_minimal
+		save_global_event_target_as = mondragon_corporation_country
 	}
 }
 
@@ -179,7 +186,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-	clr_country_flag = mondragon_ultimatum
+		clr_country_flag = mondragon_ultimatum
 	}
 
 	#Join
@@ -252,7 +259,6 @@ country_event = {
 	}
 }
 
-
 ##################
 #Random Events
 ##################
@@ -320,6 +326,139 @@ province_event = {
 		}
 		ai_chance = {
 			factor = 0
+		}
+	}
+}
+
+##################
+#Corporate Undetaking
+##################
+
+country_event = {
+	id = mondragon_events.100
+	title = "mondragon_events.100.t"
+	desc = "mondragon_events.100.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	add_prestige = -50
+		every_owned_province = {
+			limit = {
+				has_rebel_faction = mondragon_rebels
+			}
+			add_local_autonomy = 20
+		}
+		create_independent_estate = {
+			estate = estate_mondragon
+			government = republic
+			government_reform = subsidiary_trigger_reform
+			play_as = no
+		}
+		MDR = {
+			country_event = { 
+				id = mondragon_events.103
+			}
+		}
+		clr_country_flag = mondragon_subsidiary
+		clr_country_flag = recent_subsidiary_development
+	}
+	
+	#Oh No!
+	option = {
+		name = "mondragon_events.100.a"
+	}
+	
+}
+
+#Subsidiary Formation
+
+country_event = {
+	id = mondragon_events.101
+	title = "mondragon_events.101.t"
+	desc = "mondragon_events.101.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Oh No!
+	option = {
+		name = "mondragon_events.101.a"
+		set_country_flag = mondragon_subsidiary
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Spawn Rebels
+
+country_event = {
+	id = mondragon_events.102
+	title = "mondragon_events.102.t"
+	desc = "mondragon_events.102.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Oh No!
+	option = {
+		name = "mondragon_events.102.a"
+		random_owned_province = { 
+			spawn_rebels = {
+				type = mondragon_rebels
+				size = 20
+				friend = MDR
+			}
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = mondragon_rebels
+				size = 20
+				friend = MDR
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Vassalize
+
+country_event = {
+	id = mondragon_events.103
+	title = "mondragon_events.103.t"
+	desc = "mondragon_events.103.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_country = { 
+				has_reform = subsidiary_trigger_reform
+				save_event_target_as = independent_subsidiary
+			}
+		}
+	}
+	
+	#Nice!
+	option = {
+		name = "mondragon_events.103.a"
+		
+		create_subject = {
+			subject_type = subsidiary
+			subject = event_target:independent_subsidiary
+		}
+		event_target:independent_subsidiary = {
+			add_government_reform = subsidiary_reform
+			override_country_name_effect = SUBSIDIARY_OF_CAPITAL
+		}
+		add_prestige = 10
+		ai_chance = {
+			factor = 1
 		}
 	}
 }

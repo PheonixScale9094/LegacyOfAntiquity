@@ -203,6 +203,8 @@ republic = {
 				merchant_elite_reform
 				corporation_reform
 				branch_office
+				subsidiary_reform
+				subsidiary_trigger_reform
 			}
 		}
 		republican_virtues = {

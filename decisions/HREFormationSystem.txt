@@ -5,6 +5,13 @@ country_decisions = {
 		potential = {
 			religion = hellenic_pagan_reformed
 			is_part_of_hre = no
+			is_at_war = no
+			OR = {
+				is_subject = no
+				overlord = { 
+					is_part_of_hre = yes
+				}
+			}
 		}
 		allow = {		
 			religion = hellenic_pagan_reformed

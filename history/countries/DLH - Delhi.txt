@@ -12,7 +12,7 @@ mercantilism = 15
 		adm = 3
 		dip = 3
 		mil = 3
-		birth_date155.1.1
+		birth_date = 1444.1.1
 		regent = yes
 		religion = hinduism
 		culture = avadhi

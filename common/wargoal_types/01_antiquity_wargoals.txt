@@ -1,5 +1,5 @@
 war_goal_slavic_unification = {
-	type = take_province
+	type = take_capital
 	
 	badboy_factor = 0.25
 	prestige_factor = 0.5
@@ -12,6 +12,8 @@ war_goal_slavic_unification = {
 	peace_options = {
 		po_demand_provinces
 	}
+	
+	allow_annex = yes
 	
 	war_name = SLAVIC_WAR_NAME	
 }

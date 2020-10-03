@@ -1,5 +1,5 @@
-owner = SCO
-controller = SCO
+owner = Y20
+controller = Y20
 capital = "Luçon"
 is_city = yes
 culture = cosmopolitan_french
@@ -10,7 +10,7 @@ base_production = 6
 base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
-add_core = SCO
+add_core = Y20
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

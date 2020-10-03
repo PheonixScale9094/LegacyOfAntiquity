@@ -1,0 +1,8 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = western
+religion = cathar
+primary_culture = visigothic
+capital = 217
+fixed_capital = 217

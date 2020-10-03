@@ -32,3 +32,226 @@ integrate_branch = {
 			factor = 1
 		}
 }
+form_subsidiary = {
+	category = influence
+
+	require_acceptance = no
+       
+	is_visible = {
+		tag = MDR
+		FROM = { 
+			NOT = { 
+				has_country_flag = mondragon_subsidiary
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+		}
+	}
+	is_allowed = {
+		stability = FROM
+		treasury = 350
+    }
+	on_accept = {
+		add_treasury = -350
+		FROM = {
+			country_event = { 
+				id = mondragon_events.101
+			}
+			set_country_flag = recent_subsidiary_development
+		}
+		change_variable = {
+			which = mondragon_subsidiary
+			value = 1
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			trigger = {
+				FROM = {
+					provinces_on_capital_continent_of = ROOT
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			trigger = {
+				FROM = {
+					NOT = { provinces_on_capital_continent_of = ROOT }
+				}
+			}
+		}
+		modifier = {
+			factor = 10
+			trigger = {
+				FROM = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 4
+						OR = {
+							superregion = east_indies_superregion
+							superregion = india_superregion
+						}
+						has_port = yes
+					}
+				}
+			}
+		}
+		factor = 1
+		modifier = {
+			factor = 0.1
+			trigger = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			trigger = {
+				NOT = { treasury = 500 }
+			}
+		}
+		modifier = {
+			factor = 5
+			trigger = {
+				treasury = 700
+			}
+		}
+		modifier = {
+			factor = 5
+			trigger = {
+				treasury = 1000
+			}
+		}
+		#Number of Subsidairies
+		modifier = {
+			factor = 0.1
+			trigger = {
+				check_variable = {
+					which = myCountingVariable
+					value = 2
+				}
+			}
+		}
+	}
+}
+develop_subsidiary = {
+	category = influence
+
+	require_acceptance = no
+	
+    is_visible = {
+		tag = MDR
+		FROM = { has_country_flag = mondragon_subsidiary }
+		NOT = {
+			is_subject_of = ROOT
+		}
+    }
+	is_allowed = {
+		FROM = { has_country_flag = mondragon_subsidiary }
+		FROM = {  
+			had_country_flag = {
+				flag = recent_subsidiary_development 
+				days = 1095
+			} 
+		}
+		treasury = 350
+    }
+	on_accept = {
+		add_treasury = -350
+		FROM = {
+			change_estate_land_share = {
+				estate = estate_mondragon
+				share = 5
+			}
+			set_country_flag = recent_subsidiary_development
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			trigger = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			trigger = {
+				NOT = { treasury = 500 }
+			}
+		}
+		modifier = {
+			factor = 5
+			trigger = {
+				treasury = 700
+			}
+		}
+		modifier = {
+			factor = 5
+			trigger = {
+				treasury = 1000
+			}
+		}
+	}
+}
+subsidiary_rebellion = {
+	category = influence
+
+	require_acceptance = no
+
+    is_visible = {
+        tag = MDR
+		FROM = { has_country_flag = mondragon_subsidiary }
+		NOT = {
+			is_subject_of = ROOT
+		}
+    }
+    is_allowed = {
+		FROM = {
+			estate_territory = {
+				estate = estate_mondragon
+				territory = 15
+			}
+		}
+    }
+
+	on_accept = {
+		FROM = {
+			country_event = { 
+				id = mondragon_events.102
+			}
+		}
+		subtract_variable = {
+			which = mondragon_subsidiary
+			value = 1
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		
+		modifier = {
+			factor = 5
+			trigger = {
+				FROM = {
+					estate_territory = {
+						estate = estate_mondragon
+						territory = 20
+					}
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			trigger = {
+				FROM = {
+					estate_territory = {
+						estate = estate_mondragon
+						territory = 30
+					}
+				}
+			}
+		}
+	}
+}

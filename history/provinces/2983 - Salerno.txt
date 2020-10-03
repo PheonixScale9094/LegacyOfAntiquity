@@ -1,6 +1,6 @@
 owner = SAR
 controller = SAR
-capital = "Salerno"
+capital = "Amalfi"
 is_city = yes
 culture = neapolitan
 religion = hellenic_pagan_reformed
