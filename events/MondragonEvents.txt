@@ -140,7 +140,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-	clr_country_flag = mondragon_ultimatum
+		clr_country_flag = mondragon_ultimatum
+		set_variable = {
+			which = numberOfSubsidiaries
+			value = 0
+		}
 	}
 
 	# We Must Accept
@@ -254,7 +258,6 @@ country_event = {
 		}
 	}
 }
-
 
 ##################
 #Random Events
@@ -405,7 +408,14 @@ country_event = {
 		random_owned_province = { 
 			spawn_rebels = {
 				type = mondragon_rebels
-				size = 10
+				size = 20
+				friend = MDR
+			}
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = mondragon_rebels
+				size = 20
 				friend = MDR
 			}
 		}

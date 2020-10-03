@@ -60,6 +60,10 @@ form_subsidiary = {
 			}
 			set_country_flag = recent_subsidiary_development
 		}
+		change_variable = {
+			which = mondragon_subsidiary
+			value = 1
+		}
 	}
 	ai_will_do = {
 		factor = 1
@@ -117,6 +121,16 @@ form_subsidiary = {
 			factor = 5
 			trigger = {
 				treasury = 1000
+			}
+		}
+		#Number of Subsidairies
+		modifier = {
+			factor = 0.1
+			trigger = {
+				check_variable = {
+					which = myCountingVariable
+					value = 2
+				}
 			}
 		}
 	}
@@ -207,6 +221,10 @@ subsidiary_rebellion = {
 			country_event = { 
 				id = mondragon_events.102
 			}
+		}
+		subtract_variable = {
+			which = mondragon_subsidiary
+			value = 1
 		}
 	}
 	ai_will_do = {

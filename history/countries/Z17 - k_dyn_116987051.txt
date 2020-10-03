@@ -11,7 +11,7 @@ capital = 1231
 		adm = 3
 		dip = 4
 		mil = 2
-		birth_date155.1.1
+		birth_date = 1444.1.1
 		regent = yes
 		religion = sunni
 		culture = coptic

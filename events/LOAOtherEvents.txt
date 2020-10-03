@@ -1,0 +1,45 @@
+namespace = other_loa_events
+
+# Catharanian Rebellion
+country_event = {
+	id = other_loa_events.1
+	title = "other_loa_events.1.t"
+	desc = "other_loa_events.1.d"
+	picture = MERCHANTS_TALKING_eventPicture
+
+	trigger = {
+		tag = Z01
+		NOT = { has_country_flag = catharanian_rebellion }
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	immediate = {
+		set_country_flag = catharanian_rebellion
+	}
+	
+	# Reject
+	option = {
+		name = "other_loa_events.1.a"
+		every_owned_province = { 
+			limit = {
+				religion = cathar
+			}
+			add_unrest = 10
+		}
+		random_owned_province = { 
+			limit = {
+				religion = cathar
+			}
+			create_revolt = 20
+		}
+		random_owned_province = { 
+			limit = {
+				religion = cathar
+			}
+			create_revolt = 14
+		}
+	}
+}

@@ -70,6 +70,8 @@
  develop_subsidiary_tooltip:0 "Develop our subsidiary in this nation"
  subsidiary_rebellion_title:0 "Subsidiary Rebellion"
  subsidiary_rebellion_desc:0 "Force our subsidiary into a rebellion, the larger it is the larger the branch will become upon victory"
- subsidiary_rebellion_tooltip:0 "Force our subsidiary into a rebellion, the larger it is the larger the branch will become upon victory"\
+ subsidiary_rebellion_tooltip:0 "Force our subsidiary into a rebellion, the larger it is the larger the branch will become upon victory"
  SUBSIDIARY_OF_CAPITAL:0 "[Root.GovernmentName] Of [From.Capital.GetCapitalName]"
  SUBSIDIARY_OF_CAPITAL_ADJ:0 "[From.Capital.GetCapitalName]"
+ modragon_subsidiary:0 "Mondragon Subsidiary"
+ recent_subsidiary_development:0 "Recent Mondragon Development"

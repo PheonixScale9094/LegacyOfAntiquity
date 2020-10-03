@@ -11,7 +11,7 @@ capital = 1955
 		adm = 4
 		dip = 3
 		mil = 3
-		birth_date155.1.1
+		birth_date = 1444.1.1
 		regent = yes
 		religion = norse_pagan_reformed
 		culture = samoyed

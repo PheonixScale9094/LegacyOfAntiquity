@@ -11,7 +11,7 @@ capital = 376
 		adm = 4
 		dip = 2
 		mil = 4
-		birth_date155.1.1
+		birth_date = 1444.1.1
 		regent = yes
 		religion = norse_pagan_reformed
 		culture = norse

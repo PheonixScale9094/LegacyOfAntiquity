@@ -119,4 +119,57 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	slavic_war = {
+		potential = {
+			religion = slavic_pagan_reformed
+			OR = {
+				NOT = { has_global_flag = slavic_union_formed }
+				tag = SLU
+			}
+			is_at_war = no
+		}
+		
+		allow = {		
+			NOT = { had_recent_war = 3 }
+			any_neighbor_country = { 
+				religion = slavic_pagan_reformed
+				NOT = { 
+					army_strength = {
+						who = ROOT
+						value = 0.66
+					}
+				}
+				NOT = { vassal_of = ROOT }
+			}
+		}
+		
+		effect = {
+			random_neighbor_country = { 
+				NOT = { vassal_of = ROOT }
+				limit = {
+					NOT = { 
+						army_strength = {
+							who = ROOT
+							value = 0.66
+						}
+					}
+				}
+				save_event_target_as = random_enemy
+			}
+			declare_war_with_cb = {
+			who = event_target:random_enemy
+			casus_belli = cb_slavic_unification
+			}
+		}
+		
+		ai_importance = 600
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war_exhaustion = 4
+			}
+		}
+	}
 }
