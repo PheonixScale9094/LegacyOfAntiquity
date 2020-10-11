@@ -82,7 +82,7 @@ pagan = {
 			manpower_recovery_speed = 0.1
 			advisor_pool = 1
 		}
-		
+		personal_deity = yes
 		heretic = { RODNOVERY }	
 	}
 	tengri_pagan = {
